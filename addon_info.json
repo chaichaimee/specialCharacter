@@ -1,10 +1,10 @@
 ﻿{
-  "addon_name": "simpleCopy",
-  "addon_description": "Quickly copy selected text without unwanted formatting or line-break issues.",
-  "addon_version": "2025.1",
-  "addon_author": "chaichaimee",
-  "addon_url": "https://github.com/chaichaimee/simpleCopy",
-  "addon_download_url": "https://github.com/chaichaimee/simpleCopy/releases/download/v2025.1/simpleCopy-v2025.1.nvda-addon",
+  "addon_name": "specialCharacter",
+  "addon_description": "This add-on helps you type 26 commonly used special characters without remembering Alt codes.",
+  "addon_version": "2025.11",
+  "addon_author": "chai chaimee",
+  "addon_url": "https://github.com/chaichaimee/specialCharacter",
+  "addon_download_url": "https://github.com/chaichaimee/specialCharacter/releases/download/v2025.11/specialCharacter-V.2025.11.nvda-addon",
   "addon_license": "GPLv2",
   "addon_min_nvda_version": "2022.4"
 }
