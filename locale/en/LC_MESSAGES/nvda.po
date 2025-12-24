@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 chai chaimee
+# This file is distributed under the same license as the specialCharacter add-on.
+# Last-Translator: Anonymous <anonymous@example.com>
+# Language-Team: English
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: specialCharacter 2026.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-20 13:09+0700\n"
+"PO-Revision-Date: 2025-12-21 06:00+0700\n"
+"Last-Translator: Anonymous <anonymous@example.com>\n"
+"Language-Team: English\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.7\n"
+
+#: __init__.py:47
+#, fuzzy
+msgid "Error registering settings panel"
+msgstr "Error registering settings panel"
+
+#: __init__.py:96
+msgid "Cannot insert character"
+msgstr "Cannot insert character"
+
+#: __init__.py:101
+msgid "Special Character Add-on is currently disabled."
+msgstr "Special Character Add-on is currently disabled."
+
+#: __init__.py:114
+msgid "Insert Slot 1"
+msgstr "Insert Slot 1"
+
+#: __init__.py:118
+msgid "Insert Slot 2"
+msgstr "Insert Slot 2"
+
+#: __init__.py:122
+msgid "Insert Slot 3"
+msgstr "Insert Slot 3"
+
+#: __init__.py:126
+msgid "Insert Slot 4"
+msgstr "Insert Slot 4"
+
+#: __init__.py:130
+msgid "Insert Slot 5"
+msgstr "Insert Slot 5"
+
+#: __init__.py:134
+msgid "Insert Slot 6"
+msgstr "Insert Slot 6"
+
+#: __init__.py:138
+msgid "Insert Slot 7"
+msgstr "Insert Slot 7"
+
+#: __init__.py:142
+msgid "Insert Slot 8"
+msgstr "Insert Slot 8"
+
+#: __init__.py:146
+msgid "Insert Slot 9"
+msgstr "Insert Slot 9"
+
+#: __init__.py:150
+msgid "Insert Slot 0"
+msgstr "Insert Slot 0"
+
+#: __init__.py:154
+msgid "Insert Slot hyphen"
+msgstr "Insert Slot hyphen"
+
+#: __init__.py:158
+msgid "Insert Slot equals"
+msgstr "Insert Slot equals"
+
+#: __init__.py:164
+msgid "Insert vertical bar"
+msgstr "Insert vertical bar"
+
+#: __init__.py:171
+msgid "Insert –"
+msgstr "Insert –"
+
+#: __init__.py:178
+msgid "Insert —"
+msgstr "Insert —"
+
+#: __init__.py:186
+msgid "Toggle character set or add-on"
+msgstr "Toggle character set or add-on"
+
+#: __init__.py:209
+msgid "Switched set {}"
+msgstr "Switched set {}"
+
+#: __init__.py:214
+msgid "Special Character {}"
+msgstr "Special Character {}"
+
+#: __init__.py:214
+msgid "on"
+msgstr "on"
+
+#: __init__.py:214
+msgid "off"
+msgstr "off"
+
+#: config.py:82
+msgid "Error saving special characters configuration: {}"
+msgstr "Error saving special characters configuration: {}"
+
+#: settingsDialog.py:16
+msgid "Special Character Settings"
+msgstr "Special Character Settings"
+
+#: settingsDialog.py:23
+msgid "Configuration is stored in specialCharacters.json in NVDA user config folder."
+msgstr "Configuration is stored in specialCharacters.json in NVDA user config folder."
+
+#: settingsDialog.py:27
+msgid "Select Character Set:"
+msgstr "Select Character Set:"
+
+#: settingsDialog.py:30
+msgid "Set 1"
+msgstr "Set 1"
+
+#: settingsDialog.py:30
+msgid "Set 2"
+msgstr "Set 2"
+
+#: settingsDialog.py:48
+msgid "Slot 1"
+msgstr "Slot 1"
+
+#: settingsDialog.py:48
+msgid "Slot 2"
+msgstr "Slot 2"
+
+#: settingsDialog.py:48
+msgid "Slot 3"
+msgstr "Slot 3"
+
+#: settingsDialog.py:48
+msgid "Slot 4"
+msgstr "Slot 4"
+
+#: settingsDialog.py:48
+msgid "Slot 5"
+msgstr "Slot 5"
+
+#: settingsDialog.py:48
+msgid "Slot 6"
+msgstr "Slot 6"
+
+#: settingsDialog.py:49
+msgid "Slot 7"
+msgstr "Slot 7"
+
+#: settingsDialog.py:49
+msgid "Slot 8"
+msgstr "Slot 8"
+
+#: settingsDialog.py:49
+msgid "Slot 9"
+msgstr "Slot 9"
+
+#: settingsDialog.py:49
+msgid "Slot 0"
+msgstr "Slot 0"
+
+#: settingsDialog.py:49
+msgid "Slot -"
+msgstr "Slot -"
+
+#: settingsDialog.py:49
+msgid "Slot ="
+msgstr "Slot ="
+
+#: settingsDialog.py:101
+msgid "Special character settings saved successfully"
+msgstr "Special character settings saved successfully"
+
+#: settingsDialog.py:103
+msgid "Error saving special character settings"
+msgstr "Error saving special character settings"
