@@ -1,96 +1,101 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: specialCharacter\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-26 10:10\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
+"PO-Revision-Date: 2026-05-01 11:45+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: NVDA DevOn Addon\n"
+"X-Generator: DevOn Addon\n"
 
-#: __init__.py:93
+#: __init__.py:99
+#: __init__.py:149
 msgid "Cannot insert character"
 msgstr "Impossible d'insérer le caractère"
 
 #: settingsDialog.py:26
-msgid "Configuration is stored in specialCharacters.json in NVDA user config folder."
-msgstr "La configuration est stockée dans specialCharacters.json dans le dossier de configuration utilisateur de NVDA."
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "La configuration est stockée dans specialCharacters.json dans le sous-dossier ChaiChaimee du dossier de configuration utilisateur de NVDA."
 
-#: __init__.py:43
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "Impossible de migrer l'ancien fichier de configuration : %s"
+
+#: __init__.py:59
 msgid "Error registering settings panel"
 msgstr "Erreur lors de l'enregistrement du panneau de paramètres"
 
 #: settingsDialog.py:105
 msgid "Error saving special character settings"
-msgstr "Erreur lors de l'enregistrement des paramètres de caractères spéciaux"
+msgstr "Erreur lors de l'enregistrement des paramètres des caractères spéciaux"
 
-#: config.py:78
+#: config.py:151
 msgid "Error saving special characters configuration: %s"
 msgstr "Erreur lors de l'enregistrement de la configuration des caractères spéciaux : %s"
 
-#: __init__.py:123
+#: __init__.py:205
 msgid "Insert Slot 0"
 msgstr "Insérer l'emplacement 0"
 
-#: __init__.py:105
+#: __init__.py:187
 msgid "Insert Slot 1"
 msgstr "Insérer l'emplacement 1"
 
-#: __init__.py:107
+#: __init__.py:189
 msgid "Insert Slot 2"
 msgstr "Insérer l'emplacement 2"
 
-#: __init__.py:109
+#: __init__.py:191
 msgid "Insert Slot 3"
 msgstr "Insérer l'emplacement 3"
 
-#: __init__.py:111
+#: __init__.py:193
 msgid "Insert Slot 4"
 msgstr "Insérer l'emplacement 4"
 
-#: __init__.py:113
+#: __init__.py:195
 msgid "Insert Slot 5"
 msgstr "Insérer l'emplacement 5"
 
-#: __init__.py:115
+#: __init__.py:197
 msgid "Insert Slot 6"
 msgstr "Insérer l'emplacement 6"
 
-#: __init__.py:117
+#: __init__.py:199
 msgid "Insert Slot 7"
 msgstr "Insérer l'emplacement 7"
 
-#: __init__.py:119
+#: __init__.py:201
 msgid "Insert Slot 8"
 msgstr "Insérer l'emplacement 8"
 
-#: __init__.py:121
+#: __init__.py:203
 msgid "Insert Slot 9"
 msgstr "Insérer l'emplacement 9"
 
-#: __init__.py:127
+#: __init__.py:209
 msgid "Insert Slot equals"
 msgstr "Insérer l'emplacement égal"
 
-#: __init__.py:125
+#: __init__.py:207
 msgid "Insert Slot hyphen"
 msgstr "Insérer l'emplacement trait d'union"
 
-#: __init__.py:130
+#: __init__.py:212
 msgid "Insert vertical bar"
 msgstr "Insérer une barre verticale"
 
-#: __init__.py:136
+#: __init__.py:218
 msgid "Insert –"
-msgstr "Insérer –"
+msgstr "Insérer – (tiret demi-cadratin)"
 
-#: __init__.py:142
+#: __init__.py:224
 msgid "Insert —"
-msgstr "Insérer —"
+msgstr "Insérer — (tiret cadratin)"
 
 #: settingsDialog.py:31
 msgid "Select Character Set:"
@@ -152,11 +157,11 @@ msgstr "Emplacement 9"
 msgid "Slot ="
 msgstr "Emplacement ="
 
-#: __init__.py:164
+#: __init__.py:246
 msgid "Special Character %s"
 msgstr "Caractère spécial %s"
 
-#: __init__.py:97
+#: __init__.py:179
 msgid "Special Character Add-on is currently disabled."
 msgstr "L'extension Caractères Spéciaux est actuellement désactivée."
 
@@ -168,18 +173,18 @@ msgstr "Paramètres des caractères spéciaux"
 msgid "Special character settings saved successfully"
 msgstr "Paramètres des caractères spéciaux enregistrés avec succès"
 
-#: __init__.py:160
+#: __init__.py:242
 msgid "Switched set %s"
 msgstr "Passé au jeu %s"
 
-#: __init__.py:148
+#: __init__.py:230
 msgid "Toggle character set or add-on"
 msgstr "Basculer le jeu de caractères ou l'extension"
 
-#: __init__.py:163
+#: __init__.py:245
 msgid "off"
 msgstr "désactivé"
 
-#: __init__.py:163
+#: __init__.py:245
 msgid "on"
 msgstr "activé"

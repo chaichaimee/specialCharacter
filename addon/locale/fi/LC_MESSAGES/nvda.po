@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
+"PO-Revision-Date: 2026-05-01 11:45+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Finnish\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: __init__.py:99
+#: __init__.py:149
+msgid "Cannot insert character"
+msgstr "Merkkiä ei voida lisätä"
+
+#: settingsDialog.py:26
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "Asetukset on tallennettu specialCharacters.json-tiedostoon NVDA:n käyttäjäasetuskansion ChaiChaimee-alansioon."
+
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "Vanhaa asetustiedostoa ei voitu siirtää: %s"
+
+#: __init__.py:59
+msgid "Error registering settings panel"
+msgstr "Virhe asetuspaneelin rekisteröinnissä"
+
+#: settingsDialog.py:105
+msgid "Error saving special character settings"
+msgstr "Virhe erikoismerkkien asetusten tallentamisessa"
+
+#: config.py:151
+msgid "Error saving special characters configuration: %s"
+msgstr "Virhe erikoismerkkien konfiguraation tallentamisessa: %s"
+
+#: __init__.py:205
+msgid "Insert Slot 0"
+msgstr "Lisää paikka 0"
+
+#: __init__.py:187
+msgid "Insert Slot 1"
+msgstr "Lisää paikka 1"
+
+#: __init__.py:189
+msgid "Insert Slot 2"
+msgstr "Lisää paikka 2"
+
+#: __init__.py:191
+msgid "Insert Slot 3"
+msgstr "Lisää paikka 3"
+
+#: __init__.py:193
+msgid "Insert Slot 4"
+msgstr "Lisää paikka 4"
+
+#: __init__.py:195
+msgid "Insert Slot 5"
+msgstr "Lisää paikka 5"
+
+#: __init__.py:197
+msgid "Insert Slot 6"
+msgstr "Lisää paikka 6"
+
+#: __init__.py:199
+msgid "Insert Slot 7"
+msgstr "Lisää paikka 7"
+
+#: __init__.py:201
+msgid "Insert Slot 8"
+msgstr "Lisää paikka 8"
+
+#: __init__.py:203
+msgid "Insert Slot 9"
+msgstr "Lisää paikka 9"
+
+#: __init__.py:209
+msgid "Insert Slot equals"
+msgstr "Lisää yhtäsuuruusmerkki-paikka"
+
+#: __init__.py:207
+msgid "Insert Slot hyphen"
+msgstr "Lisää yhdysviiva-paikka"
+
+#: __init__.py:212
+msgid "Insert vertical bar"
+msgstr "Lisää pystyviiva"
+
+#: __init__.py:218
+msgid "Insert –"
+msgstr "Lisää – (lyhyt ajatusviiva)"
+
+#: __init__.py:224
+msgid "Insert —"
+msgstr "Lisää — (pitkä ajatusviiva)"
+
+#: settingsDialog.py:31
+msgid "Select Character Set:"
+msgstr "Valitse merkkisarja:"
+
+#: settingsDialog.py:34
+msgid "Set 1"
+msgstr "Sarja 1"
+
+#: settingsDialog.py:34
+msgid "Set 2"
+msgstr "Sarja 2"
+
+#: settingsDialog.py:55
+msgid "Slot -"
+msgstr "Paikka -"
+
+#: settingsDialog.py:55
+msgid "Slot 0"
+msgstr "Paikka 0"
+
+#: settingsDialog.py:54
+msgid "Slot 1"
+msgstr "Paikka 1"
+
+#: settingsDialog.py:54
+msgid "Slot 2"
+msgstr "Paikka 2"
+
+#: settingsDialog.py:54
+msgid "Slot 3"
+msgstr "Paikka 3"
+
+#: settingsDialog.py:54
+msgid "Slot 4"
+msgstr "Paikka 4"
+
+#: settingsDialog.py:54
+msgid "Slot 5"
+msgstr "Paikka 5"
+
+#: settingsDialog.py:54
+msgid "Slot 6"
+msgstr "Paikka 6"
+
+#: settingsDialog.py:55
+msgid "Slot 7"
+msgstr "Paikka 7"
+
+#: settingsDialog.py:55
+msgid "Slot 8"
+msgstr "Paikka 8"
+
+#: settingsDialog.py:55
+msgid "Slot 9"
+msgstr "Paikka 9"
+
+#: settingsDialog.py:55
+msgid "Slot ="
+msgstr "Paikka ="
+
+#: __init__.py:246
+msgid "Special Character %s"
+msgstr "Erikoismerkki %s"
+
+#: __init__.py:179
+msgid "Special Character Add-on is currently disabled."
+msgstr "Erikoismerkki-lisäosa on tällä hetkellä poissa käytöstä."
+
+#: settingsDialog.py:19
+msgid "Special Character Settings"
+msgstr "Erikoismerkkien asetukset"
+
+#: settingsDialog.py:103
+msgid "Special character settings saved successfully"
+msgstr "Erikoismerkkien asetukset tallennettu onnistuneesti"
+
+#: __init__.py:242
+msgid "Switched set %s"
+msgstr "Vaihdettu sarjaan %s"
+
+#: __init__.py:230
+msgid "Toggle character set or add-on"
+msgstr "Vaihda merkkisarjaa tai lisäosaa"
+
+#: __init__.py:245
+msgid "off"
+msgstr "pois"
+
+#: __init__.py:245
+msgid "on"
+msgstr "päällä"

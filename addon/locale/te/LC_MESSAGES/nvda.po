@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
+"PO-Revision-Date: 2026-05-01 12:00+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Telugu\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: __init__.py:99
+#: __init__.py:149
+msgid "Cannot insert character"
+msgstr "అక్షరాన్ని చొప్పించడం సాధ్యం కాదు"
+
+#: settingsDialog.py:26
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "కాన్ఫిగరేషన్ NVDA యూజర్ కాన్ఫిగ్ ఫోల్డర్‌లోని ChaiChaimee సబ్ ఫోల్డర్‌లో specialCharacters.jsonలో సేవ్ చేయబడింది."
+
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "పాత కాన్ఫిగరేషన్ ఫైల్‌ను మార్చడం సాధ్యం కాలేదు: %s"
+
+#: __init__.py:59
+msgid "Error registering settings panel"
+msgstr "సెట్టింగ్‌ల ప్యానెల్‌ను నమోదు చేయడంలో లోపం"
+
+#: settingsDialog.py:105
+msgid "Error saving special character settings"
+msgstr "ప్రత్యేక అక్షర సెట్టింగ్‌లను సేవ్ చేయడంలో లోపం"
+
+#: config.py:151
+msgid "Error saving special characters configuration: %s"
+msgstr "ప్రత్యేక అక్షరాల కాన్ఫిగరేషన్‌ను సేవ్ చేయడంలో లోపం: %s"
+
+#: __init__.py:205
+msgid "Insert Slot 0"
+msgstr "స్లాట్ 0 చొప్పించు"
+
+#: __init__.py:187
+msgid "Insert Slot 1"
+msgstr "స్లాట్ 1 చొప్పించు"
+
+#: __init__.py:189
+msgid "Insert Slot 2"
+msgstr "స్లాట్ 2 చొప్పించు"
+
+#: __init__.py:191
+msgid "Insert Slot 3"
+msgstr "స్లాట్ 3 చొప్పించు"
+
+#: __init__.py:193
+msgid "Insert Slot 4"
+msgstr "స్లాట్ 4 చొప్పించు"
+
+#: __init__.py:195
+msgid "Insert Slot 5"
+msgstr "స్లాట్ 5 చొప్పించు"
+
+#: __init__.py:197
+msgid "Insert Slot 6"
+msgstr "స్లాట్ 6 చొప్పించు"
+
+#: __init__.py:199
+msgid "Insert Slot 7"
+msgstr "స్లాట్ 7 చొప్పించు"
+
+#: __init__.py:201
+msgid "Insert Slot 8"
+msgstr "స్లాట్ 8 చొప్పించు"
+
+#: __init__.py:203
+msgid "Insert Slot 9"
+msgstr "స్లాట్ 9 చొప్పించు"
+
+#: __init__.py:209
+msgid "Insert Slot equals"
+msgstr "సమాన గుర్తు స్లాట్ చొప్పించు"
+
+#: __init__.py:207
+msgid "Insert Slot hyphen"
+msgstr "హైఫన్ స్లాట్ చొప్పించు"
+
+#: __init__.py:212
+msgid "Insert vertical bar"
+msgstr "నిలువు గీతను చొప్పించు"
+
+#: __init__.py:218
+msgid "Insert –"
+msgstr "– చొప్పించు (en dash)"
+
+#: __init__.py:224
+msgid "Insert —"
+msgstr "— చొప్పించు (em dash)"
+
+#: settingsDialog.py:31
+msgid "Select Character Set:"
+msgstr "అక్షర సమితిని ఎంచుకోండి:"
+
+#: settingsDialog.py:34
+msgid "Set 1"
+msgstr "సమితి 1"
+
+#: settingsDialog.py:34
+msgid "Set 2"
+msgstr "సమితి 2"
+
+#: settingsDialog.py:55
+msgid "Slot -"
+msgstr "స్లాట్ -"
+
+#: settingsDialog.py:55
+msgid "Slot 0"
+msgstr "స్లాట్ 0"
+
+#: settingsDialog.py:54
+msgid "Slot 1"
+msgstr "స్లాట్ 1"
+
+#: settingsDialog.py:54
+msgid "Slot 2"
+msgstr "స్లాట్ 2"
+
+#: settingsDialog.py:54
+msgid "Slot 3"
+msgstr "స్లాట్ 3"
+
+#: settingsDialog.py:54
+msgid "Slot 4"
+msgstr "స్లాట్ 4"
+
+#: settingsDialog.py:54
+msgid "Slot 5"
+msgstr "స్లాట్ 5"
+
+#: settingsDialog.py:54
+msgid "Slot 6"
+msgstr "స్లాట్ 6"
+
+#: settingsDialog.py:55
+msgid "Slot 7"
+msgstr "స్లాట్ 7"
+
+#: settingsDialog.py:55
+msgid "Slot 8"
+msgstr "స్లాట్ 8"
+
+#: settingsDialog.py:55
+msgid "Slot 9"
+msgstr "స్లాట్ 9"
+
+#: settingsDialog.py:55
+msgid "Slot ="
+msgstr "స్లాట్ ="
+
+#: __init__.py:246
+msgid "Special Character %s"
+msgstr "ప్రత్యేక అక్షరం %s"
+
+#: __init__.py:179
+msgid "Special Character Add-on is currently disabled."
+msgstr "ప్రత్యేక అక్షరాల యాడ్-ఆన్ ప్రస్తుతం నిలిపివేయబడింది."
+
+#: settingsDialog.py:19
+msgid "Special Character Settings"
+msgstr "ప్రత్యేక అక్షర సెట్టింగ్‌లు"
+
+#: settingsDialog.py:103
+msgid "Special character settings saved successfully"
+msgstr "ప్రత్యేక అక్షర సెట్టింగ్‌లు విజయవంతంగా సేవ్ చేయబడ్డాయి"
+
+#: __init__.py:242
+msgid "Switched set %s"
+msgstr "సమితి %s కి మార్చబడింది"
+
+#: __init__.py:230
+msgid "Toggle character set or add-on"
+msgstr "అక్షర సమితి లేదా యాడ్-ఆన్ మార్చండి"
+
+#: __init__.py:245
+msgid "off"
+msgstr "ఆఫ్"
+
+#: __init__.py:245
+msgid "on"
+msgstr "ఆన్"

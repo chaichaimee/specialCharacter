@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
+"PO-Revision-Date: 2026-05-01 11:55+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: __init__.py:99
+#: __init__.py:149
+msgid "Cannot insert character"
+msgstr "Znak se ne može umetnuti"
+
+#: settingsDialog.py:26
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "Konfiguracija je pohranjena u specialCharacters.json u podmapi ChaiChaimee unutar NVDA mape s korisničkim postavkama."
+
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "Nije bilo moguće migrirati staru konfiguracijsku datoteku: %s"
+
+#: __init__.py:59
+msgid "Error registering settings panel"
+msgstr "Pogreška pri registraciji ploče s postavkama"
+
+#: settingsDialog.py:105
+msgid "Error saving special character settings"
+msgstr "Pogreška pri spremanju postavki posebnih znakova"
+
+#: config.py:151
+msgid "Error saving special characters configuration: %s"
+msgstr "Pogreška pri spremanju konfiguracije posebnih znakova: %s"
+
+#: __init__.py:205
+msgid "Insert Slot 0"
+msgstr "Umetni iz utora 0"
+
+#: __init__.py:187
+msgid "Insert Slot 1"
+msgstr "Umetni iz utora 1"
+
+#: __init__.py:189
+msgid "Insert Slot 2"
+msgstr "Umetni iz utora 2"
+
+#: __init__.py:191
+msgid "Insert Slot 3"
+msgstr "Umetni iz utora 3"
+
+#: __init__.py:193
+msgid "Insert Slot 4"
+msgstr "Umetni iz utora 4"
+
+#: __init__.py:195
+msgid "Insert Slot 5"
+msgstr "Umetni iz utora 5"
+
+#: __init__.py:197
+msgid "Insert Slot 6"
+msgstr "Umetni iz utora 6"
+
+#: __init__.py:199
+msgid "Insert Slot 7"
+msgstr "Umetni iz utora 7"
+
+#: __init__.py:201
+msgid "Insert Slot 8"
+msgstr "Umetni iz utora 8"
+
+#: __init__.py:203
+msgid "Insert Slot 9"
+msgstr "Umetni iz utora 9"
+
+#: __init__.py:209
+msgid "Insert Slot equals"
+msgstr "Umetni iz utora 'jednako'"
+
+#: __init__.py:207
+msgid "Insert Slot hyphen"
+msgstr "Umetni iz utora 'spojnica'"
+
+#: __init__.py:212
+msgid "Insert vertical bar"
+msgstr "Umetni okomitu crtu"
+
+#: __init__.py:218
+msgid "Insert –"
+msgstr "Umetni – (en crtica)"
+
+#: __init__.py:224
+msgid "Insert —"
+msgstr "Umetni — (em crtica)"
+
+#: settingsDialog.py:31
+msgid "Select Character Set:"
+msgstr "Odaberite skup znakova:"
+
+#: settingsDialog.py:34
+msgid "Set 1"
+msgstr "Skup 1"
+
+#: settingsDialog.py:34
+msgid "Set 2"
+msgstr "Skup 2"
+
+#: settingsDialog.py:55
+msgid "Slot -"
+msgstr "Utor -"
+
+#: settingsDialog.py:55
+msgid "Slot 0"
+msgstr "Utor 0"
+
+#: settingsDialog.py:54
+msgid "Slot 1"
+msgstr "Utor 1"
+
+#: settingsDialog.py:54
+msgid "Slot 2"
+msgstr "Utor 2"
+
+#: settingsDialog.py:54
+msgid "Slot 3"
+msgstr "Utor 3"
+
+#: settingsDialog.py:54
+msgid "Slot 4"
+msgstr "Utor 4"
+
+#: settingsDialog.py:54
+msgid "Slot 5"
+msgstr "Utor 5"
+
+#: settingsDialog.py:54
+msgid "Slot 6"
+msgstr "Utor 6"
+
+#: settingsDialog.py:55
+msgid "Slot 7"
+msgstr "Utor 7"
+
+#: settingsDialog.py:55
+msgid "Slot 8"
+msgstr "Utor 8"
+
+#: settingsDialog.py:55
+msgid "Slot 9"
+msgstr "Utor 9"
+
+#: settingsDialog.py:55
+msgid "Slot ="
+msgstr "Utor ="
+
+#: __init__.py:246
+msgid "Special Character %s"
+msgstr "Poseban znak %s"
+
+#: __init__.py:179
+msgid "Special Character Add-on is currently disabled."
+msgstr "Dodatak za posebne znakove trenutno je onemogućen."
+
+#: settingsDialog.py:19
+msgid "Special Character Settings"
+msgstr "Postavke posebnih znakova"
+
+#: settingsDialog.py:103
+msgid "Special character settings saved successfully"
+msgstr "Postavke posebnih znakova uspješno su spremljene"
+
+#: __init__.py:242
+msgid "Switched set %s"
+msgstr "Prebačeno na skup %s"
+
+#: __init__.py:230
+msgid "Toggle character set or add-on"
+msgstr "Prebaci skup znakova ili dodatak"
+
+#: __init__.py:245
+msgid "off"
+msgstr "isključeno"
+
+#: __init__.py:245
+msgid "on"
+msgstr "uključeno"

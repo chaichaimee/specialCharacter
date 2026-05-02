@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
+"PO-Revision-Date: 2026-05-01 11:45+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Bulgarian\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: __init__.py:99
+#: __init__.py:149
+msgid "Cannot insert character"
+msgstr "Символът не може да бъде вмъкнат"
+
+#: settingsDialog.py:26
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "Конфигурацията се съхранява в specialCharacters.json в подпапка ChaiChaimee на папката за потребителски настройки на NVDA."
+
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "Старият конфигурационен файл не можа да бъде мигриран: %s"
+
+#: __init__.py:59
+msgid "Error registering settings panel"
+msgstr "Грешка при регистриране на панела за настройки"
+
+#: settingsDialog.py:105
+msgid "Error saving special character settings"
+msgstr "Грешка при запазване на настройките за специални символи"
+
+#: config.py:151
+msgid "Error saving special characters configuration: %s"
+msgstr "Грешка при запазване на конфигурацията за специални символи: %s"
+
+#: __init__.py:205
+msgid "Insert Slot 0"
+msgstr "Вмъкване от слот 0"
+
+#: __init__.py:187
+msgid "Insert Slot 1"
+msgstr "Вмъкване от слот 1"
+
+#: __init__.py:189
+msgid "Insert Slot 2"
+msgstr "Вмъкване от слот 2"
+
+#: __init__.py:191
+msgid "Insert Slot 3"
+msgstr "Вмъкване от слот 3"
+
+#: __init__.py:193
+msgid "Insert Slot 4"
+msgstr "Вмъкване от слот 4"
+
+#: __init__.py:195
+msgid "Insert Slot 5"
+msgstr "Вмъкване от слот 5"
+
+#: __init__.py:197
+msgid "Insert Slot 6"
+msgstr "Вмъкване от слот 6"
+
+#: __init__.py:199
+msgid "Insert Slot 7"
+msgstr "Вмъкване от слот 7"
+
+#: __init__.py:201
+msgid "Insert Slot 8"
+msgstr "Вмъкване от слот 8"
+
+#: __init__.py:203
+msgid "Insert Slot 9"
+msgstr "Вмъкване от слот 9"
+
+#: __init__.py:209
+msgid "Insert Slot equals"
+msgstr "Вмъкване на слот 'равно'"
+
+#: __init__.py:207
+msgid "Insert Slot hyphen"
+msgstr "Вмъкване на слот 'тире'"
+
+#: __init__.py:212
+msgid "Insert vertical bar"
+msgstr "Вмъкване на вертикална черта"
+
+#: __init__.py:218
+msgid "Insert –"
+msgstr "Вмъкване на – (ен тире)"
+
+#: __init__.py:224
+msgid "Insert —"
+msgstr "Вмъкване на — (ем тире)"
+
+#: settingsDialog.py:31
+msgid "Select Character Set:"
+msgstr "Избор на набор от символи:"
+
+#: settingsDialog.py:34
+msgid "Set 1"
+msgstr "Набор 1"
+
+#: settingsDialog.py:34
+msgid "Set 2"
+msgstr "Набор 2"
+
+#: settingsDialog.py:55
+msgid "Slot -"
+msgstr "Слот -"
+
+#: settingsDialog.py:55
+msgid "Slot 0"
+msgstr "Слот 0"
+
+#: settingsDialog.py:54
+msgid "Slot 1"
+msgstr "Слот 1"
+
+#: settingsDialog.py:54
+msgid "Slot 2"
+msgstr "Слот 2"
+
+#: settingsDialog.py:54
+msgid "Slot 3"
+msgstr "Слот 3"
+
+#: settingsDialog.py:54
+msgid "Slot 4"
+msgstr "Слот 4"
+
+#: settingsDialog.py:54
+msgid "Slot 5"
+msgstr "Слот 5"
+
+#: settingsDialog.py:54
+msgid "Slot 6"
+msgstr "Слот 6"
+
+#: settingsDialog.py:55
+msgid "Slot 7"
+msgstr "Слот 7"
+
+#: settingsDialog.py:55
+msgid "Slot 8"
+msgstr "Слот 8"
+
+#: settingsDialog.py:55
+msgid "Slot 9"
+msgstr "Слот 9"
+
+#: settingsDialog.py:55
+msgid "Slot ="
+msgstr "Слот ="
+
+#: __init__.py:246
+msgid "Special Character %s"
+msgstr "Специален символ %s"
+
+#: __init__.py:179
+msgid "Special Character Add-on is currently disabled."
+msgstr "Добавката за специални символи в момента е изключена."
+
+#: settingsDialog.py:19
+msgid "Special Character Settings"
+msgstr "Настройки за специални символи"
+
+#: settingsDialog.py:103
+msgid "Special character settings saved successfully"
+msgstr "Настройките за специални символи бяха запазени успешно"
+
+#: __init__.py:242
+msgid "Switched set %s"
+msgstr "Превключено на набор %s"
+
+#: __init__.py:230
+msgid "Toggle character set or add-on"
+msgstr "Превключване на набор от символи или добавката"
+
+#: __init__.py:245
+msgid "off"
+msgstr "изключено"
+
+#: __init__.py:245
+msgid "on"
+msgstr "включено"

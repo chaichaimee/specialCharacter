@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
+"PO-Revision-Date: 2026-05-01 11:45+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Danish\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: __init__.py:99
+#: __init__.py:149
+msgid "Cannot insert character"
+msgstr "Kan ikke indsætte tegn"
+
+#: settingsDialog.py:26
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "Konfigurationen er gemt i specialCharacters.json i undermappen ChaiChaimee i NVDA's brugerkonfigurationsmappe."
+
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "Kunne ikke migrere den gamle konfigurationsfil: %s"
+
+#: __init__.py:59
+msgid "Error registering settings panel"
+msgstr "Fejl ved registrering af indstillingspanel"
+
+#: settingsDialog.py:105
+msgid "Error saving special character settings"
+msgstr "Fejl ved gemning af indstillinger for specialtegn"
+
+#: config.py:151
+msgid "Error saving special characters configuration: %s"
+msgstr "Fejl ved gemning af konfiguration for specialtegn: %s"
+
+#: __init__.py:205
+msgid "Insert Slot 0"
+msgstr "Indsæt plads 0"
+
+#: __init__.py:187
+msgid "Insert Slot 1"
+msgstr "Indsæt plads 1"
+
+#: __init__.py:189
+msgid "Insert Slot 2"
+msgstr "Indsæt plads 2"
+
+#: __init__.py:191
+msgid "Insert Slot 3"
+msgstr "Indsæt plads 3"
+
+#: __init__.py:193
+msgid "Insert Slot 4"
+msgstr "Indsæt plads 4"
+
+#: __init__.py:195
+msgid "Insert Slot 5"
+msgstr "Indsæt plads 5"
+
+#: __init__.py:197
+msgid "Insert Slot 6"
+msgstr "Indsæt plads 6"
+
+#: __init__.py:199
+msgid "Insert Slot 7"
+msgstr "Indsæt plads 7"
+
+#: __init__.py:201
+msgid "Insert Slot 8"
+msgstr "Indsæt plads 8"
+
+#: __init__.py:203
+msgid "Insert Slot 9"
+msgstr "Indsæt plads 9"
+
+#: __init__.py:209
+msgid "Insert Slot equals"
+msgstr "Indsæt plads 'lig med'"
+
+#: __init__.py:207
+msgid "Insert Slot hyphen"
+msgstr "Indsæt plads 'bindestreg'"
+
+#: __init__.py:212
+msgid "Insert vertical bar"
+msgstr "Indsæt lodret streg"
+
+#: __init__.py:218
+msgid "Insert –"
+msgstr "Indsæt – (en-streg)"
+
+#: __init__.py:224
+msgid "Insert —"
+msgstr "Indsæt — (em-streg)"
+
+#: settingsDialog.py:31
+msgid "Select Character Set:"
+msgstr "Vælg tegnsæt:"
+
+#: settingsDialog.py:34
+msgid "Set 1"
+msgstr "Sæt 1"
+
+#: settingsDialog.py:34
+msgid "Set 2"
+msgstr "Sæt 2"
+
+#: settingsDialog.py:55
+msgid "Slot -"
+msgstr "Plads -"
+
+#: settingsDialog.py:55
+msgid "Slot 0"
+msgstr "Plads 0"
+
+#: settingsDialog.py:54
+msgid "Slot 1"
+msgstr "Plads 1"
+
+#: settingsDialog.py:54
+msgid "Slot 2"
+msgstr "Plads 2"
+
+#: settingsDialog.py:54
+msgid "Slot 3"
+msgstr "Plads 3"
+
+#: settingsDialog.py:54
+msgid "Slot 4"
+msgstr "Plads 4"
+
+#: settingsDialog.py:54
+msgid "Slot 5"
+msgstr "Plads 5"
+
+#: settingsDialog.py:54
+msgid "Slot 6"
+msgstr "Plads 6"
+
+#: settingsDialog.py:55
+msgid "Slot 7"
+msgstr "Plads 7"
+
+#: settingsDialog.py:55
+msgid "Slot 8"
+msgstr "Plads 8"
+
+#: settingsDialog.py:55
+msgid "Slot 9"
+msgstr "Plads 9"
+
+#: settingsDialog.py:55
+msgid "Slot ="
+msgstr "Plads ="
+
+#: __init__.py:246
+msgid "Special Character %s"
+msgstr "Specialtegn %s"
+
+#: __init__.py:179
+msgid "Special Character Add-on is currently disabled."
+msgstr "Tilføjelsesprogrammet Specialtegn er i øjeblikket deaktiveret."
+
+#: settingsDialog.py:19
+msgid "Special Character Settings"
+msgstr "Indstillinger for specialtegn"
+
+#: settingsDialog.py:103
+msgid "Special character settings saved successfully"
+msgstr "Indstillinger for specialtegn er gemt"
+
+#: __init__.py:242
+msgid "Switched set %s"
+msgstr "Skiftede til sæt %s"
+
+#: __init__.py:230
+msgid "Toggle character set or add-on"
+msgstr "Skift tegnsæt eller tilføjelsesprogram"
+
+#: __init__.py:245
+msgid "off"
+msgstr "fra"
+
+#: __init__.py:245
+msgid "on"
+msgstr "til"

@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
+"PO-Revision-Date: 2026-05-01 11:55+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Hindi\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: __init__.py:99
+#: __init__.py:149
+msgid "Cannot insert character"
+msgstr "अक्षर सम्मिलित नहीं किया जा सकता"
+
+#: settingsDialog.py:26
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "कॉन्फ़िगरेशन NVDA उपयोगकर्ता कॉन्फ़िगर फ़ोल्डर के ChaiChaimee सबफ़ोल्डर में specialCharacters.json में संग्रहीत है।"
+
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "पुरानी कॉन्फ़िगरेशन फ़ाइल को माइग्रेट नहीं किया जा सका: %s"
+
+#: __init__.py:59
+msgid "Error registering settings panel"
+msgstr "सेटिंग्स पैनल पंजीकृत करने में त्रुटि"
+
+#: settingsDialog.py:105
+msgid "Error saving special character settings"
+msgstr "विशेष अक्षर सेटिंग्स सहेजने में त्रुटि"
+
+#: config.py:151
+msgid "Error saving special characters configuration: %s"
+msgstr "विशेष अक्षर कॉन्फ़िगरेशन सहेजने में त्रुटि: %s"
+
+#: __init__.py:205
+msgid "Insert Slot 0"
+msgstr "स्लॉट 0 डालें"
+
+#: __init__.py:187
+msgid "Insert Slot 1"
+msgstr "स्लॉट 1 डालें"
+
+#: __init__.py:189
+msgid "Insert Slot 2"
+msgstr "स्लॉट 2 डालें"
+
+#: __init__.py:191
+msgid "Insert Slot 3"
+msgstr "स्लॉट 3 डालें"
+
+#: __init__.py:193
+msgid "Insert Slot 4"
+msgstr "स्लॉट 4 डालें"
+
+#: __init__.py:195
+msgid "Insert Slot 5"
+msgstr "स्लॉट 5 डालें"
+
+#: __init__.py:197
+msgid "Insert Slot 6"
+msgstr "स्लॉट 6 डालें"
+
+#: __init__.py:199
+msgid "Insert Slot 7"
+msgstr "स्लॉट 7 डालें"
+
+#: __init__.py:201
+msgid "Insert Slot 8"
+msgstr "स्लॉट 8 डालें"
+
+#: __init__.py:203
+msgid "Insert Slot 9"
+msgstr "स्लॉट 9 डालें"
+
+#: __init__.py:209
+msgid "Insert Slot equals"
+msgstr "बराबर (=) स्लॉट डालें"
+
+#: __init__.py:207
+msgid "Insert Slot hyphen"
+msgstr "हाइफ़न (-) स्लॉट डालें"
+
+#: __init__.py:212
+msgid "Insert vertical bar"
+msgstr "लंबवत पट्टी (|) डालें"
+
+#: __init__.py:218
+msgid "Insert –"
+msgstr "– (En Dash) डालें"
+
+#: __init__.py:224
+msgid "Insert —"
+msgstr "— (Em Dash) डालें"
+
+#: settingsDialog.py:31
+msgid "Select Character Set:"
+msgstr "अक्षर सेट चुनें:"
+
+#: settingsDialog.py:34
+msgid "Set 1"
+msgstr "सेट 1"
+
+#: settingsDialog.py:34
+msgid "Set 2"
+msgstr "सेट 2"
+
+#: settingsDialog.py:55
+msgid "Slot -"
+msgstr "स्लॉट -"
+
+#: settingsDialog.py:55
+msgid "Slot 0"
+msgstr "स्लॉट 0"
+
+#: settingsDialog.py:54
+msgid "Slot 1"
+msgstr "स्लॉट 1"
+
+#: settingsDialog.py:54
+msgid "Slot 2"
+msgstr "स्लॉट 2"
+
+#: settingsDialog.py:54
+msgid "Slot 3"
+msgstr "स्लॉट 3"
+
+#: settingsDialog.py:54
+msgid "Slot 4"
+msgstr "स्लॉट 4"
+
+#: settingsDialog.py:54
+msgid "Slot 5"
+msgstr "स्लॉट 5"
+
+#: settingsDialog.py:54
+msgid "Slot 6"
+msgstr "स्लॉट 6"
+
+#: settingsDialog.py:55
+msgid "Slot 7"
+msgstr "स्लॉट 7"
+
+#: settingsDialog.py:55
+msgid "Slot 8"
+msgstr "स्लॉट 8"
+
+#: settingsDialog.py:55
+msgid "Slot 9"
+msgstr "स्लॉट 9"
+
+#: settingsDialog.py:55
+msgid "Slot ="
+msgstr "स्लॉट ="
+
+#: __init__.py:246
+msgid "Special Character %s"
+msgstr "विशेष अक्षर %s"
+
+#: __init__.py:179
+msgid "Special Character Add-on is currently disabled."
+msgstr "विशेष अक्षर ऐड-ऑन वर्तमान में अक्षम है।"
+
+#: settingsDialog.py:19
+msgid "Special Character Settings"
+msgstr "विशेष अक्षर सेटिंग्स"
+
+#: settingsDialog.py:103
+msgid "Special character settings saved successfully"
+msgstr "विशेष अक्षर सेटिंग्स सफलतापूर्वक सहेजी गईं"
+
+#: __init__.py:242
+msgid "Switched set %s"
+msgstr "सेट %s पर स्विच किया गया"
+
+#: __init__.py:230
+msgid "Toggle character set or add-on"
+msgstr "अक्षर सेट या ऐड-ऑन टॉगल करें"
+
+#: __init__.py:245
+msgid "off"
+msgstr "बंद"
+
+#: __init__.py:245
+msgid "on"
+msgstr "चालू"

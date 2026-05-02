@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
+"PO-Revision-Date: 2026-05-01 12:00+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: __init__.py:99
+#: __init__.py:149
+msgid "Cannot insert character"
+msgstr "无法插入字符"
+
+#: settingsDialog.py:26
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "配置存储在 NVDA 用户配置文件夹下 ChaiChaimee 子文件夹中的 specialCharacters.json 文件中。"
+
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "无法迁移旧的配置文件：%s"
+
+#: __init__.py:59
+msgid "Error registering settings panel"
+msgstr "注册设置面板时出错"
+
+#: settingsDialog.py:105
+msgid "Error saving special character settings"
+msgstr "保存特殊字符设置时出错"
+
+#: config.py:151
+msgid "Error saving special characters configuration: %s"
+msgstr "保存特殊字符配置时出错：%s"
+
+#: __init__.py:205
+msgid "Insert Slot 0"
+msgstr "插入槽位 0"
+
+#: __init__.py:187
+msgid "Insert Slot 1"
+msgstr "插入槽位 1"
+
+#: __init__.py:189
+msgid "Insert Slot 2"
+msgstr "插入槽位 2"
+
+#: __init__.py:191
+msgid "Insert Slot 3"
+msgstr "插入槽位 3"
+
+#: __init__.py:193
+msgid "Insert Slot 4"
+msgstr "插入槽位 4"
+
+#: __init__.py:195
+msgid "Insert Slot 5"
+msgstr "插入槽位 5"
+
+#: __init__.py:197
+msgid "Insert Slot 6"
+msgstr "插入槽位 6"
+
+#: __init__.py:199
+msgid "Insert Slot 7"
+msgstr "插入槽位 7"
+
+#: __init__.py:201
+msgid "Insert Slot 8"
+msgstr "插入槽位 8"
+
+#: __init__.py:203
+msgid "Insert Slot 9"
+msgstr "插入槽位 9"
+
+#: __init__.py:209
+msgid "Insert Slot equals"
+msgstr "插入等号槽位"
+
+#: __init__.py:207
+msgid "Insert Slot hyphen"
+msgstr "插入连字符槽位"
+
+#: __init__.py:212
+msgid "Insert vertical bar"
+msgstr "插入垂直栏 (vertical bar)"
+
+#: __init__.py:218
+msgid "Insert –"
+msgstr "插入 – (短破折号)"
+
+#: __init__.py:224
+msgid "Insert —"
+msgstr "插入 — (长破折号)"
+
+#: settingsDialog.py:31
+msgid "Select Character Set:"
+msgstr "选择字符集："
+
+#: settingsDialog.py:34
+msgid "Set 1"
+msgstr "字符集 1"
+
+#: settingsDialog.py:34
+msgid "Set 2"
+msgstr "字符集 2"
+
+#: settingsDialog.py:55
+msgid "Slot -"
+msgstr "槽位 -"
+
+#: settingsDialog.py:55
+msgid "Slot 0"
+msgstr "槽位 0"
+
+#: settingsDialog.py:54
+msgid "Slot 1"
+msgstr "槽位 1"
+
+#: settingsDialog.py:54
+msgid "Slot 2"
+msgstr "槽位 2"
+
+#: settingsDialog.py:54
+msgid "Slot 3"
+msgstr "槽位 3"
+
+#: settingsDialog.py:54
+msgid "Slot 4"
+msgstr "槽位 4"
+
+#: settingsDialog.py:54
+msgid "Slot 5"
+msgstr "槽位 5"
+
+#: settingsDialog.py:54
+msgid "Slot 6"
+msgstr "槽位 6"
+
+#: settingsDialog.py:55
+msgid "Slot 7"
+msgstr "槽位 7"
+
+#: settingsDialog.py:55
+msgid "Slot 8"
+msgstr "槽位 8"
+
+#: settingsDialog.py:55
+msgid "Slot 9"
+msgstr "槽位 9"
+
+#: settingsDialog.py:55
+msgid "Slot ="
+msgstr "槽位 ="
+
+#: __init__.py:246
+msgid "Special Character %s"
+msgstr "特殊字符 %s"
+
+#: __init__.py:179
+msgid "Special Character Add-on is currently disabled."
+msgstr "特殊字符插件当前已禁用。"
+
+#: settingsDialog.py:19
+msgid "Special Character Settings"
+msgstr "特殊字符设置"
+
+#: settingsDialog.py:103
+msgid "Special character settings saved successfully"
+msgstr "特殊字符设置已成功保存"
+
+#: __init__.py:242
+msgid "Switched set %s"
+msgstr "已切换至字符集 %s"
+
+#: __init__.py:230
+msgid "Toggle character set or add-on"
+msgstr "切换字符集或插件状态"
+
+#: __init__.py:245
+msgid "off"
+msgstr "关闭"
+
+#: __init__.py:245
+msgid "on"
+msgstr "开启"

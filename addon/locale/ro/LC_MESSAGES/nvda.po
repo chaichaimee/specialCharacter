@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
+"PO-Revision-Date: 2026-05-01 11:58+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: __init__.py:99
+#: __init__.py:149
+msgid "Cannot insert character"
+msgstr "Nu se poate insera caracterul"
+
+#: settingsDialog.py:26
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "Configurația este stocată în specialCharacters.json în subfolderul ChaiChaimee din folderul de configurare utilizator NVDA."
+
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "Nu s-a putut migra vechiul fișier de configurare: %s"
+
+#: __init__.py:59
+msgid "Error registering settings panel"
+msgstr "Eroare la înregistrarea panoului de setări"
+
+#: settingsDialog.py:105
+msgid "Error saving special character settings"
+msgstr "Eroare la salvarea setărilor pentru caractere speciale"
+
+#: config.py:151
+msgid "Error saving special characters configuration: %s"
+msgstr "Eroare la salvarea configurației pentru caractere speciale: %s"
+
+#: __init__.py:205
+msgid "Insert Slot 0"
+msgstr "Inserează Slotul 0"
+
+#: __init__.py:187
+msgid "Insert Slot 1"
+msgstr "Inserează Slotul 1"
+
+#: __init__.py:189
+msgid "Insert Slot 2"
+msgstr "Inserează Slotul 2"
+
+#: __init__.py:191
+msgid "Insert Slot 3"
+msgstr "Inserează Slotul 3"
+
+#: __init__.py:193
+msgid "Insert Slot 4"
+msgstr "Inserează Slotul 4"
+
+#: __init__.py:195
+msgid "Insert Slot 5"
+msgstr "Inserează Slotul 5"
+
+#: __init__.py:197
+msgid "Insert Slot 6"
+msgstr "Inserează Slotul 6"
+
+#: __init__.py:199
+msgid "Insert Slot 7"
+msgstr "Inserează Slotul 7"
+
+#: __init__.py:201
+msgid "Insert Slot 8"
+msgstr "Inserează Slotul 8"
+
+#: __init__.py:203
+msgid "Insert Slot 9"
+msgstr "Inserează Slotul 9"
+
+#: __init__.py:209
+msgid "Insert Slot equals"
+msgstr "Inserează Slotul egal"
+
+#: __init__.py:207
+msgid "Insert Slot hyphen"
+msgstr "Inserează Slotul cratimă"
+
+#: __init__.py:212
+msgid "Insert vertical bar"
+msgstr "Inserează bara verticală"
+
+#: __init__.py:218
+msgid "Insert –"
+msgstr "Inserează – (linie de pauză scurtă)"
+
+#: __init__.py:224
+msgid "Insert —"
+msgstr "Inserează — (linie de pauză lungă)"
+
+#: settingsDialog.py:31
+msgid "Select Character Set:"
+msgstr "Selectați setul de caractere:"
+
+#: settingsDialog.py:34
+msgid "Set 1"
+msgstr "Setul 1"
+
+#: settingsDialog.py:34
+msgid "Set 2"
+msgstr "Setul 2"
+
+#: settingsDialog.py:55
+msgid "Slot -"
+msgstr "Slot -"
+
+#: settingsDialog.py:55
+msgid "Slot 0"
+msgstr "Slot 0"
+
+#: settingsDialog.py:54
+msgid "Slot 1"
+msgstr "Slot 1"
+
+#: settingsDialog.py:54
+msgid "Slot 2"
+msgstr "Slot 2"
+
+#: settingsDialog.py:54
+msgid "Slot 3"
+msgstr "Slot 3"
+
+#: settingsDialog.py:54
+msgid "Slot 4"
+msgstr "Slot 4"
+
+#: settingsDialog.py:54
+msgid "Slot 5"
+msgstr "Slot 5"
+
+#: settingsDialog.py:54
+msgid "Slot 6"
+msgstr "Slot 6"
+
+#: settingsDialog.py:55
+msgid "Slot 7"
+msgstr "Slot 7"
+
+#: settingsDialog.py:55
+msgid "Slot 8"
+msgstr "Slot 8"
+
+#: settingsDialog.py:55
+msgid "Slot 9"
+msgstr "Slot 9"
+
+#: settingsDialog.py:55
+msgid "Slot ="
+msgstr "Slot ="
+
+#: __init__.py:246
+msgid "Special Character %s"
+msgstr "Caracter special %s"
+
+#: __init__.py:179
+msgid "Special Character Add-on is currently disabled."
+msgstr "Suplimentul Caractere Speciale este dezactivat în prezent."
+
+#: settingsDialog.py:19
+msgid "Special Character Settings"
+msgstr "Setări Caractere Speciale"
+
+#: settingsDialog.py:103
+msgid "Special character settings saved successfully"
+msgstr "Setările pentru caractere speciale au fost salvate cu succes"
+
+#: __init__.py:242
+msgid "Switched set %s"
+msgstr "S-a comutat la setul %s"
+
+#: __init__.py:230
+msgid "Toggle character set or add-on"
+msgstr "Comută setul de caractere sau suplimentul"
+
+#: __init__.py:245
+msgid "off"
+msgstr "dezactivat"
+
+#: __init__.py:245
+msgid "on"
+msgstr "activat"

@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
+"PO-Revision-Date: 2026-05-01 12:00+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Tagalog\n"
+"Language: tl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: __init__.py:99
+#: __init__.py:149
+msgid "Cannot insert character"
+msgstr "Hindi maipasok ang character"
+
+#: settingsDialog.py:26
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "Ang configuration ay nakaimbak sa specialCharacters.json sa ChaiChaimee subfolder ng NVDA user config folder."
+
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "Hindi mailipat ang lumang configuration file: %s"
+
+#: __init__.py:59
+msgid "Error registering settings panel"
+msgstr "Error sa pag-rehistro ng settings panel"
+
+#: settingsDialog.py:105
+msgid "Error saving special character settings"
+msgstr "Error sa pag-save ng special character settings"
+
+#: config.py:151
+msgid "Error saving special characters configuration: %s"
+msgstr "Error sa pag-save ng special characters configuration: %s"
+
+#: __init__.py:205
+msgid "Insert Slot 0"
+msgstr "Ipasok ang Slot 0"
+
+#: __init__.py:187
+msgid "Insert Slot 1"
+msgstr "Ipasok ang Slot 1"
+
+#: __init__.py:189
+msgid "Insert Slot 2"
+msgstr "Ipasok ang Slot 2"
+
+#: __init__.py:191
+msgid "Insert Slot 3"
+msgstr "Ipasok ang Slot 3"
+
+#: __init__.py:193
+msgid "Insert Slot 4"
+msgstr "Ipasok ang Slot 4"
+
+#: __init__.py:195
+msgid "Insert Slot 5"
+msgstr "Ipasok ang Slot 5"
+
+#: __init__.py:197
+msgid "Insert Slot 6"
+msgstr "Ipasok ang Slot 6"
+
+#: __init__.py:199
+msgid "Insert Slot 7"
+msgstr "Ipasok ang Slot 7"
+
+#: __init__.py:201
+msgid "Insert Slot 8"
+msgstr "Ipasok ang Slot 8"
+
+#: __init__.py:203
+msgid "Insert Slot 9"
+msgstr "Ipasok ang Slot 9"
+
+#: __init__.py:209
+msgid "Insert Slot equals"
+msgstr "Ipasok ang Slot na equals"
+
+#: __init__.py:207
+msgid "Insert Slot hyphen"
+msgstr "Ipasok ang Slot na hyphen"
+
+#: __init__.py:212
+msgid "Insert vertical bar"
+msgstr "Ipasok ang vertical bar"
+
+#: __init__.py:218
+msgid "Insert –"
+msgstr "Ipasok ang – (en dash)"
+
+#: __init__.py:224
+msgid "Insert —"
+msgstr "Ipasok ang — (em dash)"
+
+#: settingsDialog.py:31
+msgid "Select Character Set:"
+msgstr "Pumili ng Character Set:"
+
+#: settingsDialog.py:34
+msgid "Set 1"
+msgstr "Set 1"
+
+#: settingsDialog.py:34
+msgid "Set 2"
+msgstr "Set 2"
+
+#: settingsDialog.py:55
+msgid "Slot -"
+msgstr "Slot -"
+
+#: settingsDialog.py:55
+msgid "Slot 0"
+msgstr "Slot 0"
+
+#: settingsDialog.py:54
+msgid "Slot 1"
+msgstr "Slot 1"
+
+#: settingsDialog.py:54
+msgid "Slot 2"
+msgstr "Slot 2"
+
+#: settingsDialog.py:54
+msgid "Slot 3"
+msgstr "Slot 3"
+
+#: settingsDialog.py:54
+msgid "Slot 4"
+msgstr "Slot 4"
+
+#: settingsDialog.py:54
+msgid "Slot 5"
+msgstr "Slot 5"
+
+#: settingsDialog.py:54
+msgid "Slot 6"
+msgstr "Slot 6"
+
+#: settingsDialog.py:55
+msgid "Slot 7"
+msgstr "Slot 7"
+
+#: settingsDialog.py:55
+msgid "Slot 8"
+msgstr "Slot 8"
+
+#: settingsDialog.py:55
+msgid "Slot 9"
+msgstr "Slot 9"
+
+#: settingsDialog.py:55
+msgid "Slot ="
+msgstr "Slot ="
+
+#: __init__.py:246
+msgid "Special Character %s"
+msgstr "Special Character %s"
+
+#: __init__.py:179
+msgid "Special Character Add-on is currently disabled."
+msgstr "Ang Special Character add-on ay kasalukuyang naka-disable."
+
+#: settingsDialog.py:19
+msgid "Special Character Settings"
+msgstr "Special Character Settings"
+
+#: settingsDialog.py:103
+msgid "Special character settings saved successfully"
+msgstr "Matagumpay na na-save ang special character settings"
+
+#: __init__.py:242
+msgid "Switched set %s"
+msgstr "Lumipat sa set %s"
+
+#: __init__.py:230
+msgid "Toggle character set or add-on"
+msgstr "I-toggle ang character set o add-on"
+
+#: __init__.py:245
+msgid "off"
+msgstr "naka-off"
+
+#: __init__.py:245
+msgid "on"
+msgstr "naka-on"

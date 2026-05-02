@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
+"PO-Revision-Date: 2026-05-01 11:45+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Czech\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: __init__.py:99
+#: __init__.py:149
+msgid "Cannot insert character"
+msgstr "Znak nelze vložit"
+
+#: settingsDialog.py:26
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "Konfigurace je uložena v souboru specialCharacters.json v podadresáři ChaiChaimee ve složce uživatelských nastavení NVDA."
+
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "Nepodařilo se migrovat starý konfigurační soubor: %s"
+
+#: __init__.py:59
+msgid "Error registering settings panel"
+msgstr "Chyba při registraci panelu nastavení"
+
+#: settingsDialog.py:105
+msgid "Error saving special character settings"
+msgstr "Chyba při ukládání nastavení speciálních znaků"
+
+#: config.py:151
+msgid "Error saving special characters configuration: %s"
+msgstr "Chyba při ukládání konfigurace speciálních znaků: %s"
+
+#: __init__.py:205
+msgid "Insert Slot 0"
+msgstr "Vložit ze slotu 0"
+
+#: __init__.py:187
+msgid "Insert Slot 1"
+msgstr "Vložit ze slotu 1"
+
+#: __init__.py:189
+msgid "Insert Slot 2"
+msgstr "Vložit ze slotu 2"
+
+#: __init__.py:191
+msgid "Insert Slot 3"
+msgstr "Vložit ze slotu 3"
+
+#: __init__.py:193
+msgid "Insert Slot 4"
+msgstr "Vložit ze slotu 4"
+
+#: __init__.py:195
+msgid "Insert Slot 5"
+msgstr "Vložit ze slotu 5"
+
+#: __init__.py:197
+msgid "Insert Slot 6"
+msgstr "Vložit ze slotu 6"
+
+#: __init__.py:199
+msgid "Insert Slot 7"
+msgstr "Vložit ze slotu 7"
+
+#: __init__.py:201
+msgid "Insert Slot 8"
+msgstr "Vložit ze slotu 8"
+
+#: __init__.py:203
+msgid "Insert Slot 9"
+msgstr "Vložit ze slotu 9"
+
+#: __init__.py:209
+msgid "Insert Slot equals"
+msgstr "Vložit ze slotu 'rovná se'"
+
+#: __init__.py:207
+msgid "Insert Slot hyphen"
+msgstr "Vložit ze slotu 'spojovník'"
+
+#: __init__.py:212
+msgid "Insert vertical bar"
+msgstr "Vložit svislou čáru"
+
+#: __init__.py:218
+msgid "Insert –"
+msgstr "Vložit – (krátká pomlčka)"
+
+#: __init__.py:224
+msgid "Insert —"
+msgstr "Vložit — (dlouhá pomlčka)"
+
+#: settingsDialog.py:31
+msgid "Select Character Set:"
+msgstr "Vyberte sadu znaků:"
+
+#: settingsDialog.py:34
+msgid "Set 1"
+msgstr "Sada 1"
+
+#: settingsDialog.py:34
+msgid "Set 2"
+msgstr "Sada 2"
+
+#: settingsDialog.py:55
+msgid "Slot -"
+msgstr "Slot -"
+
+#: settingsDialog.py:55
+msgid "Slot 0"
+msgstr "Slot 0"
+
+#: settingsDialog.py:54
+msgid "Slot 1"
+msgstr "Slot 1"
+
+#: settingsDialog.py:54
+msgid "Slot 2"
+msgstr "Slot 2"
+
+#: settingsDialog.py:54
+msgid "Slot 3"
+msgstr "Slot 3"
+
+#: settingsDialog.py:54
+msgid "Slot 4"
+msgstr "Slot 4"
+
+#: settingsDialog.py:54
+msgid "Slot 5"
+msgstr "Slot 5"
+
+#: settingsDialog.py:54
+msgid "Slot 6"
+msgstr "Slot 6"
+
+#: settingsDialog.py:55
+msgid "Slot 7"
+msgstr "Slot 7"
+
+#: settingsDialog.py:55
+msgid "Slot 8"
+msgstr "Slot 8"
+
+#: settingsDialog.py:55
+msgid "Slot 9"
+msgstr "Slot 9"
+
+#: settingsDialog.py:55
+msgid "Slot ="
+msgstr "Slot ="
+
+#: __init__.py:246
+msgid "Special Character %s"
+msgstr "Speciální znak %s"
+
+#: __init__.py:179
+msgid "Special Character Add-on is currently disabled."
+msgstr "Doplněk Speciální znaky je aktuálně vypnutý."
+
+#: settingsDialog.py:19
+msgid "Special Character Settings"
+msgstr "Nastavení speciálních znaků"
+
+#: settingsDialog.py:103
+msgid "Special character settings saved successfully"
+msgstr "Nastavení speciálních znaků byla úspěšně uložena"
+
+#: __init__.py:242
+msgid "Switched set %s"
+msgstr "Přepnuto na sadu %s"
+
+#: __init__.py:230
+msgid "Toggle character set or add-on"
+msgstr "Přepnout sadu znaků nebo doplněk"
+
+#: __init__.py:245
+msgid "off"
+msgstr "vypnuto"
+
+#: __init__.py:245
+msgid "on"
+msgstr "zapnuto"

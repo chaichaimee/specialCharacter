@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
+"PO-Revision-Date: 2026-05-01 12:00+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Thai\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: __init__.py:99
+#: __init__.py:149
+msgid "Cannot insert character"
+msgstr "ไม่สามารถแทรกตัวอักษรได้"
+
+#: settingsDialog.py:26
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "การตั้งค่าถูกเก็บไว้ในไฟล์ specialCharacters.json ในโฟลเดอร์ย่อย ChaiChaimee ภายในโฟลเดอร์การตั้งค่าผู้ใช้ของ NVDA"
+
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "ไม่สามารถย้ายไฟล์การตั้งค่าเก่าได้: %s"
+
+#: __init__.py:59
+msgid "Error registering settings panel"
+msgstr "เกิดข้อผิดพลาดในการลงทะเบียนหน้าต่างการตั้งค่า"
+
+#: settingsDialog.py:105
+msgid "Error saving special character settings"
+msgstr "เกิดข้อผิดพลาดในการบันทึกการตั้งค่าตัวอักษรพิเศษ"
+
+#: config.py:151
+msgid "Error saving special characters configuration: %s"
+msgstr "เกิดข้อผิดพลาดในการบันทึกการตั้งค่าตัวอักษรพิเศษ: %s"
+
+#: __init__.py:205
+msgid "Insert Slot 0"
+msgstr "แทรกช่องที่ 0"
+
+#: __init__.py:187
+msgid "Insert Slot 1"
+msgstr "แทรกช่องที่ 1"
+
+#: __init__.py:189
+msgid "Insert Slot 2"
+msgstr "แทรกช่องที่ 2"
+
+#: __init__.py:191
+msgid "Insert Slot 3"
+msgstr "แทรกช่องที่ 3"
+
+#: __init__.py:193
+msgid "Insert Slot 4"
+msgstr "แทรกช่องที่ 4"
+
+#: __init__.py:195
+msgid "Insert Slot 5"
+msgstr "แทรกช่องที่ 5"
+
+#: __init__.py:197
+msgid "Insert Slot 6"
+msgstr "แทรกช่องที่ 6"
+
+#: __init__.py:199
+msgid "Insert Slot 7"
+msgstr "แทรกช่องที่ 7"
+
+#: __init__.py:201
+msgid "Insert Slot 8"
+msgstr "แทรกช่องที่ 8"
+
+#: __init__.py:203
+msgid "Insert Slot 9"
+msgstr "แทรกช่องที่ 9"
+
+#: __init__.py:209
+msgid "Insert Slot equals"
+msgstr "แทรกช่องเครื่องหมายเท่ากับ"
+
+#: __init__.py:207
+msgid "Insert Slot hyphen"
+msgstr "แทรกช่องเครื่องหมายยัติภังค์"
+
+#: __init__.py:212
+msgid "Insert vertical bar"
+msgstr "แทรกเส้นคั่นแนวตั้ง"
+
+#: __init__.py:218
+msgid "Insert –"
+msgstr "แทรก – (en dash)"
+
+#: __init__.py:224
+msgid "Insert —"
+msgstr "แทรก — (em dash)"
+
+#: settingsDialog.py:31
+msgid "Select Character Set:"
+msgstr "เลือกชุดตัวอักษร:"
+
+#: settingsDialog.py:34
+msgid "Set 1"
+msgstr "ชุดที่ 1"
+
+#: settingsDialog.py:34
+msgid "Set 2"
+msgstr "ชุดที่ 2"
+
+#: settingsDialog.py:55
+msgid "Slot -"
+msgstr "ช่อง -"
+
+#: settingsDialog.py:55
+msgid "Slot 0"
+msgstr "ช่อง 0"
+
+#: settingsDialog.py:54
+msgid "Slot 1"
+msgstr "ช่อง 1"
+
+#: settingsDialog.py:54
+msgid "Slot 2"
+msgstr "ช่อง 2"
+
+#: settingsDialog.py:54
+msgid "Slot 3"
+msgstr "ช่อง 3"
+
+#: settingsDialog.py:54
+msgid "Slot 4"
+msgstr "ช่อง 4"
+
+#: settingsDialog.py:54
+msgid "Slot 5"
+msgstr "ช่อง 5"
+
+#: settingsDialog.py:54
+msgid "Slot 6"
+msgstr "ช่อง 6"
+
+#: settingsDialog.py:55
+msgid "Slot 7"
+msgstr "ช่อง 7"
+
+#: settingsDialog.py:55
+msgid "Slot 8"
+msgstr "ช่อง 8"
+
+#: settingsDialog.py:55
+msgid "Slot 9"
+msgstr "ช่อง 9"
+
+#: settingsDialog.py:55
+msgid "Slot ="
+msgstr "ช่อง ="
+
+#: __init__.py:246
+msgid "Special Character %s"
+msgstr "ตัวอักษรพิเศษ %s"
+
+#: __init__.py:179
+msgid "Special Character Add-on is currently disabled."
+msgstr "ขณะนี้ส่วนเสริมตัวอักษรพิเศษถูกปิดการใช้งาน"
+
+#: settingsDialog.py:19
+msgid "Special Character Settings"
+msgstr "การตั้งค่าตัวอักษรพิเศษ"
+
+#: settingsDialog.py:103
+msgid "Special character settings saved successfully"
+msgstr "บันทึกการตั้งค่าตัวอักษรพิเศษเรียบร้อยแล้ว"
+
+#: __init__.py:242
+msgid "Switched set %s"
+msgstr "เปลี่ยนเป็นชุด %s"
+
+#: __init__.py:230
+msgid "Toggle character set or add-on"
+msgstr "สลับชุดตัวอักษรหรือสถานะส่วนเสริม"
+
+#: __init__.py:245
+msgid "off"
+msgstr "ปิด"
+
+#: __init__.py:245
+msgid "on"
+msgstr "เปิด"

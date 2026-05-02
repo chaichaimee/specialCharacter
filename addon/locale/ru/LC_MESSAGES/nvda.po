@@ -1,100 +1,105 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: specialCharacter\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-26 10:10\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
+"PO-Revision-Date: 2026-05-01 11:58+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: NVDA DevOn Addon\n"
+"X-Generator: DevOn Addon\n"
 
-#: __init__.py:93
+#: __init__.py:99
+#: __init__.py:149
 msgid "Cannot insert character"
 msgstr "Не удалось вставить символ"
 
 #: settingsDialog.py:26
-msgid "Configuration is stored in specialCharacters.json in NVDA user config folder."
-msgstr "Конфигурация хранится в файле specialCharacters.json в папке настроек пользователя NVDA."
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "Конфигурация хранится в файле specialCharacters.json в подпапке ChaiChaimee папки настроек пользователя NVDA."
 
-#: __init__.py:43
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "Не удалось перенести старый файл конфигурации: %s"
+
+#: __init__.py:59
 msgid "Error registering settings panel"
-msgstr "Ошибка регистрации панели настроек"
+msgstr "Ошибка при регистрации панели настроек"
 
 #: settingsDialog.py:105
 msgid "Error saving special character settings"
 msgstr "Ошибка при сохранении настроек специальных символов"
 
-#: config.py:78
+#: config.py:151
 msgid "Error saving special characters configuration: %s"
-msgstr "Ошибка сохранения конфигурации специальных символов: %s"
+msgstr "Ошибка при сохранении конфигурации специальных символов: %s"
 
-#: __init__.py:123
+#: __init__.py:205
 msgid "Insert Slot 0"
-msgstr "Вставить слот 0"
+msgstr "Вставить из слота 0"
 
-#: __init__.py:105
+#: __init__.py:187
 msgid "Insert Slot 1"
-msgstr "Вставить слот 1"
+msgstr "Вставить из слота 1"
 
-#: __init__.py:107
+#: __init__.py:189
 msgid "Insert Slot 2"
-msgstr "Вставить слот 2"
+msgstr "Вставить из слота 2"
 
-#: __init__.py:109
+#: __init__.py:191
 msgid "Insert Slot 3"
-msgstr "Вставить слот 3"
+msgstr "Вставить из слота 3"
 
-#: __init__.py:111
+#: __init__.py:193
 msgid "Insert Slot 4"
-msgstr "Вставить слот 4"
+msgstr "Вставить из слота 4"
 
-#: __init__.py:113
+#: __init__.py:195
 msgid "Insert Slot 5"
-msgstr "Вставить слот 5"
+msgstr "Вставить из слота 5"
 
-#: __init__.py:115
+#: __init__.py:197
 msgid "Insert Slot 6"
-msgstr "Вставить слот 6"
+msgstr "Вставить из слота 6"
 
-#: __init__.py:117
+#: __init__.py:199
 msgid "Insert Slot 7"
-msgstr "Вставить слот 7"
+msgstr "Вставить из слота 7"
 
-#: __init__.py:119
+#: __init__.py:201
 msgid "Insert Slot 8"
-msgstr "Вставить слот 8"
+msgstr "Вставить из слота 8"
 
-#: __init__.py:121
+#: __init__.py:203
 msgid "Insert Slot 9"
-msgstr "Вставить слот 9"
+msgstr "Вставить из слота 9"
 
-#: __init__.py:127
+#: __init__.py:209
 msgid "Insert Slot equals"
-msgstr "Вставить слот «равно»"
+msgstr "Вставить из слота «равно»"
 
-#: __init__.py:125
+#: __init__.py:207
 msgid "Insert Slot hyphen"
-msgstr "Вставить слот «дефис»"
+msgstr "Вставить из слота «дефис»"
 
-#: __init__.py:130
+#: __init__.py:212
 msgid "Insert vertical bar"
 msgstr "Вставить вертикальную черту"
 
-#: __init__.py:136
+#: __init__.py:218
 msgid "Insert –"
-msgstr "Вставить –"
+msgstr "Вставить – (среднее тире)"
 
-#: __init__.py:142
+#: __init__.py:224
 msgid "Insert —"
-msgstr "Вставить —"
+msgstr "Вставить — (длинное тире)"
 
 #: settingsDialog.py:31
 msgid "Select Character Set:"
-msgstr "Выберите набор символов:"
+msgstr "Выбор набора символов:"
 
 #: settingsDialog.py:34
 msgid "Set 1"
@@ -152,13 +157,13 @@ msgstr "Слот 9"
 msgid "Slot ="
 msgstr "Слот ="
 
-#: __init__.py:164
+#: __init__.py:246
 msgid "Special Character %s"
 msgstr "Специальный символ %s"
 
-#: __init__.py:97
+#: __init__.py:179
 msgid "Special Character Add-on is currently disabled."
-msgstr "Дополнение «Специальные символы» в данный момент отключено."
+msgstr "Дополнение «Специальные символы» сейчас отключено."
 
 #: settingsDialog.py:19
 msgid "Special Character Settings"
@@ -168,18 +173,18 @@ msgstr "Настройки специальных символов"
 msgid "Special character settings saved successfully"
 msgstr "Настройки специальных символов успешно сохранены"
 
-#: __init__.py:160
+#: __init__.py:242
 msgid "Switched set %s"
 msgstr "Переключено на набор %s"
 
-#: __init__.py:148
+#: __init__.py:230
 msgid "Toggle character set or add-on"
-msgstr "Переключить набор символов или дополнение"
+msgstr "Переключение набора символов или состояния дополнения"
 
-#: __init__.py:163
+#: __init__.py:245
 msgid "off"
-msgstr "выкл"
+msgstr "выкл."
 
-#: __init__.py:163
+#: __init__.py:245
 msgid "on"
-msgstr "вкл"
+msgstr "вкл."

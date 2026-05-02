@@ -1,26 +1,31 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: specialCharacter\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-26 10:39\n"
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
 "PO-Revision-Date: \n"
-"Last-Translator: \n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: English\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: NVDA DevOn Addon\n"
+"X-Generator: DevOn Addon\n"
 
-#: __init__.py:93
+#: __init__.py:99
+#: __init__.py:149
 msgid "Cannot insert character"
 msgstr "Cannot insert character"
 
 #: settingsDialog.py:26
-msgid "Configuration is stored in specialCharacters.json in NVDA user config folder."
-msgstr "Configuration is stored in specialCharacters.json in NVDA user config folder."
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
 
-#: __init__.py:43
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "Could not migrate old configuration file: %s"
+
+#: __init__.py:59
 msgid "Error registering settings panel"
 msgstr "Error registering settings panel"
 
@@ -28,67 +33,67 @@ msgstr "Error registering settings panel"
 msgid "Error saving special character settings"
 msgstr "Error saving special character settings"
 
-#: config.py:78
+#: config.py:151
 msgid "Error saving special characters configuration: %s"
 msgstr "Error saving special characters configuration: %s"
 
-#: __init__.py:131
+#: __init__.py:205
 msgid "Insert Slot 0"
 msgstr "Insert Slot 0"
 
-#: __init__.py:113
+#: __init__.py:187
 msgid "Insert Slot 1"
 msgstr "Insert Slot 1"
 
-#: __init__.py:115
+#: __init__.py:189
 msgid "Insert Slot 2"
 msgstr "Insert Slot 2"
 
-#: __init__.py:117
+#: __init__.py:191
 msgid "Insert Slot 3"
 msgstr "Insert Slot 3"
 
-#: __init__.py:119
+#: __init__.py:193
 msgid "Insert Slot 4"
 msgstr "Insert Slot 4"
 
-#: __init__.py:121
+#: __init__.py:195
 msgid "Insert Slot 5"
 msgstr "Insert Slot 5"
 
-#: __init__.py:123
+#: __init__.py:197
 msgid "Insert Slot 6"
 msgstr "Insert Slot 6"
 
-#: __init__.py:125
+#: __init__.py:199
 msgid "Insert Slot 7"
 msgstr "Insert Slot 7"
 
-#: __init__.py:127
+#: __init__.py:201
 msgid "Insert Slot 8"
 msgstr "Insert Slot 8"
 
-#: __init__.py:129
+#: __init__.py:203
 msgid "Insert Slot 9"
 msgstr "Insert Slot 9"
 
-#: __init__.py:135
+#: __init__.py:209
 msgid "Insert Slot equals"
 msgstr "Insert Slot equals"
 
-#: __init__.py:133
+#: __init__.py:207
 msgid "Insert Slot hyphen"
 msgstr "Insert Slot hyphen"
 
-#: __init__.py:138
+#: __init__.py:212
 msgid "Insert vertical bar"
 msgstr "Insert vertical bar"
 
-#: __init__.py:144
+#: __init__.py:218
 msgid "Insert –"
 msgstr "Insert –"
 
-#: __init__.py:150
+#: __init__.py:224
 msgid "Insert —"
 msgstr "Insert —"
 
@@ -152,11 +157,11 @@ msgstr "Slot 9"
 msgid "Slot ="
 msgstr "Slot ="
 
-#: __init__.py:172
+#: __init__.py:246
 msgid "Special Character %s"
 msgstr "Special Character %s"
 
-#: __init__.py:105
+#: __init__.py:179
 msgid "Special Character Add-on is currently disabled."
 msgstr "Special Character Add-on is currently disabled."
 
@@ -168,18 +173,18 @@ msgstr "Special Character Settings"
 msgid "Special character settings saved successfully"
 msgstr "Special character settings saved successfully"
 
-#: __init__.py:168
+#: __init__.py:242
 msgid "Switched set %s"
 msgstr "Switched set %s"
 
-#: __init__.py:156
+#: __init__.py:230
 msgid "Toggle character set or add-on"
 msgstr "Toggle character set or add-on"
 
-#: __init__.py:171
+#: __init__.py:245
 msgid "off"
 msgstr "off"
 
-#: __init__.py:171
+#: __init__.py:245
 msgid "on"
 msgstr "on"

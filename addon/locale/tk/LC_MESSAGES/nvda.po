@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-01 10:03+0700\n"
+"PO-Revision-Date: 2026-05-01 12:00+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Turkmen\n"
+"Language: tk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: __init__.py:99
+#: __init__.py:149
+msgid "Cannot insert character"
+msgstr "Simwol goýup bolmady"
+
+#: settingsDialog.py:26
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
+msgstr "Sazlamalar NVDA ulanyjy sazlamalary bukjasyndaky ChaiChaimee bukjasynyň içinde specialCharacters.json faýlynda saklanýar."
+
+#: config.py:118
+msgid "Could not migrate old configuration file: %s"
+msgstr "Köne sazlama faýlyny göçürip bolmady: %s"
+
+#: __init__.py:59
+msgid "Error registering settings panel"
+msgstr "Sazlamalar panelini hasaba alanda ýalňyşlyk ýüze çykdy"
+
+#: settingsDialog.py:105
+msgid "Error saving special character settings"
+msgstr "Ýörite simwol sazlamalaryny ýazgy edende ýalňyşlyk ýüze çykdy"
+
+#: config.py:151
+msgid "Error saving special characters configuration: %s"
+msgstr "Ýörite simwol sazlamalaryny ýazgy edende ýalňyşlyk ýüze çykdy: %s"
+
+#: __init__.py:205
+msgid "Insert Slot 0"
+msgstr "0-njy sloty goý"
+
+#: __init__.py:187
+msgid "Insert Slot 1"
+msgstr "1-nji sloty goý"
+
+#: __init__.py:189
+msgid "Insert Slot 2"
+msgstr "2-nji sloty goý"
+
+#: __init__.py:191
+msgid "Insert Slot 3"
+msgstr "3-nji sloty goý"
+
+#: __init__.py:193
+msgid "Insert Slot 4"
+msgstr "4-nji sloty goý"
+
+#: __init__.py:195
+msgid "Insert Slot 5"
+msgstr "5-nji sloty goý"
+
+#: __init__.py:197
+msgid "Insert Slot 6"
+msgstr "6-njy sloty goý"
+
+#: __init__.py:199
+msgid "Insert Slot 7"
+msgstr "7-nji sloty goý"
+
+#: __init__.py:201
+msgid "Insert Slot 8"
+msgstr "8-nji sloty goý"
+
+#: __init__.py:203
+msgid "Insert Slot 9"
+msgstr "9-njy sloty goý"
+
+#: __init__.py:209
+msgid "Insert Slot equals"
+msgstr "Deňlik belgisi slotyny goý"
+
+#: __init__.py:207
+msgid "Insert Slot hyphen"
+msgstr "Defis belgisi slotyny goý"
+
+#: __init__.py:212
+msgid "Insert vertical bar"
+msgstr "Dik çyzygy goý"
+
+#: __init__.py:218
+msgid "Insert –"
+msgstr "– belgisini goý (en dash)"
+
+#: __init__.py:224
+msgid "Insert —"
+msgstr "— belgisini goý (em dash)"
+
+#: settingsDialog.py:31
+msgid "Select Character Set:"
+msgstr "Simwol toplumyny saýlaň:"
+
+#: settingsDialog.py:34
+msgid "Set 1"
+msgstr "1-nji toplum"
+
+#: settingsDialog.py:34
+msgid "Set 2"
+msgstr "2-nji toplum"
+
+#: settingsDialog.py:55
+msgid "Slot -"
+msgstr "Slot -"
+
+#: settingsDialog.py:55
+msgid "Slot 0"
+msgstr "Slot 0"
+
+#: settingsDialog.py:54
+msgid "Slot 1"
+msgstr "Slot 1"
+
+#: settingsDialog.py:54
+msgid "Slot 2"
+msgstr "Slot 2"
+
+#: settingsDialog.py:54
+msgid "Slot 3"
+msgstr "Slot 3"
+
+#: settingsDialog.py:54
+msgid "Slot 4"
+msgstr "Slot 4"
+
+#: settingsDialog.py:54
+msgid "Slot 5"
+msgstr "Slot 5"
+
+#: settingsDialog.py:54
+msgid "Slot 6"
+msgstr "Slot 6"
+
+#: settingsDialog.py:55
+msgid "Slot 7"
+msgstr "Slot 7"
+
+#: settingsDialog.py:55
+msgid "Slot 8"
+msgstr "Slot 8"
+
+#: settingsDialog.py:55
+msgid "Slot 9"
+msgstr "Slot 9"
+
+#: settingsDialog.py:55
+msgid "Slot ="
+msgstr "Slot ="
+
+#: __init__.py:246
+msgid "Special Character %s"
+msgstr "Ýörite simwol %s"
+
+#: __init__.py:179
+msgid "Special Character Add-on is currently disabled."
+msgstr "Ýörite simwollar goşundysy häzir öçük."
+
+#: settingsDialog.py:19
+msgid "Special Character Settings"
+msgstr "Ýörite simwol sazlamalary"
+
+#: settingsDialog.py:103
+msgid "Special character settings saved successfully"
+msgstr "Ýörite simwol sazlamalary üstünlikli ýazgy edildi"
+
+#: __init__.py:242
+msgid "Switched set %s"
+msgstr "%s toplumyna geçildi"
+
+#: __init__.py:230
+msgid "Toggle character set or add-on"
+msgstr "Simwol toplumyny ýa-da goşundyny aç/ýap"
+
+#: __init__.py:245
+msgid "off"
+msgstr "öçük"
+
+#: __init__.py:245
+msgid "on"
+msgstr "açyk"
