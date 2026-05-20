@@ -17,6 +17,9 @@ import gui
 import sys
 from . import config
 from . import settingsDialog
+import core
+import logHandler
+import config as nvdaGlobalConfig
 
 addonHandler.initTranslation()
 
@@ -27,8 +30,6 @@ try:
 	from winBindings.user32 import keybd_event, KEYEVENTF
 	from winUser import VK_CONTROL
 	import speech
-	import core
-	import config as nvdaGlobalConfig
 	_use_new = True
 except ImportError:
 	# Fallback to legacy method
@@ -62,11 +63,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# LEGACY METHOD (for 32-bit and NVDA before 2026.1 64-bit)
 	# ============================================================
 	def _send_legacy(self, char):
+		original_typed = nvdaGlobalConfig.conf["keyboard"]["speakTypedCharacters"]
+		if original_typed:
+			nvdaGlobalConfig.conf["keyboard"]["speakTypedCharacters"] = False
+
 		try:
 			focus = api.getFocusObject()
 			app_name = focus.appModule.appName.lower() if hasattr(focus, 'appModule') and hasattr(focus.appModule, 'appName') else ""
-			
-			speech.speakText(char)
 
 			if app_name == 'winword':
 				try:
@@ -95,8 +98,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					api.copyToClip(char)
 					keyboardHandler.KeyboardInputGesture.fromName("control+v").send()
 
+			core.callLater(0, self._announce_and_restore, char, original_typed)
+
 		except Exception as e:
 			ui.message(_("Cannot insert character") + " %s: %s" % (char, str(e)))
+			if original_typed:
+				nvdaGlobalConfig.conf["keyboard"]["speakTypedCharacters"] = original_typed
 
 	def _sendCharacters_legacy(self, chars: str):
 		if brailleInputHandler is not None:
