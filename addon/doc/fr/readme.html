@@ -1,73 +1,227 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>specialCharacter NVDA Add-on</title>
+<meta charset="UTF-8">
+<title>Special Character NVDA Add-on</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    text-align: center;
+}
+b {
+    font-weight: bold;
+}
+.section {
+    margin-bottom: 30px;
+}
+.nvda-logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 120px;
+    height: auto;
+}
+.hotkey {
+    background: #f8f9fa;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 0 4px 4px 0;
+}
+.tap-explanation {
+    background: #e8f4fc;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.feature-item {
+    margin: 15px 0;
+    padding-left: 10px;
+}
+.note {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 0 4px 4px 0;
+}
+</style>
 </head>
 <body>
-    <div style="text-align: center;">
-        <img src="https://www.nvaccess.org/wp-content/uploads/2015/10/NVDA_logo_200px.png" alt="NVDA Logo">
-        <h1>specialCharacter</h1>
-    </div>
 
+<div class="container">
+
+<div class="section">
+    <img src="https://www.nvaccess.org/files/nvda/documentation/userGuide/images/nvda.ico" alt="NVDA Logo" class="nvda-logo">
+    <h1>Special Character</h1>
     <br>
-
-    <p><b>Auteurs :</b> 'chai chaimee</p>
-    <p><b>URL :</b> <a href="https://github.com/chaichaimee/specialCharacter">https://github.com/chaichaimee/specialCharacter</a></p>
-
-    <br>
-
-    <h2>La précision professionnelle au bout des doigts</h2>
-    <p><b>specialCharacter</b> est une extension NVDA de qualité professionnelle conçue pour les utilisateurs exigeants rapidité et précision. Que vous travailliez sur <b>Microsoft Office (Word, Excel)</b> ou sur des <b>éditeurs de texte</b> avancés pour le code, cet outil optimise considérablement votre saisie.</p>
-    
-    <p>Oubliez la mémorisation fastidieuse des <b>codes Alt</b> à 4 chiffres. Cette extension remplace ces commandes archaïques par des raccourcis simplifiés, vous permettant d'insérer instantanément des symboles officiels, des signes techniques et une ponctuation spécialisée. Vos rapports conservent ainsi un standard professionnel sans interrompre votre rythme de frappe.</p>
-
-    <br>
-
-    <h2>Fonctionnalités :</h2>
-    <ul>
-        <li><b>Saisie ultra-rapide :</b> Remplacez les séquences Alt classiques par des raccourcis directs. Ce qui nécessitait plusieurs touches se fait désormais en une seule pression.</li>
-        <li><b>Compatibilité étendue :</b> Optimisé pour une performance fluide sur la suite Microsoft Office et divers éditeurs de texte, assurant une cohérence sur toutes vos plateformes.</li>
-        <li><b>Flux de travail personnalisable :</b> Propose deux jeux de caractères (Set 1 et Set 2) entièrement adaptables. Modifiez ou mettez à jour vos caractères via les paramètres NVDA selon vos besoins spécifiques.</li>
-    </ul>
-
-    <br>
-
-    <h3>Raccourcis clavier :</h3>
-    <ul>
-        <li><b>Ctrl+0 à Ctrl+9, Ctrl+Moins (-), et Ctrl+Égal (=) :</b> Insère instantanément les caractères de votre configuration active.</li>
-        <li><b>Maj+Windows+. :</b> Insère un tiret moyen (–) – Idéal pour les plages numériques (ex: 2020–2025).</li>
-        <li><b>Maj+Windows+/ :</b> Insère un tiret cadratin (—) – Utilisé pour les ruptures de texte et les précisions professionnelles.</li>
-        <li><b>Maj+Retour arrière (Simple pression) :</b> Alterne instantanément entre le Set 1 et le Set 2.</li>
-        <li><b>Maj+Retour arrière (Double pression) :</b> Active ou désactive l'extension.</li>
-    </ul>
-
-    <p><i>** Tous les raccourcis peuvent être reconfigurés dans le menu "Gestes d'entrée" de NVDA.</i></p>
-
-    <br>
-
-    <h3>Configuration :</h3>
-    <p>Accès via : <b>Menu NVDA → Préférences → Paramètres → Special Characters</b> pour gérer vos jeux de caractères.</p>
-<br><br>
-<h2>Me soutenir</h2>
-    <p>Si cet outil vous simplifie la vie, n'hésitez pas à soutenir la prochaine mise à jour par un petit don.</p>
-
+    <p style="text-align: center;">Tapez n'importe quel caractère spécial, n'importe où, instantanément.</p>
+</div>
+<br>
+<div class="section">
+    <p style="text-align: center;"><b>auteur :</b> chai chaimee</p>
+    <p style="text-align: center;"><b>url :</b> https://github.com/chaichaimee/SpecialCharacter</p>
+</div>
 <br>
 
+<div class="section">
+<h2>Introduction</h2>
+<br>
+<p>Special Character est un module complémentaire pour NVDA qui vous permet d'insérer des symboles et des caractères spéciaux &mdash; tels que des puces, des signes monétaires, des guillemets ou des tirets &mdash; d'une simple frappe de touche, dans presque n'importe quelle application.</p>
+<br>
+<p>Au lieu de fouiller dans la table des caractères Windows ou de mémoriser des codes Alt obscurs, vous appuyez sur un raccourci simple de type Ctrl+chiffre (ou Ctrl+- / Ctrl+=) et le caractère est tapé pour vous, annoncé par la synthèse vocale exactement une fois.</p>
+<br>
+<p>Deux jeux indépendants de 12 caractères sont disponibles, ce qui vous permet de conserver deux collections différentes (par exemple, des symboles du quotidien dans l'un et des symboles moins courants dans l'autre) et de basculer instantanément entre elles. Le module complémentaire peut également être entièrement personnalisé via son propre panneau dans la boîte de dialogue Paramètres de NVDA, et il peut être activé ou désactivé à la volée sans quitter votre application actuelle.</p>
+</div>
+<br>
+
+<div class="section">
+<h3>Raccourcis clavier</h3>
+<br>
+
+<div class="hotkey">
+<b>Ctrl+1</b> à <b>Ctrl+9</b>, <b>Ctrl+0</b>, <b>Ctrl+-</b>, <b>Ctrl+=</b><br>
+Simple pression : Insère le caractère stocké dans cet emplacement (12 emplacements personnalisables) pour le jeu actuellement actif
+</div>
+
+<div class="hotkey">
+<b>Shift+Windows+|</b><br>
+Simple pression : Insère une barre verticale ( | )
+</div>
+
+<div class="hotkey">
+<b>Shift+Windows+.</b><br>
+Simple pression : Insère un tiret en ( &ndash; )
+</div>
+
+<div class="hotkey">
+<b>Shift+Windows+/</b><br>
+Simple pression : Insère un tiret em ( &mdash; )
+</div>
+
+<div class="hotkey">
+<b>Shift+Retour arrière (Backspace)</b><br>
+Simple pression : Bascule entre le jeu de caractères 1 et le jeu de caractères 2<br>
+Double pression (en moins d'une demi-seconde) : Active ou désactive le module complémentaire Special Character
+</div>
+
+</div>
+<br>
+
+<div class="section">
+<h2>Fonctionnalités</h2>
+<br>
+
+<div class="feature-item">
+<h3>1. Jeux de caractères à douze emplacements (Jeu 1 et Jeu 2)</h3>
+<br>
+<p>Chaque caractère est stocké dans l'un des 12 emplacements, associés à Ctrl+1, Ctrl+2 &hellip; Ctrl+9, Ctrl+0, Ctrl+-, et Ctrl+=. Il existe deux jeux complets de ces 12 emplacements, ce qui vous permet de maintenir deux collections de symboles différentes et de passer de l'une à l'autre avec Shift+Retour arrière.</p>
+<br>
+<p>Par défaut, certains emplacements contiennent déjà des caractères prêts à l'emploi, par exemple une puce (&bull;), une paire de parenthèses, le signe bahts thaïlandais (&#3647;) et le signe euro (&euro;) dans le Jeu 1, ainsi qu'une apostrophe, des guillemets et des points de suspension (&hellip;) dans le Jeu 2. Les emplacements restants sont laissés à votre disposition pour y placer les caractères que vous utilisez le plus.</p>
+</div>
+
+<div class="feature-item">
+<h3>2. Panneau de configuration intégré</h3>
+<br>
+<p>Le module complémentaire enregistre sa propre page directement dans la boîte de dialogue Paramètres de NVDA (sous "Special Character Settings"). De là, vous pouvez :</p>
+<br>
+<p>&bull; Choisir le Jeu 1 ou le Jeu 2 dans une liste déroulante.<br>
+&bull; Taper ou modifier le caractère assigné à chacun des 12 emplacements dans son propre champ de texte.<br>
+&bull; Basculer entre les jeux à l'intérieur du panneau lui-même ; vos modifications sur le jeu que vous visualisiez sont conservées automatiquement lors du changement.<br>
+&bull; Appuyer sur OK pour tout enregistrer sur le disque en une seule fois.</p>
+</div>
+
+<div class="feature-item">
+<h3>3. Logique d'insertion contextuelle</h3>
+<br>
+<p>Lorsque vous appuyez sur un raccourci, le module examine l'application qui a actuellement le focus et choisit la manière la plus sûre d'y taper le caractère. Étape par étape, voici ce qui se passe :</p>
+<br>
+<p>1. Il lit le nom du module de l'application focalisée.<br>
+2. Si l'application est Microsoft Word, il essaie d'abord d'insérer le caractère directement via le modèle d'objet de Word (Selection.TypeText). Cela se comporte comme une vraie frappe, ne touche jamais au Presse-papiers et évite la fenêtre contextuelle "Options de collage" de Word. Si cet appel échoue, il se rabat sur la copie du caractère dans le Presse-papiers et la simulation de Ctrl+V.<br>
+3. Si l'application est un navigateur Web (Chrome, Firefox, Brave, Edge ou Safari), les caractères qui sont également des touches de clavier ordinaires &mdash; les guillemets, la barre oblique, la barre oblique inverse, le point et la barre verticale &mdash; sont envoyés directement comme une frappe de touche. Tout autre caractère est copié dans le Presse-papiers et collé après un bref délai de 40&nbsp;millisecondes, ce qui laisse le temps au lecteur de presse-papiers du navigateur de voir le contenu mis à jour avant que le collage ne se produise.<br>
+4. Si un afficheur braille avec saisie braille est connecté, le caractère est envoyé via le gestionnaire de saisie braille à la place.<br>
+5. Si le contrôle focalisé expose une méthode directe d'insertion de texte, le module l'utilise.<br>
+6. En dernier recours, dans toute autre situation, le caractère est copié dans le Presse-papiers et collé avec un court délai, de la même manière que le mode de secours du navigateur.</p>
+<br>
+<p>Une fois le caractère inséré, NVDA le prononce exactement une fois.</p>
+</div>
+
+<div class="feature-item">
+<h3>4. Double compatibilité avec les anciennes et nouvelles API de clavier NVDA</h3>
+<br>
+<p>Au démarrage, le module vérifie si la nouvelle API de clavier <code>winBindings.user32</code> est disponible (introduite dans les versions 64 bits de NVDA 2026.1). Si c'est le cas, le module utilise cette API moderne pour toute simulation de touche de bas niveau nécessaire dans Word ; sinon, il revient automatiquement à l'ancienne API <code>winUser</code>, de sorte que les mêmes raccourcis fonctionnent correctement sur les installations de NVDA plus anciennes et plus récentes, en 32 bits et 64 bits.</p>
+<br>
+<p>Dans les deux cas, le module désactive temporairement l'option NVDA "annoncer les caractères tapés" pendant qu'il insère un caractère, puis restaure votre paramètre d'origine juste après et énonce le caractère lui-même, afin que vous ne l'entendiez jamais annoncé deux fois.</p>
+</div>
+
+<div class="feature-item">
+<h3>5. Comptage intelligent des pressions sur Shift+Retour arrière</h3>
+<br>
+<div class="tap-explanation">
+<p>Appuyer sur Shift+Retour arrière n'agit pas immédiatement. Au lieu de cela, le module attend une demi-seconde pour voir si vous appuyez à nouveau :</p>
+<br>
+<p>&bull; Si une seule pression se produit dans cette fenêtre d'une demi-seconde, il bascule le jeu de caractères actif (Jeu 1 &harr; Jeu 2) et annonce quel jeu est désormais actif.<br>
+&bull; Si une seconde pression (ou plus) se produit dans la même fenêtre, il active ou désactive à la place l'ensemble du module complémentaire, en annonçant le nouvel état.</p>
+<br>
+<p>Cela permet à une seule combinaison de touches facile à retenir de couvrir deux actions liées sans nécessiter deux raccourcis séparés.</p>
+</div>
+</div>
+
+<div class="feature-item">
+<h3>6. Raccourcis indépendants pour les tirets et la barre</h3>
+<br>
+<p>Trois caractères couramment nécessaires lors de la rédaction &mdash; la barre verticale, le tiret en et le tiret em &mdash; ont leurs propres raccourcis dédiés (Shift+Windows+|, Shift+Windows+. et Shift+Windows+/) afin que vous n'ayez pas à utiliser un emplacement numéroté pour eux.</p>
+</div>
+
+<div class="feature-item">
+<h3>7. Configuration persistante à auto-migration</h3>
+<br>
+<p>Vos jeux de caractères sont enregistrés sous forme de fichier JSON nommé <code>specialCharacters.json</code> dans un sous-dossier <code>ChaiChaimee</code> de votre dossier de configuration utilisateur NVDA, de sorte que vos caractères personnalisés sont conservés entre les sessions et les mises à jour de NVDA.</p>
+<br>
+<p>Si le module détecte un fichier de configuration provenant d'une version antérieure directement dans le dossier de configuration principal de NVDA, il copie automatiquement son contenu dans le nouvel emplacement du sous-dossier et ne supprime l'ancien fichier qu'une fois la copie vérifiée, de sorte que vos personnalisations existantes ne soient jamais perdues lors d'une mise à niveau.</p>
+</div>
+
+<div class="feature-item">
+<h3>8. Activer / Désactiver sans perdre les paramètres</h3>
+<br>
+<p>Désactiver le module complémentaire (via une double pression sur Shift+Retour arrière) arrête simplement sa réponse aux raccourcis de caractères ; vos jeux configurés restent enregistrés et sont réutilisés dès que vous réactivez le module.</p>
+</div>
+
+</div>
+<br>
+
+<div class="note">
+<p><b>Remarque :</b> Les raccourcis d'insertion de caractères (Ctrl+1&ndash;0, Ctrl+-, Ctrl+=) ne sont disponibles que lorsque le module complémentaire est activé. Si rien ne se passe lorsque vous en pressez un, vérifiez si le module a été désactivé par une double pression de Shift+Retour arrière.</p>
+</div>
+
+<br><br>
+<h2>Me soutenir</h2>
+    <p>Si cet outil vous a simplifié la vie, envisagez de propulser la prochaine mise à jour avec un petit don.</p>
+<br>
 <p>
   <a href="https://buy.stripe.com/dRm9AU1xQ3Ds22N6VK1VK01">
-    <img src="https://img.shields.io/badge/Faire%20un%20don-Me%20soutenir-blue?style=for-the-badge&logo=stripe" alt="Support me">
+    <img src="https://img.shields.io/badge/Donate-Support%20Me-blue?style=for-the-badge&logo=stripe" alt="Support me">
   </a>
 </p>
 <br>
-
-<p>Votre soutien est précieux. Bâtissons ensemble des outils performants !</p>
-
+<p>Votre soutien signifie énormément. Construisons quelque chose de formidable ensemble</p>
 <br>
-
   <div class="footer-note">
-<p>&copy; 2026 Chai Chaimee NVDA Add-on Publié sous licence GNU GPL</p>
+<p>&copy; 2026 Module complémentaire NVDA Chai Chaimee publié sous licence GNU GPL</p>
 </div>
+
+</div> <!-- End container -->
 </body>
 </html>

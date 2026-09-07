@@ -1,73 +1,227 @@
 <!DOCTYPE html>
-<html lang="de">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>specialCharacter NVDA Add-on</title>
+<meta charset="UTF-8">
+<title>Special Character NVDA Add-on</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    text-align: center;
+}
+b {
+    font-weight: bold;
+}
+.section {
+    margin-bottom: 30px;
+}
+.nvda-logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 120px;
+    height: auto;
+}
+.hotkey {
+    background: #f8f9fa;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 0 4px 4px 0;
+}
+.tap-explanation {
+    background: #e8f4fc;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.feature-item {
+    margin: 15px 0;
+    padding-left: 10px;
+}
+.note {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 0 4px 4px 0;
+}
+</style>
 </head>
 <body>
-    <div style="text-align: center;">
-        <img src="https://www.nvaccess.org/wp-content/uploads/2015/10/NVDA_logo_200px.png" alt="NVDA Logo">
-        <h1>specialCharacter</h1>
-    </div>
 
+<div class="container">
+
+<div class="section">
+    <img src="https://www.nvaccess.org/files/nvda/documentation/userGuide/images/nvda.ico" alt="NVDA Logo" class="nvda-logo">
+    <h1>Special Character</h1>
     <br>
-
-    <p><b>Autoren:</b> 'chai chaimee</p>
-    <p><b>URL:</b> <a href="https://github.com/chaichaimee/specialCharacter">https://github.com/chaichaimee/specialCharacter</a></p>
-
-    <br>
-
-    <h2>Professionelle Präzision für jedes Zeichen</h2>
-    <p><b>specialCharacter</b> ist ein erstklassiges NVDA-Add-on für Anwender, die höchste Geschwindigkeit und Genauigkeit bei der Dokumentenerstellung erwarten. Ob Sie in <b>Microsoft Office (Word, Excel)</b> arbeiten oder fortschrittliche <b>Texteditoren</b> für Coding und Dokumentationen nutzen – dieses Tool optimiert Ihren Workflow spürbar.</p>
-    
-    <p>Verabschieden Sie sich vom mühsamen Auswendiglernen komplexer vierstelliger <b>Alt-Codes</b>. Dieses Add-on ersetzt veraltete Befehle durch effiziente Kurzbefehle, mit denen Sie Symbole, technische Zeichen und Satzzeichen sofort einfügen können. So bleiben Ihre Berichte und Tabellen professionell, ohne Ihren Schreibfluss zu unterbrechen.</p>
-
-    <br>
-
-    <h2>Features:</h2>
-    <ul>
-        <li><b>Hochgeschwindigkeits-Eingabe:</b> Ersetzen Sie klassische Alt-Code-Folgen durch direkte Tastenkombinationen. Was früher viele Anschläge erforderte, erledigen Sie jetzt mit einem einzigen Griff.</li>
-        <li><b>Vielseitige Unterstützung:</b> Optimiert für eine reibungslose Performance in Microsoft Office-Produkten sowie verschiedenen Texteditoren – für Konsistenz auf all Ihren Plattformen.</li>
-        <li><b>Anpassbarer Workflow:</b> Bietet zwei Hauptsätze (Satz 1 und Satz 2), die vollständig anpassbar sind. Sie können Zeichen über die NVDA-Einstellungen ändern oder aktualisieren, um sie Ihren Branchenanforderungen anzupassen.</li>
-    </ul>
-
-    <br>
-
-    <h3>Tastenkombinationen:</h3>
-    <ul>
-        <li><b>Strg+0 bis Strg+9, Strg+Minus (-) und Strg+Gleich (=):</b> Sofortige Ausgabe der Sonderzeichen aus Ihrer aktiven Konfiguration.</li>
-        <li><b>Umschalt+Windows+. :</b> Fügt einen En-Dash (–) ein – ideal für Zahlenbereiche (z. B. 2020–2025).</li>
-        <li><b>Umschalt+Windows+/ :</b> Fügt einen Em-Dash (—) ein – für professionelle Gedankenstriche und Erläuterungen.</li>
-        <li><b>Umschalt+Rücktaste (Einfach drücken):</b> Wechselt sofort zwischen Satz 1 und Satz 2.</li>
-        <li><b>Umschalt+Rücktaste (Doppelt drücken):</b> Schaltet die Funktionalität des Add-ons ein oder aus.</li>
-    </ul>
-
-    <p><i>** Alle Tastenkombinationen können im NVDA-Menü unter "Eingaben" vollständig neu konfiguriert werden.</i></p>
-
-    <br>
-
-    <h3>Konfiguration:</h3>
-    <p>Einstellungen über: <b>NVDA-Menü → Einstellungen → Einstellungen → Sonderzeichen</b>, um Ihre professionellen Zeichensätze zu verwalten.</p>
-<br><br>
-<h2>Unterstützen Sie mich</h2>
-    <p>Wenn dieses Tool Ihren Alltag erleichtert hat, freuen wir uns über eine kleine Spende für die nächste Aktualisierung.</p>
-
+    <p style="text-align: center;">Geben Sie beliebige Sonderzeichen überall sofort ein.</p>
+</div>
+<br>
+<div class="section">
+    <p style="text-align: center;"><b>Autor:</b> chai chaimee</p>
+    <p style="text-align: center;"><b>URL:</b> https://github.com/chaichaimee/SpecialCharacter</p>
+</div>
 <br>
 
+<div class="section">
+<h2>Einführung</h2>
+<br>
+<p>Special Character ist ein NVDA-Add-on, mit dem Sie in fast jeder Anwendung Symbole und Sonderzeichen wie Aufzählungszeichen, Währungssymbole, Anführungszeichen oder Geviertstriche mit einem einzigen Tastendruck einfügen können.</p>
+<br>
+<p>Anstatt umständlich in der Windows-Zeichentabelle zu suchen oder schwer merkwürdige Alt-Codes auswendig zu lernen, drücken Sie eine einfache Tastenkombination aus Strg+Zahl (oder Strg+- / Strg+=), und das Zeichen wird für Sie getippt und exakt einmal von der Sprachausgabe angesagt.</p>
+<br>
+<p>Es stehen zwei unabhängige Sätze mit jeweils 12 Zeichen zur Verfügung, sodass Sie zwei verschiedene Sammlungen verwalten (z. B. Alltagssymbole im ersten und seltenere im zweiten Satz) und blitzschnell zwischen ihnen umschalten können. Das Add-on lässt sich zudem über einen eigenen Bereich in den NVDA-Einstellungsdialogen vollständig anpassen und kann während der Arbeit in jeder Anwendung im Handumdrehen ein- oder ausgeschaltet werden.</p>
+</div>
+<br>
+
+<div class="section">
+<h3>Tastenkombinationen</h3>
+<br>
+
+<div class="hotkey">
+<b>Strg+1</b> bis <b>Strg+9</b>, <b>Strg+0</b>, <b>Strg+-</b>, <b>Strg+=</b><br>
+Einfaches Tippen: Fügt das in diesem Steckplatz gespeicherte Zeichen (12 anpassbare Steckplätze) für den aktuell aktiven Zeichensatz ein
+</div>
+
+<div class="hotkey">
+<b>Shift+Windows+|</b><br>
+Einfaches Tippen: Fügt einen senkrechten Strich ( | ) ein
+</div>
+
+<div class="hotkey">
+<b>Shift+Windows+.</b><br>
+Einfaches Tippen: Fügt einen Halbgeviertstrich ( &ndash; ) ein
+</div>
+
+<div class="hotkey">
+<b>Shift+Windows+/</b><br>
+Einfaches Tippen: Fügt einen Geviertstrich ( &mdash; ) ein
+</div>
+
+<div class="hotkey">
+<b>Shift+Rücktaste (Backspace)</b><br>
+Einfaches Tippen: Wechselt zwischen Zeichensatz 1 und Zeichensatz 2<br>
+Doppeltippen (innerhalb einer halben Sekunde): Schaltet das Add-on „Special Character“ ein oder aus
+</div>
+
+</div>
+<br>
+
+<div class="section">
+<h2>Funktionen</h2>
+<br>
+
+<div class="feature-item">
+<h3>1. Zeichensätze mit zwölf Steckplätzen (Satz 1 und Satz 2)</h3>
+<br>
+<p>Jedes Zeichen ist in einem von 12 Steckplätzen gespeichert, zugewiesen an Strg+1, Strg+2 &hellip; Strg+9, Strg+0, Strg+- und Strg+=. Es gibt zwei vollständige Sätze dieser 12 Steckplätze, sodass Sie zwei unterschiedliche Symbolsammlungen pflegen und mit Umschalt+Rücktaste zwischen ihnen wechseln können.</p>
+<br>
+<p>Standardmäßig enthalten einige Steckplätze bereits betriebsbereite Zeichen, zum Beispiel ein Aufzählungszeichen (&bull;), Klammern, das thailändische Baht-Zeichen (&#3647;) und das Euro-Zeichen (&euro;) in Satz 1 sowie ein einfaches Anführungszeichen, ein doppeltes Anführungszeichen und Auslassungspunkte (&hellip;) in Satz 2. Die verbleibenden Steckplätze können Sie selbst mit Ihren am häufigsten genutzten Zeichen belegen.</p>
+</div>
+
+<div class="feature-item">
+<h3>2. Integriertes Einstellungsfenster</h3>
+<br>
+<p>Das Add-on registriert eine eigene Einstellungsseite direkt im NVDA-Dialog „Einstellungen“ (unter „Special Character Settings“). Von dort aus können Sie:</p>
+<br>
+<p>&bull; Satz 1 oder Satz 2 aus einem Kombinationsfeld auswählen.<br>
+&bull; Das jedem der 12 Steckplätze zugewiesene Zeichen in einem eigenen Textfeld eingeben oder bearbeiten.<br>
+&bull; Innerhalb des Panels zwischen den Sätzen umschalten; Ihre Änderungen am zuvor angezeigten Satz werden beim Wechsel automatisch beibehalten.<br>
+&bull; Auf „OK“ klicken, um alles auf einmal dauerhaft zu speichern.</p>
+</div>
+
+<div class="feature-item">
+<h3>3. Kontextsensitive Einfügelogik</h3>
+<br>
+<p>Wenn Sie eine Tastenkombination drücken, prüft das Add-on die aktuell fokussierte Anwendung und wählt den sichersten Weg aus, um das Zeichen einzugeben. Im Detail läuft dies wie folgt ab:</p>
+<br>
+<p>1. Es liest den Modulnamen der fokussierten Anwendung aus.<br>
+2. Handelt es sich um Microsoft Word, versucht es das Zeichen direkt über das Objektemodell von Word (Selection.TypeText) einzufügen. Dies verhält sich wie echte Tastatureingabe, greift nie auf die Zwischenablage zu und vermeidet Pop-ups zu den Word-Einfügeoptionen. Schlägt dies fehl, wird als Fallback das Zeichen in die Zwischenablage kopiert und Strg+V simuliert.<br>
+3. Handelt es sich um einen Webbrowser (Chrome, Firefox, Brave, Edge oder Safari), werden Zeichen, die ohnehin normale Tasten sind &mdash; wie doppelte Anführungszeichen, Schrägstrich, Backslash, Punkt und senkrechter Strich &mdash; direkt als Tastenanschlag gesendet. Alle anderen Zeichen werden in die Zwischenablage kopiert und nach einer kurzen Verzögerung von 40&nbsp;Millisekunden eingefügt, damit der Ausleseprozess des Browsers die aktualisierten Inhalte vor dem Einfügen registrieren kann.<br>
+4. Ist eine Braillezeile mit Braille-Eingabe angeschlossen, wird das Zeichen stattdessen über den Braille-Eingabehandler ausgegeben.<br>
+5. Bietet das fokussierte Steuerelement eine direkte Texterfassungsmethode an, verwendet das Add-on diese.<br>
+6. Als letzter Ausweg in allen anderen Situationen wird das Zeichen in die Zwischenablage kopiert und mit einer kurzen Verzögerung eingefügt, genau wie beim Browser-Fallback.</p>
+<br>
+<p>Nachdem das Zeichen eingefügt wurde, liest NVDA es exakt einmal vor.</p>
+</div>
+
+<div class="feature-item">
+<h3>4. Duale Kompatibilität mit alten und neuen NVDA-Tastatur-APIs</h3>
+<br>
+<p>Beim Start prüft das Add-on, ob die neuere Tastatur-API <code>winBindings.user32</code> verfügbar ist (eingeführt in 64-bit-Versionen von NVDA 2026.1). Ist dies der Fall, verwendet das Add-on diese moderne API für alle in Word benötigten Low-Level-Tastatursimulationen; andernfalls greift es automatisch auf die ältere <code>winUser</code>-API zurück, sodass dieselben Kürzel sowohl auf älteren als auch auf neueren 32-Bit- und 64-Bit-Installationen von NVDA einwandfrei funktionieren.</p>
+<br>
+<p>In beiden Fällen schaltet das Add-on die NVDA-Option „Getippte Zeichen ansagen“ beim Einfügen kurzzeitig ab, stellt Ihre ursprüngliche Einstellung unmittelbar danach wieder her und spricht das Zeichen selbst aus, damit Sie es niemals doppelt hören.</p>
+</div>
+
+<div class="feature-item">
+<h3>5. Intelligente Anschlagserkennung bei Umschalt+Rücktaste</h3>
+<br>
+<div class="tap-explanation">
+<p>Das Drücken von Umschalt+Rücktaste wirkt nicht sofort. Stattdessen wartet das Add-on eine halbe Sekunde, um zu sehen, ob Sie die Taste erneut drücken:</p>
+<br>
+<p>&bull; Erfolgt innerhalb dieses Zeitfensters nur ein einzelner Tastendruck, wird der aktive Zeichensatz gewechselt (Satz 1 &harr; Satz 2) und angesagt, welcher Satz nun aktiv ist.<br>
+&bull; Erfolgt innerhalb desselben Fensters ein zweiter (oder weiterer) Druck, wird stattdessen das gesamte Add-on ein- oder ausgeschaltet und der neue Status angesagt.</p>
+<br>
+<p>Auf diese Weise deckt eine einzige, leicht zu merkende Tastenkombination zwei zusammenhängende Aktionen ab, ohne dass zwei separate Kürzel erforderlich sind.</p>
+</div>
+</div>
+
+<div class="feature-item">
+<h3>6. Separate Kurzbefehle für Striche</h3>
+<br>
+<p>Drei Zeichen, die beim Schreiben häufig benötigt werden &mdash; der senkrechte Strich, der Halbgeviertstrich und der Geviertstrich &mdash; besitzen eigene Kurzbefehle (Shift+Windows+|, Shift+Windows+. und Shift+Windows+/), sodass Sie dafür keinen nummerierten Steckplatz belegen müssen.</p>
+</div>
+
+<div class="feature-item">
+<h3>7. Permanente, sich selbst migrierende Konfiguration</h3>
+<br>
+<p>Ihre Zeichensätze werden als JSON-Datei namens <code>specialCharacters.json</code> in einem Unterordner namens <code>ChaiChaimee</code> Ihres NVDA-Benutzerkonfigurationsordners gespeichert, sodass Ihre benutzerdefinierten Zeichen Sitzungs- und Update-übergreifend erhalten bleiben.</p>
+<br>
+<p>Erkennt das Add-on eine von einer älteren Version stammende Konfigurationsdatei direkt im Hauptordner der NVDA-Konfiguration, kopiert es deren Inhalt automatisch in den neuen Unterordner und entfernt die alte Datei erst nach erfolgreicher Überprüfung, sodass Ihre Anpassungen bei einem Upgrade niemals verloren gehen.</p>
+</div>
+
+<div class="feature-item">
+<h3>8. Ein- und Ausschalten ohne Verlust der Einstellungen</h3>
+<br>
+<p>Das Ausschalten des Add-ons (durch Doppeltippen auf Umschalt+Rücktaste) sorgt lediglich dafür, dass es nicht mehr auf Zeichentastenkombinationen reagiert. Ihre konfigurierten Sätze bleiben gespeichert und stehen sofort wieder zur Verfügung, sobald Sie das Add-on wieder einschalten.</p>
+</div>
+
+</div>
+<br>
+
+<div class="note">
+<p><b>Hinweis:</b> Die Kurzbefehle zum Einfügen von Zeichen (Strg+1&ndash;0, Strg+-, Strg+=) stehen nur zur Verfügung, während das Add-on aktiviert ist. Wenn beim Drücken nichts passiert, prüfen Sie bitte, ob das Add-on durch einen Doppeltipp auf Umschalt+Rücktaste deaktiviert wurde.</p>
+</div>
+
+<br><br>
+<h2>Unterstützen Sie mich</h2>
+    <p>Wenn dieses Tool Ihr Leben erleichtert hat, erwägen Sie doch, das nächste Update mit einer kleinen Spende zu unterstützen.</p>
+<br>
 <p>
   <a href="https://buy.stripe.com/dRm9AU1xQ3Ds22N6VK1VK01">
-    <img src="https://img.shields.io/badge/Spenden-Unterst%C3%BCtzen-blue?style=for-the-badge&logo=stripe" alt="Support me">
+    <img src="https://img.shields.io/badge/Donate-Support%20Me-blue?style=for-the-badge&logo=stripe" alt="Support me">
   </a>
 </p>
 <br>
-
-<p>Ihre Unterstützung bedeutet mir viel. Lassen Sie uns gemeinsam Großartiges schaffen!</p>
-
+<p>Ihre Unterstützung bedeutet mir alles. Lassen Sie uns gemeinsam etwas Großartiges erschaffen!</p>
 <br>
-
   <div class="footer-note">
 <p>&copy; 2026 Chai Chaimee NVDA Add-on Veröffentlicht unter GNU GPL</p>
 </div>
+
+</div> <!-- End container -->
 </body>
 </html>

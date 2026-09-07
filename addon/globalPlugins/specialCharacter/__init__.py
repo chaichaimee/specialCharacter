@@ -19,6 +19,7 @@ from . import config
 from . import settingsDialog
 import core
 import logHandler
+from comtypes import COMError
 import config as nvdaGlobalConfig
 
 addonHandler.initTranslation()
@@ -36,14 +37,13 @@ except ImportError:
 	import winUser
 	import speech
 
-if not _use_new:
-	# Legacy imports (for 32-bit or older NVDA)
-	from NVDAObjects.IAccessible.winword import WordDocument
-	from NVDAObjects.UIA import UIA
-
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	scriptCategory = addonHandler.getCodeAddon().manifest["summary"]
-	
+
+	# Delay (ms) between writing the clipboard and sending control+v so the
+	# OS clipboard update has time to settle before the browser reads it.
+	CLIPBOARD_SETTLE_DELAY_MS = 40
+
 	def __init__(self):
 		super(GlobalPlugin, self).__init__()
 		self.enabled = True
@@ -72,6 +72,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			app_name = focus.appModule.appName.lower() if hasattr(focus, 'appModule') and hasattr(focus.appModule, 'appName') else ""
 
 			if app_name == 'winword':
+				if self._insertViaWordObjectModel(focus, char):
+					core.callLater(0, self._announce_and_restore, char, original_typed)
+					return
 				try:
 					api.copyToClip(char)
 					winUser.keybd_event(winUser.VK_CONTROL, 0, 0, 0)
@@ -84,9 +87,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			elif app_name in ('chrome', 'firefox', 'brave', 'edge', 'safari'):
 				if char in ('"', '/', '\\', '.', '|'):
 					keyboardHandler.KeyboardInputGesture.fromName(char).send()
+					core.callLater(0, self._announce_and_restore, char, original_typed)
 				else:
 					api.copyToClip(char)
-					keyboardHandler.KeyboardInputGesture.fromName("control+v").send()
+					# Some browser edit fields miss the paste if control+v is sent
+					# in the same call stack as the clipboard write; give the OS
+					# clipboard update a short moment to settle before pasting.
+					core.callLater(self.CLIPBOARD_SETTLE_DELAY_MS, self._pasteAndAnnounce, char, original_typed)
+				return
 
 			elif brailleInputHandler:
 				brailleInputHandler.sendChars(char)
@@ -96,7 +104,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					focus.edit.textInsert(char)
 				else:
 					api.copyToClip(char)
-					keyboardHandler.KeyboardInputGesture.fromName("control+v").send()
+					core.callLater(self.CLIPBOARD_SETTLE_DELAY_MS, self._pasteAndAnnounce, char, original_typed)
+					return
 
 			core.callLater(0, self._announce_and_restore, char, original_typed)
 
@@ -124,6 +133,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 			# Insert character using appropriate method (no announcement yet)
 			if app_name == 'winword':
+				if self._insertViaWordObjectModel(focus, char):
+					core.callLater(0, self._announce_and_restore, char, original_typed)
+					return
 				try:
 					api.copyToClip(char)
 					keybd_event(0x56, 0x2f, 0, 0)
@@ -135,9 +147,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			elif app_name in ('chrome', 'firefox', 'brave', 'edge', 'safari'):
 				if char in ('"', '/', '\\', '.', '|'):
 					keyboardHandler.KeyboardInputGesture.fromName(char).send()
+					core.callLater(0, self._announce_and_restore, char, original_typed)
 				else:
 					api.copyToClip(char)
-					keyboardHandler.KeyboardInputGesture.fromName("control+v").send()
+					# Some browser edit fields miss the paste if control+v is sent
+					# in the same call stack as the clipboard write; give the OS
+					# clipboard update a short moment to settle before pasting.
+					core.callLater(self.CLIPBOARD_SETTLE_DELAY_MS, self._pasteAndAnnounce, char, original_typed)
+				return
 
 			elif brailleInputHandler:
 				brailleInputHandler.sendChars(char)
@@ -147,7 +164,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					focus.edit.textInsert(char)
 				else:
 					api.copyToClip(char)
-					keyboardHandler.KeyboardInputGesture.fromName("control+v").send()
+					core.callLater(self.CLIPBOARD_SETTLE_DELAY_MS, self._pasteAndAnnounce, char, original_typed)
+					return
 
 			# Announce exactly once after insertion, then restore setting
 			core.callLater(0, self._announce_and_restore, char, original_typed)
@@ -156,6 +174,28 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			ui.message(_("Cannot insert character") + " %s: %s" % (char, str(e)))
 			if original_typed:
 				nvdaGlobalConfig.conf["keyboard"]["speakTypedCharacters"] = original_typed
+
+	def _insertViaWordObjectModel(self, focus, char):
+		# Selection.TypeText inserts at the caret through Word's own object
+		# model, the same as real typing. It never touches the clipboard and
+		# never triggers Word's Paste Options smart tag, unlike Ctrl+V.
+		try:
+			selection = focus.WinwordSelectionObject
+		except AttributeError:
+			return False
+		try:
+			selection.TypeText(char)
+		except COMError:
+			logHandler.log.debugWarning(
+				"WinwordSelectionObject.TypeText failed, falling back to clipboard paste",
+				exc_info=True,
+			)
+			return False
+		return True
+
+	def _pasteAndAnnounce(self, char, original_typed):
+		keyboardHandler.KeyboardInputGesture.fromName("control+v").send()
+		self._announce_and_restore(char, original_typed)
 
 	def _announce_and_restore(self, char, original_typed):
 		speech.speakText(char)
@@ -260,3 +300,4 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		except ValueError:
 			pass
 		super(GlobalPlugin, self).terminate()
+

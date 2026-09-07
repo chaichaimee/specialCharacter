@@ -1,71 +1,227 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>specialCharacter NVDA Add-on</title>
+<meta charset="UTF-8">
+<title>Special Character NVDA Add-on</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    text-align: center;
+}
+b {
+    font-weight: bold;
+}
+.section {
+    margin-bottom: 30px;
+}
+.nvda-logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 120px;
+    height: auto;
+}
+.hotkey {
+    background: #f8f9fa;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 0 4px 4px 0;
+}
+.tap-explanation {
+    background: #e8f4fc;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.feature-item {
+    margin: 15px 0;
+    padding-left: 10px;
+}
+.note {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 0 4px 4px 0;
+}
+</style>
 </head>
 <body>
-    <div style="text-align: center;">
-        <img src="https://www.nvaccess.org/wp-content/uploads/2015/10/NVDA_logo_200px.png" alt="NVDA Logo">
-        <h1>specialCharacter</h1>
-    </div>
 
+<div class="container">
+
+<div class="section">
+    <img src="https://www.nvaccess.org/files/nvda/documentation/userGuide/images/nvda.ico" alt="NVDA Logo" class="nvda-logo">
+    <h1>Special Character</h1>
     <br>
+    <p style="text-align: center;">Type any special character, anywhere, instantly.</p>
+</div>
+<br>
+<div class="section">
+    <p style="text-align: center;"><b>author:</b> chai chaimee</p>
+    <p style="text-align: center;"><b>url:</b> https://github.com/chaichaimee/SpecialCharacter</p>
+</div>
+<br>
 
-    <p><b>Authors:</b> 'chai chaimee</p>
-    <p><b>URL:</b> <a href="https://github.com/chaichaimee/specialCharacter">https://github.com/chaichaimee/specialCharacter</a></p>
+<div class="section">
+<h2>Introduction</h2>
+<br>
+<p>Special Character is an NVDA add-on that lets you insert symbols and special characters &mdash; such as bullets, currency signs, quotation marks, or dashes &mdash; with a single keystroke, in almost any application.</p>
+<br>
+<p>Instead of hunting through the Windows Character Map or memorizing obscure Alt-codes, you press a simple Ctrl+number (or Ctrl+- / Ctrl+=) shortcut and the character is typed for you, announced by speech exactly once.</p>
+<br>
+<p>Two independent sets of 12 characters are available, so you can keep two different collections (for example, everyday symbols in one set and less common ones in another) and switch between them instantly. The add-on can also be fully customized through its own panel in NVDA's Settings dialog, and it can be turned on or off on the fly without leaving your current application.</p>
+</div>
+<br>
 
-    <br>
+<div class="section">
+<h3>Hot Keys</h3>
+<br>
 
-    <h2>Professional Precision in Every Character</h2>
-    <p><b>specialCharacter</b> is a professional-grade NVDA add-on built for users who demand speed and accuracy in document preparation. Whether you are working in <b>Microsoft Office (Word, Excel)</b>, or utilizing advanced <b>Text Editors</b> for coding and plain text documentation, this tool streamlines your input process significantly.</p>
-    
-    <p>Say goodbye to the tedious process of memorizing and typing complex 4-digit <b>Alt codes</b>. This add-on replaces those archaic commands with streamlined shortcuts, allowing you to insert official symbols, technical marks, and specialized punctuation instantly. It ensures your reports and data tables maintain professional standards without breaking your typing rhythm.</p>
+<div class="hotkey">
+<b>Ctrl+1</b> through <b>Ctrl+9</b>, <b>Ctrl+0</b>, <b>Ctrl+-</b>, <b>Ctrl+=</b><br>
+Single Tap : Insert the character stored in that slot (12 customizable slots) for the currently active set
+</div>
 
-    <br>
+<div class="hotkey">
+<b>Shift+Windows+|</b><br>
+Single Tap : Insert a vertical bar ( | )
+</div>
 
-    <h2>Features:</h2>
-    <ul>
-        <li><b>High-Speed Character Entry:</b> Replace traditional Alt code sequences with direct keyboard shortcuts. What used to take multiple keystrokes now happens in a single strike.</li>
-        <li><b>Versatile Environment Support:</b> Optimized for seamless performance across Microsoft Office suites and various Text Editors, ensuring consistency across all your professional platforms.</li>
-        <li><b>Customizable Character Workflow:</b> Features two primary sets (Set 1 and Set 2) that are fully adaptable. You can modify, rearrange, or update characters through the NVDA settings to fit your specific industry requirements.</li>
-    </ul>
+<div class="hotkey">
+<b>Shift+Windows+.</b><br>
+Single Tap : Insert an en dash ( &ndash; )
+</div>
 
-    <br>
+<div class="hotkey">
+<b>Shift+Windows+/</b><br>
+Single Tap : Insert an em dash ( &mdash; )
+</div>
 
-    <h3>Hotkeys:</h3>
-    <ul>
-        <li><b>Ctrl+0 to Ctrl+9, Ctrl+Minus (-), and Ctrl+Equals (=):</b> Instantly output special characters from your active configuration.</li>
-        <li><b>Shift+Windows+. :</b> Insert En Dash (–) – Used for connecting numerical ranges (e.g., 2020–2025).</li>
-        <li><b>Shift+Windows+/ :</b> Insert Em Dash (—) – Used for professional textual breaks and elaborations.</li>
-        <li><b>Shift+Backspace (Single tap):</b> Instantly switches between Set 1 and Set 2.</li>
-        <li><b>Shift+Backspace (Double tap):</b> Toggles the add-on's functionality on or off.</li>
-    </ul>
+<div class="hotkey">
+<b>Shift+Backspace</b><br>
+Single Tap : Switch between Character Set 1 and Character Set 2<br>
+Double Tap (within half a second) : Turn the Special Character add-on on or off
+</div>
 
-    <p><i>** All keyboard shortcuts can be fully reconfigured in the NVDA Input Gestures menu.</i></p>
+</div>
+<br>
 
-    <br>
+<div class="section">
+<h2>Features</h2>
+<br>
 
-    <h3>Configuration:</h3>
-    <p>Access settings via: <b>NVDA menu → Preferences → Settings → Special Characters</b> to manage your professional character sets.</p>
+<div class="feature-item">
+<h3>1. Twelve-Slot Character Sets (Set 1 and Set 2)</h3>
+<br>
+<p>Every character is stored in one of 12 slots, mapped to Ctrl+1, Ctrl+2 &hellip; Ctrl+9, Ctrl+0, Ctrl+-, and Ctrl+=. There are two complete sets of these 12 slots, so you can maintain two different symbol collections and flip between them with Shift+Backspace.</p>
+<br>
+<p>Out of the box, some slots already contain ready-to-use characters, for example a bullet (&bull;), a pair of parentheses, the Thai baht sign (&#3647;), and the Euro sign (&euro;) in Set 1, and a single quote, a double quote, and an ellipsis (&hellip;) in Set 2. The remaining slots are left for you to fill in with the characters you use most.</p>
+</div>
+
+<div class="feature-item">
+<h3>2. Built-in Settings Panel</h3>
+<br>
+<p>The add-on registers its own page directly inside NVDA's Settings dialog (under "Special Character Settings"). From there you can:</p>
+<br>
+<p>&bull; Choose Set 1 or Set 2 from a combo box.<br>
+&bull; Type or edit the character assigned to each of the 12 slots in its own text field.<br>
+&bull; Switch between sets inside the panel itself; your edits to the set you were viewing are kept automatically when you switch.<br>
+&bull; Press OK to save everything to disk in one go.</p>
+</div>
+
+<div class="feature-item">
+<h3>3. Context-Aware Insertion Logic</h3>
+<br>
+<p>When you press a shortcut, the add-on looks at the application that currently has focus and chooses the safest way to type the character into it. Step by step, this is what happens:</p>
+<br>
+<p>1. It reads the name of the focused application's module.<br>
+2. If the application is Microsoft Word, it first tries to insert the character straight through Word's own object model (Selection.TypeText). This behaves like real typing, never touches the clipboard, and avoids Word's "Paste Options" pop-up. If that call fails, it falls back to copying the character to the clipboard and simulating Ctrl+V.<br>
+3. If the application is a web browser (Chrome, Firefox, Brave, Edge, or Safari), characters that are also ordinary keyboard keys &mdash; the double quote, forward slash, backslash, period, and vertical bar &mdash; are sent directly as a key press. Any other character is copied to the clipboard and pasted after a short 40&nbsp;millisecond delay, which gives the browser's clipboard reader time to see the updated contents before the paste happens.<br>
+4. If a braille display with braille input is connected, the character is sent through the braille input handler instead.<br>
+5. If the focused control exposes a direct text-insertion method, the add-on uses that.<br>
+6. As a last resort, in any other situation, the character is copied to the clipboard and pasted with a short delay, the same as the browser fallback.</p>
+<br>
+<p>After the character has been inserted, NVDA speaks it exactly once.</p>
+</div>
+
+<div class="feature-item">
+<h3>4. Dual Compatibility With Old and New NVDA Keyboard APIs</h3>
+<br>
+<p>On startup, the add-on checks whether the newer <code>winBindings.user32</code> keyboard API is available (introduced in 64-bit builds of NVDA 2026.1). If it is, the add-on uses that modern API for any low-level key simulation it needs in Word; otherwise it automatically falls back to the older <code>winUser</code> API, so the same shortcuts work correctly on both older and newer, 32-bit and 64-bit, installations of NVDA.</p>
+<br>
+<p>In both cases, the add-on temporarily turns off NVDA's "speak typed characters" option while it inserts a character, then restores your original setting right afterward and speaks the character itself, so you never hear it announced twice.</p>
+</div>
+
+<div class="feature-item">
+<h3>5. Smart Tap Counting on Shift+Backspace</h3>
+<br>
+<div class="tap-explanation">
+<p>Pressing Shift+Backspace does not act immediately. Instead, the add-on waits half a second to see whether you press it again:</p>
+<br>
+<p>&bull; If only one press happens within that half-second window, it switches the active character set (Set 1 &harr; Set 2) and announces which set is now active.<br>
+&bull; If a second press (or more) happens within the same window, it instead toggles the entire add-on on or off, announcing the new state.</p>
+<br>
+<p>This lets a single, easy-to-remember key combination cover two related actions without needing two separate shortcuts.</p>
+</div>
+</div>
+
+<div class="feature-item">
+<h3>6. Independent Dash and Bar Shortcuts</h3>
+<br>
+<p>Three characters that are commonly needed while writing &mdash; the vertical bar, the en dash, and the em dash &mdash; have their own dedicated shortcuts (Shift+Windows+|, Shift+Windows+., and Shift+Windows+/) so you don't need to use up a numbered slot for them.</p>
+</div>
+
+<div class="feature-item">
+<h3>7. Persistent, Auto-Migrating Configuration</h3>
+<br>
+<p>Your character sets are saved as a JSON file named <code>specialCharacters.json</code> inside a <code>ChaiChaimee</code> subfolder of your NVDA user configuration folder, so your custom characters are kept between NVDA sessions and updates.</p>
+<br>
+<p>If the add-on detects a configuration file left over from an older version directly in the main NVDA configuration folder, it automatically copies its contents into the new subfolder location and only removes the old file once the copy has been verified, so your existing customizations are never lost during an upgrade.</p>
+</div>
+
+<div class="feature-item">
+<h3>8. Enable / Disable Without Losing Settings</h3>
+<br>
+<p>Turning the add-on off (via a double tap of Shift+Backspace) simply stops it from responding to the character shortcuts; your configured sets remain saved and are used again as soon as you turn the add-on back on.</p>
+</div>
+
+</div>
+<br>
+
+<div class="note">
+<p><b>Note:</b> The character-insertion shortcuts (Ctrl+1&ndash;0, Ctrl+-, Ctrl+=) are only available while the add-on is enabled. If nothing happens when you press one, check whether the add-on has been turned off with a double tap of Shift+Backspace.</p>
+</div>
+
 <br><br>
 <h2>Support Me</h2>
     <p>If this tool has made your life easier, consider fueling the next update with a small donation.</p>
-
 <br>
-
 <p>
   <a href="https://buy.stripe.com/dRm9AU1xQ3Ds22N6VK1VK01">
     <img src="https://img.shields.io/badge/Donate-Support%20Me-blue?style=for-the-badge&logo=stripe" alt="Support me">
   </a>
 </p>
 <br>
-
-
 <p>Your support means the world. Let's build something great together</p>
-
 <br>
-
   <div class="footer-note">
-<p>&copy; 2026 Chai Chaimee NVDA Add-on Released under GN
+<p>&copy; 2026 Chai Chaimee NVDA Add-on Released under GNU GPL</p>
+</div>
+
+</div> <!-- End container -->
+</body>
+</html>

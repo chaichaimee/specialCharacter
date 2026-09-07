@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: specialCharacter 2026.5.1\n"
+"Project-Id-Version: specialCharacter 2026.9.9\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-05-01 10:03+0700\n"
-"PO-Revision-Date: 2026-05-01 11:58+0700\n"
+"POT-Creation-Date: 2026-09-07 11:31+0700\n"
+"PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Portuguese (Brazil)\n"
 "Language: pt_BR\n"
@@ -12,8 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: DevOn Addon\n"
 
-#: __init__.py:99
-#: __init__.py:149
+#: __init__.py:113
+#: __init__.py:174
 msgid "Cannot insert character"
 msgstr "Não é possível inserir o caractere"
 
@@ -25,7 +25,7 @@ msgstr "A configuração está armazenada em specialCharacters.json na subpasta 
 msgid "Could not migrate old configuration file: %s"
 msgstr "Não foi possível migrar o antigo arquivo de configuração: %s"
 
-#: __init__.py:59
+#: __init__.py:60
 msgid "Error registering settings panel"
 msgstr "Erro ao registrar o painel de configurações"
 
@@ -37,63 +37,63 @@ msgstr "Erro ao salvar as configurações de caracteres especiais"
 msgid "Error saving special characters configuration: %s"
 msgstr "Erro ao salvar a configuração de caracteres especiais: %s"
 
-#: __init__.py:205
+#: __init__.py:252
 msgid "Insert Slot 0"
 msgstr "Inserir Slot 0"
 
-#: __init__.py:187
+#: __init__.py:234
 msgid "Insert Slot 1"
 msgstr "Inserir Slot 1"
 
-#: __init__.py:189
+#: __init__.py:236
 msgid "Insert Slot 2"
 msgstr "Inserir Slot 2"
 
-#: __init__.py:191
+#: __init__.py:238
 msgid "Insert Slot 3"
 msgstr "Inserir Slot 3"
 
-#: __init__.py:193
+#: __init__.py:240
 msgid "Insert Slot 4"
 msgstr "Inserir Slot 4"
 
-#: __init__.py:195
+#: __init__.py:242
 msgid "Insert Slot 5"
 msgstr "Inserir Slot 5"
 
-#: __init__.py:197
+#: __init__.py:244
 msgid "Insert Slot 6"
 msgstr "Inserir Slot 6"
 
-#: __init__.py:199
+#: __init__.py:246
 msgid "Insert Slot 7"
 msgstr "Inserir Slot 7"
 
-#: __init__.py:201
+#: __init__.py:248
 msgid "Insert Slot 8"
 msgstr "Inserir Slot 8"
 
-#: __init__.py:203
+#: __init__.py:250
 msgid "Insert Slot 9"
 msgstr "Inserir Slot 9"
 
-#: __init__.py:209
+#: __init__.py:256
 msgid "Insert Slot equals"
 msgstr "Inserir Slot igual"
 
-#: __init__.py:207
+#: __init__.py:254
 msgid "Insert Slot hyphen"
 msgstr "Inserir Slot hífen"
 
-#: __init__.py:212
+#: __init__.py:259
 msgid "Insert vertical bar"
 msgstr "Inserir barra vertical"
 
-#: __init__.py:218
+#: __init__.py:265
 msgid "Insert –"
 msgstr "Inserir – (meia-risca)"
 
-#: __init__.py:224
+#: __init__.py:271
 msgid "Insert —"
 msgstr "Inserir — (travessão)"
 
@@ -157,11 +157,11 @@ msgstr "Slot 9"
 msgid "Slot ="
 msgstr "Slot ="
 
-#: __init__.py:246
+#: __init__.py:293
 msgid "Special Character %s"
 msgstr "Caractere Especial %s"
 
-#: __init__.py:179
+#: __init__.py:226
 msgid "Special Character Add-on is currently disabled."
 msgstr "O complemento de Caracteres Especiais está desativado no momento."
 
@@ -173,18 +173,18 @@ msgstr "Configurações de Caracteres Especiais"
 msgid "Special character settings saved successfully"
 msgstr "Configurações de caracteres especiais salvas com sucesso"
 
-#: __init__.py:242
+#: __init__.py:289
 msgid "Switched set %s"
 msgstr "Mudou para o conjunto %s"
 
-#: __init__.py:230
+#: __init__.py:277
 msgid "Toggle character set or add-on"
 msgstr "Alternar conjunto de caracteres ou complemento"
 
-#: __init__.py:245
+#: __init__.py:292
 msgid "off"
 msgstr "desligado"
 
-#: __init__.py:245
+#: __init__.py:292
 msgid "on"
 msgstr "ligado"

@@ -1,73 +1,227 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>specialCharacter NVDA Add-on</title>
+<meta charset="UTF-8">
+<title>Special Character NVDA Add-on</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    text-align: center;
+}
+b {
+    font-weight: bold;
+}
+.section {
+    margin-bottom: 30px;
+}
+.nvda-logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 120px;
+    height: auto;
+}
+.hotkey {
+    background: #f8f9fa;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 0 4px 4px 0;
+}
+.tap-explanation {
+    background: #e8f4fc;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.feature-item {
+    margin: 15px 0;
+    padding-left: 10px;
+}
+.note {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 0 4px 4px 0;
+}
+</style>
 </head>
 <body>
-    <div style="text-align: center;">
-        <img src="https://www.nvaccess.org/wp-content/uploads/2015/10/NVDA_logo_200px.png" alt="NVDA Logo">
-        <h1>specialCharacter</h1>
-    </div>
 
+<div class="container">
+
+<div class="section">
+    <img src="https://www.nvaccess.org/files/nvda/documentation/userGuide/images/nvda.ico" alt="NVDA Logo" class="nvda-logo">
+    <h1>Special Character</h1>
     <br>
-
-    <p><b>Autores:</b> 'chai chaimee</p>
-    <p><b>URL:</b> <a href="https://github.com/chaichaimee/specialCharacter">https://github.com/chaichaimee/specialCharacter</a></p>
-
-    <br>
-
-    <h2>Precisión Profesional en Cada Carácter</h2>
-    <p><b>specialCharacter</b> es un complemento de NVDA de nivel profesional diseñado para usuarios que exigen rapidez y exactitud en la preparación de documentos. Ya sea que trabaje en <b>Microsoft Office (Word, Excel)</b> o utilice <b>editores de texto</b> avanzados para programación, esta herramienta optimiza su flujo de trabajo significativamente.</p>
-    
-    <p>Diga adiós a la tediosa tarea de memorizar y escribir complejos <b>códigos Alt</b> de 4 dígitos. Este complemento reemplaza esos comandos arcaicos con atajos optimizados, permitiéndole insertar símbolos oficiales, marcas técnicas y puntuación especializada de forma instantánea. Asegure que sus informes mantengan estándares profesionales sin romper su ritmo de escritura.</p>
-
-    <br>
-
-    <h2>Características:</h2>
-    <ul>
-        <li><b>Entrada de Caracteres a Alta Velocidad:</b> Reemplace las secuencias de códigos Alt tradicionales con atajos directos. Lo que antes requería múltiples pulsaciones, ahora se logra con una sola.</li>
-        <li><b>Compatibilidad Versátil:</b> Optimizado para un rendimiento fluido en la suite de Microsoft Office y diversos editores de texto, garantizando consistencia en todas sus plataformas.</li>
-        <li><b>Flujo de Trabajo Personalizable:</b> Cuenta con dos conjuntos principales (Set 1 y Set 2) totalmente adaptables. Puede modificar, reorganizar o actualizar los caracteres desde los ajustes de NVDA según sus necesidades industriales.</li>
-    </ul>
-
-    <br>
-
-    <h3>Teclas de Acceso Rápido:</h3>
-    <ul>
-        <li><b>Ctrl+0 a Ctrl+9, Ctrl+Menos (-), y Ctrl+Igual (=):</b> Inserta instantáneamente los caracteres especiales de su configuración activa.</li>
-        <li><b>Mayús+Windows+. :</b> Inserta el guion corto (–) – Utilizado para rangos numéricos (ej. 2020–2025).</li>
-        <li><b>Mayús+Windows+/ :</b> Inserta el guion largo (—) – Utilizado para incisos y aclaraciones profesionales en el texto.</li>
-        <li><b>Mayús+Retroceso (Un toque):</b> Cambia instantáneamente entre el Set 1 y el Set 2.</li>
-        <li><b>Mayús+Retroceso (Doble toque):</b> Activa o desactiva la funcionalidad del complemento.</li>
-    </ul>
-
-    <p><i>** Todos los atajos de teclado pueden reconfigurarse por completo en el menú de Gestos de entrada de NVDA.</i></p>
-
-    <br>
-
-    <h3>Configuración:</h3>
-    <p>Acceda a los ajustes mediante: <b>Menú NVDA → Preferencias → Opciones → Special Characters</b> para gestionar sus conjuntos de caracteres profesionales.</p>
-<br><br>
-<h2>Apóyame</h2>
-    <p>Si esta herramienta ha facilitado tu vida, considera impulsar la próxima actualización con una pequeña donación.</p>
-
+    <p style="text-align: center;">Escribe cualquier carácter especial, en cualquier lugar, al instante.</p>
+</div>
+<br>
+<div class="section">
+    <p style="text-align: center;"><b>autor:</b> chai chaimee</p>
+    <p style="text-align: center;"><b>url:</b> https://github.com/chaichaimee/SpecialCharacter</p>
+</div>
 <br>
 
+<div class="section">
+<h2>Introducción</h2>
+<br>
+<p>Special Character es un complemento para NVDA que te permite insertar símbolos y caracteres especiales &mdash;como viñetas, signos de moneda, comillas o guiones&mdash; con una sola pulsación de tecla, en casi cualquier aplicación.</p>
+<br>
+<p>En lugar de buscar en el Mapa de caracteres de Windows o memorizar códigos Alt oscuros, presionas un atajo simple de Ctrl+número (o Ctrl+- / Ctrl+=) y el carácter se escribe por ti, anunciado por la voz exactamente una vez.</p>
+<br>
+<p>Hay disponibles dos conjuntos independientes de 12 caracteres, lo que te permite mantener dos colecciones diferentes (por ejemplo, símbolos cotidianos en un conjunto y menos comunes en otro) y cambiar entre ellos al instante. El complemento también se puede personalizar por completo a través de su propio panel en el diálogo de Configuración de NVDA, y se puede activar o desactivar sobre la marcha sin abandonar tu aplicación actual.</p>
+</div>
+<br>
+
+<div class="section">
+<h3>Atajos de teclado</h3>
+<br>
+
+<div class="hotkey">
+<b>Ctrl+1</b> a <b>Ctrl+9</b>, <b>Ctrl+0</b>, <b>Ctrl+-</b>, <b>Ctrl+=</b><br>
+Una pulsación: Inserta el carácter almacenado en esa ranura (12 ranuras personalizables) para el conjunto activo actualmente
+</div>
+
+<div class="hotkey">
+<b>Shift+Windows+|</b><br>
+Una pulsación: Inserta una barra vertical ( | )
+</div>
+
+<div class="hotkey">
+<b>Shift+Windows+.</b><br>
+Una pulsación: Inserta un guion en ( &ndash; )
+</div>
+
+<div class="hotkey">
+<b>Shift+Windows+/</b><br>
+Una pulsación: Inserta un guion em ( &mdash; )
+</div>
+
+<div class="hotkey">
+<b>Shift+Retroceso (Backspace)</b><br>
+Una pulsación: Cambia entre el Conjunto de caracteres 1 y el Conjunto de caracteres 2<br>
+Doble pulsación (en medio segundo): Activa o desactiva el complemento Special Character
+</div>
+
+</div>
+<br>
+
+<div class="section">
+<h2>Características</h2>
+<br>
+
+<div class="feature-item">
+<h3>1. Conjuntos de caracteres de doce ranuras (Conjunto 1 y Conjunto 2)</h3>
+<br>
+<p>Cada carácter se almacena en una de las 12 ranuras, asignadas a Ctrl+1, Ctrl+2 &hellip; Ctrl+9, Ctrl+0, Ctrl+-, y Ctrl+=. Hay dos conjuntos completos de estas 12 ranuras, por lo que puedes mantener dos colecciones de símbolos diferentes y alternar entre ellas con Shift+Retroceso.</p>
+<br>
+<p>De manera predeterminada, algunas ranuras ya contienen caracteres listos para usar, por ejemplo, una viñeta (&bull;), un par de paréntesis, el signo de baht tailandés (&#3647;) y el signo de euro (&euro;) en el Conjunto 1, y una comilla simple, una comilla doble y unos puntos suspensivos (&hellip;) en el Conjunto 2. Las ranuras restantes quedan libres para que las llenes con los caracteres que más uses.</p>
+</div>
+
+<div class="feature-item">
+<h3>2. Panel de configuración integrado</h3>
+<br>
+<p>El complemento registra su propia página directamente dentro del diálogo de Configuración de NVDA (en "Special Character Settings"). Desde allí puedes:</p>
+<br>
+<p>&bull; Elegir el Conjunto 1 o el Conjunto 2 desde un cuadro combinado.<br>
+&bull; Escribir o editar el carácter asignado a cada una de las 12 ranuras en su propio campo de texto.<br>
+&bull; Cambiar entre conjuntos dentro del propio panel; tus ediciones en el conjunto que estabas viendo se guardan automáticamente al cambiar.<br>
+&bull; Pulsar Aceptar para guardar todo en el disco de una vez.</p>
+</div>
+
+<div class="feature-item">
+<h3>3. Lógica de inserción consciente del contexto</h3>
+<br>
+<p>Cuando presionas un atajo, el complemento examina la aplicación que tiene el foco actualmente y elige la forma más segura de escribir el carácter en ella. Paso a paso, esto es lo que ocurre:</p>
+<br>
+<p>1. Lee el nombre del módulo de la aplicación enfocada.<br>
+2. Si la aplicación es Microsoft Word, primero intenta insertar el carácter directamente a través del modelo de objetos propio de Word (Selection.TypeText). Esto se comporta como la escritura real, nunca toca el portapapeles y evita la ventana emergente de "Opciones de pegado" de Word. Si esa llamada falla, recurre a copiar el carácter al portapapeles y simular Ctrl+V.<br>
+3. Si la aplicación es un navegador web (Chrome, Firefox, Brave, Edge o Safari), los caracteres que también son teclas normales del teclado &mdash;las comillas dobles, la barra diagonal, la barra diagonal inversa, el punto y la barra vertical&mdash; se envían directamente como una pulsación de tecla. Cualquier otro carácter se copia al portapapeles y se pega después de un breve retraso de 40&nbsp;milisegundos, lo que da tiempo al lector del portapapeles del navegador para ver el contenido actualizado antes de que ocurra el pegado.<br>
+4. Si hay conectada una línea braille con entrada braille, el carácter se envía a través del controlador de entrada braille en su lugar.<br>
+5. Si el control enfocado expone un método directo de inserción de texto, el complemento lo utiliza.<br>
+6. Como último recurso, en cualquier otra situación, el carácter se copia al portapapeles y se pega con un breve retraso, igual que el mecanismo alternativo del navegador.</p>
+<br>
+<p>Una vez que se ha insertado el carácter, NVDA lo lee exactamente una vez.</p>
+</div>
+
+<div class="feature-item">
+<h3>4. Compatibilidad dual con las APIs de teclado de NVDA antiguas y nuevas</h3>
+<br>
+<p>Al iniciarse, el complemento comprueba si la API de teclado más nueva <code>winBindings.user32</code> está disponible (introducida en las compilaciones de 64 bits de NVDA 2026.1). Si lo está, el complemento utiliza esa API moderna para cualquier simulación de teclas de bajo nivel que necesite en Word; de lo contrario, recurre automáticamente a la API anterior <code>winUser</code>, por lo que los mismos atajos funcionan correctamente tanto en instalaciones de NVDA anteriores como más recientes, de 32 y 64 bits.</p>
+<br>
+<p>En ambos casos, el complemento desactiva temporalmente la opción de NVDA "anunciar caracteres escritos" mientras inserta un carácter, luego restaura tu configuración original inmediatamente después y enuncia el carácter por sí mismo, para que nunca lo escuches anunciado dos veces.</p>
+</div>
+
+<div class="feature-item">
+<h3>5. Conteo inteligente de pulsaciones en Shift+Retroceso</h3>
+<br>
+<div class="tap-explanation">
+<p>Presionar Shift+Retroceso no actúa de inmediato. En su lugar, el complemento espera medio segundo para ver si lo presionas de nuevo:</p>
+<br>
+<p>&bull; Si solo ocurre una pulsación dentro de esa ventana de medio segundo, cambia el conjunto de caracteres activo (Conjunto 1 &harr; Conjunto 2) y anuncia qué conjunto está activo ahora.<br>
+&bull; Si ocurre una segunda pulsación (o más) dentro de la misma ventana, en su lugar activa o desactiva todo el complemento, anunciando el nuevo estado.</p>
+<br>
+<p>Esto permite que una sola combinación de teclas fácil de recordar cubra dos acciones relacionadas sin necesidad de dos atajos separados.</p>
+</div>
+</div>
+
+<div class="feature-item">
+<h3>6. Atajos independientes para guiones y barra</h3>
+<br>
+<p>Tres caracteres que se necesitan comúnmente al escribir &mdash;la barra vertical, el guion en y el guion em&mdash; tienen sus propios atajos dedicados (Shift+Windows+|, Shift+Windows+. y Shift+Windows+/) para que no tengas que agotar una ranura numerada para ellos.</p>
+</div>
+
+<div class="feature-item">
+<h3>7. Configuración persistente y de migración automática</h3>
+<br>
+<p>Tus conjuntos de caracteres se guardan como un archivo JSON llamado <code>specialCharacters.json</code> dentro de una subcarpeta <code>ChaiChaimee</code> de tu carpeta de configuración de usuario de NVDA, por lo que tus caracteres personalizados se conservan entre sesiones y actualizaciones de NVDA.</p>
+<br>
+<p>Si el complemento detecta un archivo de configuración sobrante de una versión anterior directamente en la carpeta de configuración principal de NVDA, copia automáticamente su contenido en la nueva ubicación de la subcarpeta y solo elimina el archivo antiguo una vez que se ha verificado la copia, para que tus personalizaciones existentes nunca se pierdan durante una actualización.</p>
+</div>
+
+<div class="feature-item">
+<h3>8. Activar / Desactivar sin perder la configuración</h3>
+<br>
+<p>Desactivar el complemento (mediante una doble pulsación de Shift+Retroceso) simplemente hace que deje de responder a los atajos de caracteres; tus conjuntos configurados permanecen guardados y se vuelven a usar tan pronto como vuelvas a activar el complemento.</p>
+</div>
+
+</div>
+<br>
+
+<div class="note">
+<p><b>Nota:</b> Los atajos de inserción de caracteres (Ctrl+1&ndash;0, Ctrl+-, Ctrl+=) solo están disponibles mientras el complemento está habilitado. Si no pasa nada cuando presionas uno, comprueba si el complemento se ha desactivado con una doble pulsación de Shift+Retroceso.</p>
+</div>
+
+<br><br>
+<h2>Apóyame</h2>
+    <p>Si esta herramienta te ha facilitado la vida, considera impulsar la próxima actualización con una pequeña donación.</p>
+<br>
 <p>
   <a href="https://buy.stripe.com/dRm9AU1xQ3Ds22N6VK1VK01">
-    <img src="https://img.shields.io/badge/Donar-Apóyame-blue?style=for-the-badge&logo=stripe" alt="Support me">
+    <img src="https://img.shields.io/badge/Donate-Support%20Me-blue?style=for-the-badge&logo=stripe" alt="Support me">
   </a>
 </p>
 <br>
-
-<p>Tu apoyo lo significa todo. ¡Construyamos algo grandioso juntos!</p>
-
+<p>Tu apoyo significa el mundo. Construyamos algo grandioso juntos</p>
 <br>
-
   <div class="footer-note">
-<p>&copy; 2026 Chai Chaimee NVDA Add-on Lanzado bajo GNU GPL</p>
+<p>&copy; 2026 Complemento NVDA de Chai Chaimee publicado bajo GNU GPL</p>
 </div>
+
+</div> <!-- End container -->
 </body>
 </html>
