@@ -1,16 +1,15 @@
 # settingsDialog.py
 
+import copy
 import wx
 import gui
 import addonHandler
 import ui
 from gui.settingsDialogs import SettingsPanel
 from . import config
-import gettext
 
 # Initialize translation function for this module
 addonHandler.initTranslation()
-_ = gettext.gettext
 
 class SpecialCharacterSettingsPanel(SettingsPanel):
 	"""
@@ -22,8 +21,7 @@ class SpecialCharacterSettingsPanel(SettingsPanel):
 		"""Create the settings controls."""
 		self.controls = {}
 		
-		# Add a note about the save location (updated to reflect new subfolder)
-		note = wx.StaticText(self, label=_("Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."))
+		note = wx.StaticText(self, label=_("Configuration is stored in specialCharacters.json in the ChaiChaimee\\specialCharacter subfolder of NVDA user config folder."))
 		settingsSizer.Add(note, flag=wx.ALL | wx.EXPAND, border=10)
 		
 		# Set selection Combo Box
@@ -67,20 +65,21 @@ class SpecialCharacterSettingsPanel(SettingsPanel):
 			
 		settingsSizer.Add(self.grid_sizer, flag=wx.ALL | wx.EXPAND, border=10)
 
-		# Load initial values
+		# Edit a private copy so Cancel does not leak half-edited values into the live config
+		self.workingConfig = copy.deepcopy(config.special_characters)
 		self.active_set = 1
 		self.load_set_values(self.active_set)
 
 	def load_set_values(self, set_num):
 		"""Loads values from the config into the edit fields for the current set."""
 		for key in self.key_gestures:
-			char_value = config.get_char(key, set_num)
+			char_value = self.workingConfig.get(f"set{set_num}", {}).get(key, "")
 			self.controls[key].SetValue(char_value)
 			
 	def save_current_set_values(self):
 		"""Saves current values from edit fields back into the config."""
 		for key in self.key_gestures:
-			config.set_char(key, self.active_set, self.controls[key].GetValue())
+			self.workingConfig.setdefault(f"set{self.active_set}", {})[key] = self.controls[key].GetValue()
 
 	def on_set_change(self, evt):
 		"""Handles changing between Set 1 and Set 2."""
@@ -99,7 +98,7 @@ class SpecialCharacterSettingsPanel(SettingsPanel):
 		self.save_current_set_values()
 		
 		# Save the configuration to file
-		if config.update_and_save_config(config.special_characters):
+		if config.update_and_save_config(copy.deepcopy(self.workingConfig)):
 			ui.message(_("Special character settings saved successfully"))
 		else:
 			ui.message(_("Error saving special character settings"))

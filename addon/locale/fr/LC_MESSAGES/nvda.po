@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: specialCharacter 2026.9.9\n"
+"Project-Id-Version: specialCharacter 2026.11.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-09-07 11:31+0700\n"
+"POT-Creation-Date: 2026-11-16 08:03+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: French\n"
@@ -10,181 +10,177 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: DevOn Addon\n"
+"X-Generator: ChaiBot Addon\n"
 
-#: __init__.py:113
-#: __init__.py:174
+#: addonCore.py:117
+#: addonCore.py:180
 msgid "Cannot insert character"
 msgstr "Impossible d'insérer le caractère"
 
-#: settingsDialog.py:26
-msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
-msgstr "La configuration est stockée dans specialCharacters.json dans le sous-dossier ChaiChaimee du dossier de configuration utilisateur de NVDA."
+#: settingsDialog.py:24
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee\\specialCharacter subfolder of NVDA user config folder."
+msgstr "La configuration est enregistrée dans le fichier specialCharacters.json, dans le sous-dossier ChaiChaimee\\specialCharacter du dossier de configuration utilisateur de NVDA."
 
-#: config.py:118
+#: config.py:83
 msgid "Could not migrate old configuration file: %s"
 msgstr "Impossible de migrer l'ancien fichier de configuration : %s"
 
-#: __init__.py:60
+#: addonCore.py:64
 msgid "Error registering settings panel"
 msgstr "Erreur lors de l'enregistrement du panneau de paramètres"
 
-#: settingsDialog.py:105
+#: settingsDialog.py:104
 msgid "Error saving special character settings"
 msgstr "Erreur lors de l'enregistrement des paramètres des caractères spéciaux"
 
-#: config.py:151
+#: config.py:126
 msgid "Error saving special characters configuration: %s"
 msgstr "Erreur lors de l'enregistrement de la configuration des caractères spéciaux : %s"
 
-#: __init__.py:252
+#: addonCore.py:259
 msgid "Insert Slot 0"
 msgstr "Insérer l'emplacement 0"
 
-#: __init__.py:234
+#: addonCore.py:241
 msgid "Insert Slot 1"
 msgstr "Insérer l'emplacement 1"
 
-#: __init__.py:236
+#: addonCore.py:243
 msgid "Insert Slot 2"
 msgstr "Insérer l'emplacement 2"
 
-#: __init__.py:238
+#: addonCore.py:245
 msgid "Insert Slot 3"
 msgstr "Insérer l'emplacement 3"
 
-#: __init__.py:240
+#: addonCore.py:247
 msgid "Insert Slot 4"
 msgstr "Insérer l'emplacement 4"
 
-#: __init__.py:242
+#: addonCore.py:249
 msgid "Insert Slot 5"
 msgstr "Insérer l'emplacement 5"
 
-#: __init__.py:244
+#: addonCore.py:251
 msgid "Insert Slot 6"
 msgstr "Insérer l'emplacement 6"
 
-#: __init__.py:246
+#: addonCore.py:253
 msgid "Insert Slot 7"
 msgstr "Insérer l'emplacement 7"
 
-#: __init__.py:248
+#: addonCore.py:255
 msgid "Insert Slot 8"
 msgstr "Insérer l'emplacement 8"
 
-#: __init__.py:250
+#: addonCore.py:257
 msgid "Insert Slot 9"
 msgstr "Insérer l'emplacement 9"
 
-#: __init__.py:256
+#: addonCore.py:263
 msgid "Insert Slot equals"
 msgstr "Insérer l'emplacement égal"
 
-#: __init__.py:254
+#: addonCore.py:261
 msgid "Insert Slot hyphen"
 msgstr "Insérer l'emplacement trait d'union"
 
-#: __init__.py:259
+#: addonCore.py:282
+msgid "Insert em dash"
+msgstr "Insérer un tiret cadratin"
+
+#: addonCore.py:274
+msgid "Insert en dash"
+msgstr "Insérer un tiret demi-cadratin"
+
+#: addonCore.py:266
 msgid "Insert vertical bar"
 msgstr "Insérer une barre verticale"
 
-#: __init__.py:265
-msgid "Insert –"
-msgstr "Insérer – (tiret demi-cadratin)"
-
-#: __init__.py:271
-msgid "Insert —"
-msgstr "Insérer — (tiret cadratin)"
-
-#: settingsDialog.py:31
+#: settingsDialog.py:29
 msgid "Select Character Set:"
 msgstr "Sélectionner le jeu de caractères :"
 
-#: settingsDialog.py:34
+#: settingsDialog.py:32
 msgid "Set 1"
 msgstr "Jeu 1"
 
-#: settingsDialog.py:34
+#: settingsDialog.py:32
 msgid "Set 2"
 msgstr "Jeu 2"
 
-#: settingsDialog.py:55
+#: settingsDialog.py:53
 msgid "Slot -"
 msgstr "Emplacement -"
 
-#: settingsDialog.py:55
+#: settingsDialog.py:53
 msgid "Slot 0"
 msgstr "Emplacement 0"
 
-#: settingsDialog.py:54
+#: settingsDialog.py:52
 msgid "Slot 1"
 msgstr "Emplacement 1"
 
-#: settingsDialog.py:54
+#: settingsDialog.py:52
 msgid "Slot 2"
 msgstr "Emplacement 2"
 
-#: settingsDialog.py:54
+#: settingsDialog.py:52
 msgid "Slot 3"
 msgstr "Emplacement 3"
 
-#: settingsDialog.py:54
+#: settingsDialog.py:52
 msgid "Slot 4"
 msgstr "Emplacement 4"
 
-#: settingsDialog.py:54
+#: settingsDialog.py:52
 msgid "Slot 5"
 msgstr "Emplacement 5"
 
-#: settingsDialog.py:54
+#: settingsDialog.py:52
 msgid "Slot 6"
 msgstr "Emplacement 6"
 
-#: settingsDialog.py:55
+#: settingsDialog.py:53
 msgid "Slot 7"
 msgstr "Emplacement 7"
 
-#: settingsDialog.py:55
+#: settingsDialog.py:53
 msgid "Slot 8"
 msgstr "Emplacement 8"
 
-#: settingsDialog.py:55
+#: settingsDialog.py:53
 msgid "Slot 9"
 msgstr "Emplacement 9"
 
-#: settingsDialog.py:55
+#: settingsDialog.py:53
 msgid "Slot ="
 msgstr "Emplacement ="
 
-#: __init__.py:293
+#: addonCore.py:306
 msgid "Special Character %s"
 msgstr "Caractère spécial %s"
 
-#: __init__.py:226
-msgid "Special Character Add-on is currently disabled."
-msgstr "L'extension Caractères Spéciaux est actuellement désactivée."
-
-#: settingsDialog.py:19
+#: settingsDialog.py:18
 msgid "Special Character Settings"
 msgstr "Paramètres des caractères spéciaux"
 
-#: settingsDialog.py:103
+#: settingsDialog.py:102
 msgid "Special character settings saved successfully"
 msgstr "Paramètres des caractères spéciaux enregistrés avec succès"
 
-#: __init__.py:289
+#: addonCore.py:302
 msgid "Switched set %s"
 msgstr "Passé au jeu %s"
 
-#: __init__.py:277
+#: addonCore.py:290
 msgid "Toggle character set or add-on"
 msgstr "Basculer le jeu de caractères ou l'extension"
 
-#: __init__.py:292
+#: addonCore.py:305
 msgid "off"
 msgstr "désactivé"
 
-#: __init__.py:292
+#: addonCore.py:305
 msgid "on"
 msgstr "activé"

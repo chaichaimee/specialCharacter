@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: specialCharacter 2026.9.9\n"
+"Project-Id-Version: specialCharacter 2026.11.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-09-07 11:31+0700\n"
+"POT-Creation-Date: 2026-11-16 08:03+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Japanese\n"
@@ -10,181 +10,177 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: DevOn Addon\n"
+"X-Generator: ChaiBot Addon\n"
 
-#: __init__.py:113
-#: __init__.py:174
+#: addonCore.py:117
+#: addonCore.py:180
 msgid "Cannot insert character"
 msgstr "文字を挿入できません"
 
-#: settingsDialog.py:26
-msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee subfolder of NVDA user config folder."
-msgstr "設定は NVDA ユーザー設定フォルダー内の ChaiChaimee サブフォルダーにある specialCharacters.json に保存されます。"
+#: settingsDialog.py:24
+msgid "Configuration is stored in specialCharacters.json in the ChaiChaimee\\specialCharacter subfolder of NVDA user config folder."
+msgstr "設定はNVDAユーザー設定フォルダー内のChaiChaimee\\specialCharacterサブフォルダーにあるspecialCharacters.jsonに保存されます。"
 
-#: config.py:118
+#: config.py:83
 msgid "Could not migrate old configuration file: %s"
 msgstr "古い設定ファイルを移行できませんでした: %s"
 
-#: __init__.py:60
+#: addonCore.py:64
 msgid "Error registering settings panel"
 msgstr "設定パネルの登録エラー"
 
-#: settingsDialog.py:105
+#: settingsDialog.py:104
 msgid "Error saving special character settings"
 msgstr "特殊文字設定の保存エラー"
 
-#: config.py:151
+#: config.py:126
 msgid "Error saving special characters configuration: %s"
 msgstr "特殊文字設定の保存中にエラーが発生しました: %s"
 
-#: __init__.py:252
+#: addonCore.py:259
 msgid "Insert Slot 0"
 msgstr "スロット 0 を挿入"
 
-#: __init__.py:234
+#: addonCore.py:241
 msgid "Insert Slot 1"
 msgstr "スロット 1 を挿入"
 
-#: __init__.py:236
+#: addonCore.py:243
 msgid "Insert Slot 2"
 msgstr "スロット 2 を挿入"
 
-#: __init__.py:238
+#: addonCore.py:245
 msgid "Insert Slot 3"
 msgstr "スロット 3 を挿入"
 
-#: __init__.py:240
+#: addonCore.py:247
 msgid "Insert Slot 4"
 msgstr "スロット 4 を挿入"
 
-#: __init__.py:242
+#: addonCore.py:249
 msgid "Insert Slot 5"
 msgstr "スロット 5 を挿入"
 
-#: __init__.py:244
+#: addonCore.py:251
 msgid "Insert Slot 6"
 msgstr "スロット 6 を挿入"
 
-#: __init__.py:246
+#: addonCore.py:253
 msgid "Insert Slot 7"
 msgstr "スロット 7 を挿入"
 
-#: __init__.py:248
+#: addonCore.py:255
 msgid "Insert Slot 8"
 msgstr "スロット 8 を挿入"
 
-#: __init__.py:250
+#: addonCore.py:257
 msgid "Insert Slot 9"
 msgstr "スロット 9 を挿入"
 
-#: __init__.py:256
+#: addonCore.py:263
 msgid "Insert Slot equals"
 msgstr "スロット「等号」を挿入"
 
-#: __init__.py:254
+#: addonCore.py:261
 msgid "Insert Slot hyphen"
 msgstr "スロット「ハイフン」を挿入"
 
-#: __init__.py:259
+#: addonCore.py:282
+msgid "Insert em dash"
+msgstr "全角ダッシュを挿入"
+
+#: addonCore.py:274
+msgid "Insert en dash"
+msgstr "半角ダッシュを挿入"
+
+#: addonCore.py:266
 msgid "Insert vertical bar"
 msgstr "垂直バーを挿入"
 
-#: __init__.py:265
-msgid "Insert –"
-msgstr "– (二分ダッシュ) を挿入"
-
-#: __init__.py:271
-msgid "Insert —"
-msgstr "— (全角ダッシュ) を挿入"
-
-#: settingsDialog.py:31
+#: settingsDialog.py:29
 msgid "Select Character Set:"
 msgstr "文字セットの選択:"
 
-#: settingsDialog.py:34
+#: settingsDialog.py:32
 msgid "Set 1"
 msgstr "セット 1"
 
-#: settingsDialog.py:34
+#: settingsDialog.py:32
 msgid "Set 2"
 msgstr "セット 2"
 
-#: settingsDialog.py:55
+#: settingsDialog.py:53
 msgid "Slot -"
 msgstr "スロット -"
 
-#: settingsDialog.py:55
+#: settingsDialog.py:53
 msgid "Slot 0"
 msgstr "スロット 0"
 
-#: settingsDialog.py:54
+#: settingsDialog.py:52
 msgid "Slot 1"
 msgstr "スロット 1"
 
-#: settingsDialog.py:54
+#: settingsDialog.py:52
 msgid "Slot 2"
 msgstr "スロット 2"
 
-#: settingsDialog.py:54
+#: settingsDialog.py:52
 msgid "Slot 3"
 msgstr "スロット 3"
 
-#: settingsDialog.py:54
+#: settingsDialog.py:52
 msgid "Slot 4"
 msgstr "スロット 4"
 
-#: settingsDialog.py:54
+#: settingsDialog.py:52
 msgid "Slot 5"
 msgstr "スロット 5"
 
-#: settingsDialog.py:54
+#: settingsDialog.py:52
 msgid "Slot 6"
 msgstr "スロット 6"
 
-#: settingsDialog.py:55
+#: settingsDialog.py:53
 msgid "Slot 7"
 msgstr "スロット 7"
 
-#: settingsDialog.py:55
+#: settingsDialog.py:53
 msgid "Slot 8"
 msgstr "スロット 8"
 
-#: settingsDialog.py:55
+#: settingsDialog.py:53
 msgid "Slot 9"
 msgstr "スロット 9"
 
-#: settingsDialog.py:55
+#: settingsDialog.py:53
 msgid "Slot ="
 msgstr "スロット ="
 
-#: __init__.py:293
+#: addonCore.py:306
 msgid "Special Character %s"
 msgstr "特殊文字 %s"
 
-#: __init__.py:226
-msgid "Special Character Add-on is currently disabled."
-msgstr "特殊文字アドオンは現在無効です。"
-
-#: settingsDialog.py:19
+#: settingsDialog.py:18
 msgid "Special Character Settings"
 msgstr "特殊文字の設定"
 
-#: settingsDialog.py:103
+#: settingsDialog.py:102
 msgid "Special character settings saved successfully"
 msgstr "特殊文字の設定を保存しました"
 
-#: __init__.py:289
+#: addonCore.py:302
 msgid "Switched set %s"
 msgstr "セット %s に切り替えました"
 
-#: __init__.py:277
+#: addonCore.py:290
 msgid "Toggle character set or add-on"
 msgstr "文字セットまたはアドオンの切り替え"
 
-#: __init__.py:292
+#: addonCore.py:305
 msgid "off"
 msgstr "オフ"
 
-#: __init__.py:292
+#: addonCore.py:305
 msgid "on"
 msgstr "オン"
