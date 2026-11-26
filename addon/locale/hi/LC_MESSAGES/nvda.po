@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: specialCharacter 2026.11.0\n"
+"Project-Id-Version: specialCharacter 2026.12.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-11-16 08:03+0700\n"
+"POT-Creation-Date: 2026-11-26 09:03+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Hindi\n"
@@ -12,8 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: ChaiBot Addon\n"
 
-#: addonCore.py:117
-#: addonCore.py:180
+#: addonCore.py:119
+#: addonCore.py:177
 msgid "Cannot insert character"
 msgstr "अक्षर सम्मिलित नहीं किया जा सकता"
 
@@ -25,7 +25,7 @@ msgstr "कॉन्फ़िगरेशन NVDA उपयोगकर्ता
 msgid "Could not migrate old configuration file: %s"
 msgstr "पुरानी कॉन्फ़िगरेशन फ़ाइल को माइग्रेट नहीं किया जा सका: %s"
 
-#: addonCore.py:64
+#: addonCore.py:69
 msgid "Error registering settings panel"
 msgstr "सेटिंग्स पैनल पंजीकृत करने में त्रुटि"
 
@@ -37,63 +37,63 @@ msgstr "विशेष अक्षर सेटिंग्स सहेजन
 msgid "Error saving special characters configuration: %s"
 msgstr "विशेष अक्षर कॉन्फ़िगरेशन सहेजने में त्रुटि: %s"
 
-#: addonCore.py:259
+#: addonCore.py:306
 msgid "Insert Slot 0"
 msgstr "स्लॉट 0 डालें"
 
-#: addonCore.py:241
+#: addonCore.py:288
 msgid "Insert Slot 1"
 msgstr "स्लॉट 1 डालें"
 
-#: addonCore.py:243
+#: addonCore.py:290
 msgid "Insert Slot 2"
 msgstr "स्लॉट 2 डालें"
 
-#: addonCore.py:245
+#: addonCore.py:292
 msgid "Insert Slot 3"
 msgstr "स्लॉट 3 डालें"
 
-#: addonCore.py:247
+#: addonCore.py:294
 msgid "Insert Slot 4"
 msgstr "स्लॉट 4 डालें"
 
-#: addonCore.py:249
+#: addonCore.py:296
 msgid "Insert Slot 5"
 msgstr "स्लॉट 5 डालें"
 
-#: addonCore.py:251
+#: addonCore.py:298
 msgid "Insert Slot 6"
 msgstr "स्लॉट 6 डालें"
 
-#: addonCore.py:253
+#: addonCore.py:300
 msgid "Insert Slot 7"
 msgstr "स्लॉट 7 डालें"
 
-#: addonCore.py:255
+#: addonCore.py:302
 msgid "Insert Slot 8"
 msgstr "स्लॉट 8 डालें"
 
-#: addonCore.py:257
+#: addonCore.py:304
 msgid "Insert Slot 9"
 msgstr "स्लॉट 9 डालें"
 
-#: addonCore.py:263
+#: addonCore.py:310
 msgid "Insert Slot equals"
 msgstr "बराबर (=) स्लॉट डालें"
 
-#: addonCore.py:261
+#: addonCore.py:308
 msgid "Insert Slot hyphen"
 msgstr "हाइफ़न (-) स्लॉट डालें"
 
-#: addonCore.py:282
+#: addonCore.py:329
 msgid "Insert em dash"
 msgstr "एम डैश डालें"
 
-#: addonCore.py:274
+#: addonCore.py:321
 msgid "Insert en dash"
 msgstr "एन डैश डालें"
 
-#: addonCore.py:266
+#: addonCore.py:313
 msgid "Insert vertical bar"
 msgstr "लंबवत पट्टी (|) डालें"
 
@@ -157,7 +157,7 @@ msgstr "स्लॉट 9"
 msgid "Slot ="
 msgstr "स्लॉट ="
 
-#: addonCore.py:306
+#: addonCore.py:353
 msgid "Special Character %s"
 msgstr "विशेष अक्षर %s"
 
@@ -169,18 +169,18 @@ msgstr "विशेष अक्षर सेटिंग्स"
 msgid "Special character settings saved successfully"
 msgstr "विशेष अक्षर सेटिंग्स सफलतापूर्वक सहेजी गईं"
 
-#: addonCore.py:302
+#: addonCore.py:349
 msgid "Switched set %s"
 msgstr "सेट %s पर स्विच किया गया"
 
-#: addonCore.py:290
+#: addonCore.py:337
 msgid "Toggle character set or add-on"
 msgstr "अक्षर सेट या ऐड-ऑन टॉगल करें"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "off"
 msgstr "बंद"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "on"
 msgstr "चालू"

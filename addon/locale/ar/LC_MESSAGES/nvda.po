@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: specialCharacter 2026.11.0\n"
+"Project-Id-Version: specialCharacter 2026.12.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-11-16 08:03+0700\n"
+"POT-Creation-Date: 2026-11-26 09:03+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Arabic\n"
@@ -12,8 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: ChaiBot Addon\n"
 
-#: addonCore.py:117
-#: addonCore.py:180
+#: addonCore.py:119
+#: addonCore.py:177
 msgid "Cannot insert character"
 msgstr "تعذر إدراج الرمز"
 
@@ -25,7 +25,7 @@ msgstr "يتم تخزين الإعدادات في ملف specialCharacters.json 
 msgid "Could not migrate old configuration file: %s"
 msgstr "تعذر نقل ملف الإعدادات القديم: %s"
 
-#: addonCore.py:64
+#: addonCore.py:69
 msgid "Error registering settings panel"
 msgstr "خطأ في تسجيل لوحة الإعدادات"
 
@@ -37,63 +37,63 @@ msgstr "خطأ في حفظ إعدادات الرموز الخاصة"
 msgid "Error saving special characters configuration: %s"
 msgstr "خطأ في حفظ تكوين الرموز الخاصة: %s"
 
-#: addonCore.py:259
+#: addonCore.py:306
 msgid "Insert Slot 0"
 msgstr "إدراج الخانة 0"
 
-#: addonCore.py:241
+#: addonCore.py:288
 msgid "Insert Slot 1"
 msgstr "إدراج الخانة 1"
 
-#: addonCore.py:243
+#: addonCore.py:290
 msgid "Insert Slot 2"
 msgstr "إدراج الخانة 2"
 
-#: addonCore.py:245
+#: addonCore.py:292
 msgid "Insert Slot 3"
 msgstr "إدراج الخانة 3"
 
-#: addonCore.py:247
+#: addonCore.py:294
 msgid "Insert Slot 4"
 msgstr "إدراج الخانة 4"
 
-#: addonCore.py:249
+#: addonCore.py:296
 msgid "Insert Slot 5"
 msgstr "إدراج الخانة 5"
 
-#: addonCore.py:251
+#: addonCore.py:298
 msgid "Insert Slot 6"
 msgstr "إدراج الخانة 6"
 
-#: addonCore.py:253
+#: addonCore.py:300
 msgid "Insert Slot 7"
 msgstr "إدراج الخانة 7"
 
-#: addonCore.py:255
+#: addonCore.py:302
 msgid "Insert Slot 8"
 msgstr "إدراج الخانة 8"
 
-#: addonCore.py:257
+#: addonCore.py:304
 msgid "Insert Slot 9"
 msgstr "إدراج الخانة 9"
 
-#: addonCore.py:263
+#: addonCore.py:310
 msgid "Insert Slot equals"
 msgstr "إدراج خانة يساوي (=)"
 
-#: addonCore.py:261
+#: addonCore.py:308
 msgid "Insert Slot hyphen"
 msgstr "إدراج خانة الواصلة (-)"
 
-#: addonCore.py:282
+#: addonCore.py:329
 msgid "Insert em dash"
 msgstr "إدراج شرطة طويلة"
 
-#: addonCore.py:274
+#: addonCore.py:321
 msgid "Insert en dash"
 msgstr "إدراج شرطة متوسطة"
 
-#: addonCore.py:266
+#: addonCore.py:313
 msgid "Insert vertical bar"
 msgstr "إدراج الشريط العمودي (|)"
 
@@ -157,7 +157,7 @@ msgstr "خانة 9"
 msgid "Slot ="
 msgstr "خانة ="
 
-#: addonCore.py:306
+#: addonCore.py:353
 msgid "Special Character %s"
 msgstr "الرمز الخاص %s"
 
@@ -169,18 +169,18 @@ msgstr "إعدادات الرموز الخاصة"
 msgid "Special character settings saved successfully"
 msgstr "تم حفظ إعدادات الرموز الخاصة بنجاح"
 
-#: addonCore.py:302
+#: addonCore.py:349
 msgid "Switched set %s"
 msgstr "تم التبديل للمجموعة %s"
 
-#: addonCore.py:290
+#: addonCore.py:337
 msgid "Toggle character set or add-on"
 msgstr "تبديل مجموعة الرموز أو الإضافة"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "off"
 msgstr "متوقف"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "on"
 msgstr "مشغل"

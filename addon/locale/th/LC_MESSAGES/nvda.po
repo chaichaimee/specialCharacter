@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: specialCharacter 2026.11.0\n"
+"Project-Id-Version: specialCharacter 2026.12.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-11-16 08:03+0700\n"
+"POT-Creation-Date: 2026-11-26 09:03+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Thai\n"
@@ -12,8 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: ChaiBot Addon\n"
 
-#: addonCore.py:117
-#: addonCore.py:180
+#: addonCore.py:119
+#: addonCore.py:177
 msgid "Cannot insert character"
 msgstr "ไม่สามารถแทรกตัวอักษรได้"
 
@@ -25,7 +25,7 @@ msgstr "การกำหนดค่าจะถูกเก็บไว้ใ
 msgid "Could not migrate old configuration file: %s"
 msgstr "ไม่สามารถย้ายไฟล์การตั้งค่าเก่าได้: %s"
 
-#: addonCore.py:64
+#: addonCore.py:69
 msgid "Error registering settings panel"
 msgstr "เกิดข้อผิดพลาดในการลงทะเบียนหน้าต่างการตั้งค่า"
 
@@ -37,63 +37,63 @@ msgstr "เกิดข้อผิดพลาดในการบันทึ
 msgid "Error saving special characters configuration: %s"
 msgstr "เกิดข้อผิดพลาดในการบันทึกการตั้งค่าตัวอักษรพิเศษ: %s"
 
-#: addonCore.py:259
+#: addonCore.py:306
 msgid "Insert Slot 0"
 msgstr "แทรกช่องที่ 0"
 
-#: addonCore.py:241
+#: addonCore.py:288
 msgid "Insert Slot 1"
 msgstr "แทรกช่องที่ 1"
 
-#: addonCore.py:243
+#: addonCore.py:290
 msgid "Insert Slot 2"
 msgstr "แทรกช่องที่ 2"
 
-#: addonCore.py:245
+#: addonCore.py:292
 msgid "Insert Slot 3"
 msgstr "แทรกช่องที่ 3"
 
-#: addonCore.py:247
+#: addonCore.py:294
 msgid "Insert Slot 4"
 msgstr "แทรกช่องที่ 4"
 
-#: addonCore.py:249
+#: addonCore.py:296
 msgid "Insert Slot 5"
 msgstr "แทรกช่องที่ 5"
 
-#: addonCore.py:251
+#: addonCore.py:298
 msgid "Insert Slot 6"
 msgstr "แทรกช่องที่ 6"
 
-#: addonCore.py:253
+#: addonCore.py:300
 msgid "Insert Slot 7"
 msgstr "แทรกช่องที่ 7"
 
-#: addonCore.py:255
+#: addonCore.py:302
 msgid "Insert Slot 8"
 msgstr "แทรกช่องที่ 8"
 
-#: addonCore.py:257
+#: addonCore.py:304
 msgid "Insert Slot 9"
 msgstr "แทรกช่องที่ 9"
 
-#: addonCore.py:263
+#: addonCore.py:310
 msgid "Insert Slot equals"
 msgstr "แทรกช่องเครื่องหมายเท่ากับ"
 
-#: addonCore.py:261
+#: addonCore.py:308
 msgid "Insert Slot hyphen"
 msgstr "แทรกช่องเครื่องหมายยัติภังค์"
 
-#: addonCore.py:282
+#: addonCore.py:329
 msgid "Insert em dash"
 msgstr "แทรกขีดกลางยาว"
 
-#: addonCore.py:274
+#: addonCore.py:321
 msgid "Insert en dash"
 msgstr "แทรกขีดกลางสั้น"
 
-#: addonCore.py:266
+#: addonCore.py:313
 msgid "Insert vertical bar"
 msgstr "แทรกเส้นคั่นแนวตั้ง"
 
@@ -157,7 +157,7 @@ msgstr "ช่อง 9"
 msgid "Slot ="
 msgstr "ช่อง ="
 
-#: addonCore.py:306
+#: addonCore.py:353
 msgid "Special Character %s"
 msgstr "ตัวอักษรพิเศษ %s"
 
@@ -169,18 +169,18 @@ msgstr "การตั้งค่าตัวอักษรพิเศษ"
 msgid "Special character settings saved successfully"
 msgstr "บันทึกการตั้งค่าตัวอักษรพิเศษเรียบร้อยแล้ว"
 
-#: addonCore.py:302
+#: addonCore.py:349
 msgid "Switched set %s"
 msgstr "เปลี่ยนเป็นชุด %s"
 
-#: addonCore.py:290
+#: addonCore.py:337
 msgid "Toggle character set or add-on"
 msgstr "สลับชุดตัวอักษรหรือสถานะส่วนเสริม"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "off"
 msgstr "ปิด"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "on"
 msgstr "เปิด"

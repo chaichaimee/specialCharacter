@@ -9,6 +9,8 @@ import addonHandler
 import ui
 import wx
 import time
+import winUser
+import speech
 import gui
 from . import config
 from . import settingsDialog
@@ -33,12 +35,12 @@ try:
 	# Check if winBindings.user32 exists (new API in 2026.1 64-bit)
 	from winBindings.user32 import keybd_event, KEYEVENTF
 	from winUser import VK_CONTROL
-	import speech
 	_use_new = True
 except ImportError:
-	# Fallback to legacy method
-	import winUser
-	import speech
+	_use_new = False
+
+VK_V = 0x56
+VK_V_SCAN_CODE = 0x2f
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	scriptCategory = addonHandler.getCodeAddon().manifest["summary"]
@@ -54,6 +56,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.last_toggle_time = 0
 		self.toggle_count = 0
 		self.toggleTimer = None
+		self._savedTypedEchoMode = None
+		self._repairTypedEchoValues()
+		nvdaGlobalConfig.pre_configSave.register(self._repairTypedEchoValues)
 		wx.CallAfter(self.registerSettingsPanel)
 
 	def registerSettingsPanel(self):
@@ -67,9 +72,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# LEGACY METHOD (for 32-bit and NVDA before 2026.1 64-bit)
 	# ============================================================
 	def _send_legacy(self, char):
-		original_typed = nvdaGlobalConfig.conf["keyboard"]["speakTypedCharacters"]
-		if original_typed:
-			nvdaGlobalConfig.conf["keyboard"]["speakTypedCharacters"] = False
+		self._suppressTypedEcho()
 
 		try:
 			focus = api.getFocusObject()
@@ -77,7 +80,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 			if app_name == 'winword':
 				if self._insertViaWordObjectModel(focus, char):
-					core.callLater(0, self._announce_and_restore, char, original_typed)
+					core.callLater(0, self._announce_and_restore, char)
 					return
 				try:
 					api.copyToClip(char)
@@ -86,18 +89,17 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					winUser.keybd_event(0x56, 0x2f, winUser.KEYEVENTF_KEYUP, 0)
 					winUser.keybd_event(winUser.VK_CONTROL, 0, winUser.KEYEVENTF_KEYUP, 0)
 				except Exception:
-					keyboardHandler.KeyboardInputGesture.fromName("control+v").send()
+					self._sendPasteShortcut()
 
 			elif app_name in ('chrome', 'firefox', 'brave', 'edge', 'safari'):
 				if char in ('"', '/', '\\', '.', '|'):
-					keyboardHandler.KeyboardInputGesture.fromName(char).send()
-					core.callLater(0, self._announce_and_restore, char, original_typed)
+					self._sendKeyOrPaste(char)
 				else:
 					api.copyToClip(char)
 					# Some browser edit fields miss the paste if control+v is sent
 					# in the same call stack as the clipboard write; give the OS
 					# clipboard update a short moment to settle before pasting.
-					core.callLater(self.CLIPBOARD_SETTLE_DELAY_MS, self._pasteAndAnnounce, char, original_typed)
+					core.callLater(self.CLIPBOARD_SETTLE_DELAY_MS, self._pasteAndAnnounce, char)
 				return
 
 			elif _getBrailleInputHandler():
@@ -108,15 +110,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					focus.edit.textInsert(char)
 				else:
 					api.copyToClip(char)
-					core.callLater(self.CLIPBOARD_SETTLE_DELAY_MS, self._pasteAndAnnounce, char, original_typed)
+					core.callLater(self.CLIPBOARD_SETTLE_DELAY_MS, self._pasteAndAnnounce, char)
 					return
 
-			core.callLater(0, self._announce_and_restore, char, original_typed)
+			core.callLater(0, self._announce_and_restore, char)
 
 		except Exception as e:
 			ui.message(_("Cannot insert character") + " %s: %s" % (char, str(e)))
-			if original_typed:
-				nvdaGlobalConfig.conf["keyboard"]["speakTypedCharacters"] = original_typed
+			self._restoreTypedEcho()
 
 	def _sendCharacters_legacy(self, chars: str):
 		inputHandler = _getBrailleInputHandler()
@@ -127,10 +128,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# NEW METHOD for NVDA 2026.1 64-bit (NO double speaking)
 	# ============================================================
 	def _send_new(self, char):
-		# Temporarily disable NVDA's automatic typed character announcement
-		original_typed = nvdaGlobalConfig.conf["keyboard"]["speakTypedCharacters"]
-		if original_typed:
-			nvdaGlobalConfig.conf["keyboard"]["speakTypedCharacters"] = False
+		self._suppressTypedEcho()
 
 		try:
 			focus = api.getFocusObject()
@@ -139,7 +137,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Insert character using appropriate method (no announcement yet)
 			if app_name == 'winword':
 				if self._insertViaWordObjectModel(focus, char):
-					core.callLater(0, self._announce_and_restore, char, original_typed)
+					core.callLater(0, self._announce_and_restore, char)
 					return
 				try:
 					api.copyToClip(char)
@@ -148,18 +146,17 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					keybd_event(0x56, 0x2f, KEYEVENTF.KEYUP, 0)
 					keybd_event(VK_CONTROL, 0, KEYEVENTF.KEYUP, 0)
 				except Exception:
-					keyboardHandler.KeyboardInputGesture.fromName("control+v").send()
+					self._sendPasteShortcut()
 
 			elif app_name in ('chrome', 'firefox', 'brave', 'edge', 'safari'):
 				if char in ('"', '/', '\\', '.', '|'):
-					keyboardHandler.KeyboardInputGesture.fromName(char).send()
-					core.callLater(0, self._announce_and_restore, char, original_typed)
+					self._sendKeyOrPaste(char)
 				else:
 					api.copyToClip(char)
 					# Some browser edit fields miss the paste if control+v is sent
 					# in the same call stack as the clipboard write; give the OS
 					# clipboard update a short moment to settle before pasting.
-					core.callLater(self.CLIPBOARD_SETTLE_DELAY_MS, self._pasteAndAnnounce, char, original_typed)
+					core.callLater(self.CLIPBOARD_SETTLE_DELAY_MS, self._pasteAndAnnounce, char)
 				return
 
 			elif _getBrailleInputHandler():
@@ -170,16 +167,15 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					focus.edit.textInsert(char)
 				else:
 					api.copyToClip(char)
-					core.callLater(self.CLIPBOARD_SETTLE_DELAY_MS, self._pasteAndAnnounce, char, original_typed)
+					core.callLater(self.CLIPBOARD_SETTLE_DELAY_MS, self._pasteAndAnnounce, char)
 					return
 
 			# Announce exactly once after insertion, then restore setting
-			core.callLater(0, self._announce_and_restore, char, original_typed)
+			core.callLater(0, self._announce_and_restore, char)
 
 		except Exception as e:
 			ui.message(_("Cannot insert character") + " %s: %s" % (char, str(e)))
-			if original_typed:
-				nvdaGlobalConfig.conf["keyboard"]["speakTypedCharacters"] = original_typed
+			self._restoreTypedEcho()
 
 	def _insertViaWordObjectModel(self, focus, char):
 		# Selection.TypeText inserts at the caret through Word's own object
@@ -199,15 +195,66 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			return False
 		return True
 
-	def _pasteAndAnnounce(self, char, original_typed):
-		keyboardHandler.KeyboardInputGesture.fromName("control+v").send()
-		self._announce_and_restore(char, original_typed)
+	def _repairTypedEchoValues(self):
+		# Typing echo keys are integer modes; a bool left in memory would be saved as True or False
+		# and make NVDA reject and reset the whole configuration on the next start
+		for profile in nvdaGlobalConfig.conf.profiles:
+			keyboardSection = dict.get(profile, "keyboard")
+			if not isinstance(keyboardSection, dict):
+				continue
+			for keyName in ("speakTypedCharacters", "speakTypedWords"):
+				storedText = str(dict.get(keyboardSection, keyName, "")).strip().lower()
+				if storedText in ("true", "false"):
+					keyboardSection[keyName] = 1 if storedText == "true" else 0
 
-	def _announce_and_restore(self, char, original_typed):
-		# Symbol level ALL so a bullet or tilde is spoken even when the user's level would drop it
-		speech.speakText(char, symbolLevel=characterProcessing.SymbolLevel.ALL)
-		if original_typed:
-			nvdaGlobalConfig.conf["keyboard"]["speakTypedCharacters"] = original_typed
+	def _suppressTypedEcho(self):
+		# The setting is an integer mode (0 off, 1 edit controls, 2 always), never a bool;
+		# remember the exact mode so every exit path can put it back
+		if self._savedTypedEchoMode is not None:
+			return
+		currentMode = int(nvdaGlobalConfig.conf["keyboard"]["speakTypedCharacters"])
+		if not currentMode:
+			return
+		self._savedTypedEchoMode = currentMode
+		nvdaGlobalConfig.conf["keyboard"]["speakTypedCharacters"] = 0
+
+	def _restoreTypedEcho(self):
+		if self._savedTypedEchoMode is None:
+			return
+		savedMode = self._savedTypedEchoMode
+		self._savedTypedEchoMode = None
+		nvdaGlobalConfig.conf["keyboard"]["speakTypedCharacters"] = savedMode
+
+	def _sendPasteShortcut(self):
+		# Built from the virtual key code: fromName("control+v") fails with LookupError
+		# on layouts that have no Latin "v" key, such as Thai Kedmanee
+		keyboardHandler.KeyboardInputGesture([(winUser.VK_CONTROL, False)], VK_V, VK_V_SCAN_CODE, False).send()
+
+	def _sendKeyOrPaste(self, char):
+		try:
+			keyboardHandler.KeyboardInputGesture.fromName(char).send()
+		except LookupError:
+			# The active layout cannot type this character directly
+			api.copyToClip(char)
+			core.callLater(self.CLIPBOARD_SETTLE_DELAY_MS, self._pasteAndAnnounce, char)
+			return
+		core.callLater(0, self._announce_and_restore, char)
+
+	def _pasteAndAnnounce(self, char):
+		try:
+			self._sendPasteShortcut()
+		except Exception:
+			logHandler.log.error("specialCharacter: paste shortcut failed", exc_info=True)
+			self._restoreTypedEcho()
+			return
+		self._announce_and_restore(char)
+
+	def _announce_and_restore(self, char):
+		try:
+			# Symbol level ALL so a bullet or tilde is spoken even when the user's level would drop it
+			speech.speakText(char, symbolLevel=characterProcessing.SymbolLevel.ALL)
+		finally:
+			self._restoreTypedEcho()
 
 	def _sendCharacters_new(self, chars: str):
 		for ch in chars:
@@ -307,6 +354,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.toggle_count = 0
 
 	def terminate(self):
+		self._restoreTypedEcho()
+		nvdaGlobalConfig.pre_configSave.unregister(self._repairTypedEchoValues)
 		if self.toggleTimer and self.toggleTimer.IsRunning():
 			self.toggleTimer.Stop()
 		try:

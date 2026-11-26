@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: specialCharacter 2026.11.0\n"
+"Project-Id-Version: specialCharacter 2026.12.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-11-16 08:03+0700\n"
+"POT-Creation-Date: 2026-11-26 09:03+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Korean\n"
@@ -12,8 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: ChaiBot Addon\n"
 
-#: addonCore.py:117
-#: addonCore.py:180
+#: addonCore.py:119
+#: addonCore.py:177
 msgid "Cannot insert character"
 msgstr "문자를 삽입할 수 없습니다"
 
@@ -25,7 +25,7 @@ msgstr "설정이 NVDA 사용자 설정 폴더의 ChaiChaimee\\specialCharacter 
 msgid "Could not migrate old configuration file: %s"
 msgstr "이전 설정 파일을 마이그레이션할 수 없습니다: %s"
 
-#: addonCore.py:64
+#: addonCore.py:69
 msgid "Error registering settings panel"
 msgstr "설정 패널 등록 오류"
 
@@ -37,63 +37,63 @@ msgstr "특수 문자 설정 저장 오류"
 msgid "Error saving special characters configuration: %s"
 msgstr "특수 문자 설정 저장 중 오류가 발생했습니다: %s"
 
-#: addonCore.py:259
+#: addonCore.py:306
 msgid "Insert Slot 0"
 msgstr "슬롯 0 삽입"
 
-#: addonCore.py:241
+#: addonCore.py:288
 msgid "Insert Slot 1"
 msgstr "슬롯 1 삽입"
 
-#: addonCore.py:243
+#: addonCore.py:290
 msgid "Insert Slot 2"
 msgstr "슬롯 2 삽입"
 
-#: addonCore.py:245
+#: addonCore.py:292
 msgid "Insert Slot 3"
 msgstr "슬롯 3 삽입"
 
-#: addonCore.py:247
+#: addonCore.py:294
 msgid "Insert Slot 4"
 msgstr "슬롯 4 삽입"
 
-#: addonCore.py:249
+#: addonCore.py:296
 msgid "Insert Slot 5"
 msgstr "슬롯 5 삽입"
 
-#: addonCore.py:251
+#: addonCore.py:298
 msgid "Insert Slot 6"
 msgstr "슬롯 6 삽입"
 
-#: addonCore.py:253
+#: addonCore.py:300
 msgid "Insert Slot 7"
 msgstr "슬롯 7 삽입"
 
-#: addonCore.py:255
+#: addonCore.py:302
 msgid "Insert Slot 8"
 msgstr "슬롯 8 삽입"
 
-#: addonCore.py:257
+#: addonCore.py:304
 msgid "Insert Slot 9"
 msgstr "슬롯 9 삽입"
 
-#: addonCore.py:263
+#: addonCore.py:310
 msgid "Insert Slot equals"
 msgstr "등호 슬롯 삽입"
 
-#: addonCore.py:261
+#: addonCore.py:308
 msgid "Insert Slot hyphen"
 msgstr "하이픈 슬롯 삽입"
 
-#: addonCore.py:282
+#: addonCore.py:329
 msgid "Insert em dash"
 msgstr "엠 대시 삽입"
 
-#: addonCore.py:274
+#: addonCore.py:321
 msgid "Insert en dash"
 msgstr "엔 대시 삽입"
 
-#: addonCore.py:266
+#: addonCore.py:313
 msgid "Insert vertical bar"
 msgstr "수직바 삽입"
 
@@ -157,7 +157,7 @@ msgstr "슬롯 9"
 msgid "Slot ="
 msgstr "슬롯 ="
 
-#: addonCore.py:306
+#: addonCore.py:353
 msgid "Special Character %s"
 msgstr "특수 문자 %s"
 
@@ -169,18 +169,18 @@ msgstr "특수 문자 설정"
 msgid "Special character settings saved successfully"
 msgstr "특수 문자 설정을 성공적으로 저장했습니다"
 
-#: addonCore.py:302
+#: addonCore.py:349
 msgid "Switched set %s"
 msgstr "%s 세트로 전환되었습니다"
 
-#: addonCore.py:290
+#: addonCore.py:337
 msgid "Toggle character set or add-on"
 msgstr "문자 세트 또는 부가 기능 토글"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "off"
 msgstr "꺼짐"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "on"
 msgstr "켜짐"

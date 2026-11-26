@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: specialCharacter 2026.11.0\n"
+"Project-Id-Version: specialCharacter 2026.12.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-11-16 08:03+0700\n"
+"POT-Creation-Date: 2026-11-26 09:03+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Indonesian\n"
@@ -12,8 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: ChaiBot Addon\n"
 
-#: addonCore.py:117
-#: addonCore.py:180
+#: addonCore.py:119
+#: addonCore.py:177
 msgid "Cannot insert character"
 msgstr "Tidak dapat memasukkan karakter"
 
@@ -25,7 +25,7 @@ msgstr "Konfigurasi disimpan di specialCharacters.json dalam subfolder ChaiChaim
 msgid "Could not migrate old configuration file: %s"
 msgstr "Tidak dapat memigrasi file konfigurasi lama: %s"
 
-#: addonCore.py:64
+#: addonCore.py:69
 msgid "Error registering settings panel"
 msgstr "Kesalahan saat mendaftarkan panel pengaturan"
 
@@ -37,63 +37,63 @@ msgstr "Kesalahan saat menyimpan pengaturan karakter khusus"
 msgid "Error saving special characters configuration: %s"
 msgstr "Kesalahan saat menyimpan konfigurasi karakter khusus: %s"
 
-#: addonCore.py:259
+#: addonCore.py:306
 msgid "Insert Slot 0"
 msgstr "Masukkan Slot 0"
 
-#: addonCore.py:241
+#: addonCore.py:288
 msgid "Insert Slot 1"
 msgstr "Masukkan Slot 1"
 
-#: addonCore.py:243
+#: addonCore.py:290
 msgid "Insert Slot 2"
 msgstr "Masukkan Slot 2"
 
-#: addonCore.py:245
+#: addonCore.py:292
 msgid "Insert Slot 3"
 msgstr "Masukkan Slot 3"
 
-#: addonCore.py:247
+#: addonCore.py:294
 msgid "Insert Slot 4"
 msgstr "Masukkan Slot 4"
 
-#: addonCore.py:249
+#: addonCore.py:296
 msgid "Insert Slot 5"
 msgstr "Masukkan Slot 5"
 
-#: addonCore.py:251
+#: addonCore.py:298
 msgid "Insert Slot 6"
 msgstr "Masukkan Slot 6"
 
-#: addonCore.py:253
+#: addonCore.py:300
 msgid "Insert Slot 7"
 msgstr "Masukkan Slot 7"
 
-#: addonCore.py:255
+#: addonCore.py:302
 msgid "Insert Slot 8"
 msgstr "Masukkan Slot 8"
 
-#: addonCore.py:257
+#: addonCore.py:304
 msgid "Insert Slot 9"
 msgstr "Masukkan Slot 9"
 
-#: addonCore.py:263
+#: addonCore.py:310
 msgid "Insert Slot equals"
 msgstr "Masukkan Slot sama dengan"
 
-#: addonCore.py:261
+#: addonCore.py:308
 msgid "Insert Slot hyphen"
 msgstr "Masukkan Slot tanda hubung"
 
-#: addonCore.py:282
+#: addonCore.py:329
 msgid "Insert em dash"
 msgstr "Sisipkan tanda hubung em"
 
-#: addonCore.py:274
+#: addonCore.py:321
 msgid "Insert en dash"
 msgstr "Sisipkan tanda hubung en"
 
-#: addonCore.py:266
+#: addonCore.py:313
 msgid "Insert vertical bar"
 msgstr "Masukkan garis tegak"
 
@@ -169,7 +169,7 @@ msgstr "Slot 9"
 msgid "Slot ="
 msgstr "Slot ="
 
-#: addonCore.py:306
+#: addonCore.py:353
 msgid "Special Character %s"
 msgstr "Karakter Khusus %s"
 
@@ -181,18 +181,18 @@ msgstr "Pengaturan Karakter Khusus"
 msgid "Special character settings saved successfully"
 msgstr "Pengaturan karakter khusus berhasil disimpan"
 
-#: addonCore.py:302
+#: addonCore.py:349
 msgid "Switched set %s"
 msgstr "Beralih ke kumpulan %s"
 
-#: addonCore.py:290
+#: addonCore.py:337
 msgid "Toggle character set or add-on"
 msgstr "Alihkan kumpulan karakter atau add-on"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "off"
 msgstr "mati"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "on"
 msgstr "nyala"

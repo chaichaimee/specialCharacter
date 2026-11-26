@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: specialCharacter 2026.11.0\n"
+"Project-Id-Version: specialCharacter 2026.12.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-11-16 08:03+0700\n"
+"POT-Creation-Date: 2026-11-26 09:03+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: French\n"
@@ -12,8 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: ChaiBot Addon\n"
 
-#: addonCore.py:117
-#: addonCore.py:180
+#: addonCore.py:119
+#: addonCore.py:177
 msgid "Cannot insert character"
 msgstr "Impossible d'insérer le caractère"
 
@@ -25,7 +25,7 @@ msgstr "La configuration est enregistrée dans le fichier specialCharacters.json
 msgid "Could not migrate old configuration file: %s"
 msgstr "Impossible de migrer l'ancien fichier de configuration : %s"
 
-#: addonCore.py:64
+#: addonCore.py:69
 msgid "Error registering settings panel"
 msgstr "Erreur lors de l'enregistrement du panneau de paramètres"
 
@@ -37,63 +37,63 @@ msgstr "Erreur lors de l'enregistrement des paramètres des caractères spéciau
 msgid "Error saving special characters configuration: %s"
 msgstr "Erreur lors de l'enregistrement de la configuration des caractères spéciaux : %s"
 
-#: addonCore.py:259
+#: addonCore.py:306
 msgid "Insert Slot 0"
 msgstr "Insérer l'emplacement 0"
 
-#: addonCore.py:241
+#: addonCore.py:288
 msgid "Insert Slot 1"
 msgstr "Insérer l'emplacement 1"
 
-#: addonCore.py:243
+#: addonCore.py:290
 msgid "Insert Slot 2"
 msgstr "Insérer l'emplacement 2"
 
-#: addonCore.py:245
+#: addonCore.py:292
 msgid "Insert Slot 3"
 msgstr "Insérer l'emplacement 3"
 
-#: addonCore.py:247
+#: addonCore.py:294
 msgid "Insert Slot 4"
 msgstr "Insérer l'emplacement 4"
 
-#: addonCore.py:249
+#: addonCore.py:296
 msgid "Insert Slot 5"
 msgstr "Insérer l'emplacement 5"
 
-#: addonCore.py:251
+#: addonCore.py:298
 msgid "Insert Slot 6"
 msgstr "Insérer l'emplacement 6"
 
-#: addonCore.py:253
+#: addonCore.py:300
 msgid "Insert Slot 7"
 msgstr "Insérer l'emplacement 7"
 
-#: addonCore.py:255
+#: addonCore.py:302
 msgid "Insert Slot 8"
 msgstr "Insérer l'emplacement 8"
 
-#: addonCore.py:257
+#: addonCore.py:304
 msgid "Insert Slot 9"
 msgstr "Insérer l'emplacement 9"
 
-#: addonCore.py:263
+#: addonCore.py:310
 msgid "Insert Slot equals"
 msgstr "Insérer l'emplacement égal"
 
-#: addonCore.py:261
+#: addonCore.py:308
 msgid "Insert Slot hyphen"
 msgstr "Insérer l'emplacement trait d'union"
 
-#: addonCore.py:282
+#: addonCore.py:329
 msgid "Insert em dash"
 msgstr "Insérer un tiret cadratin"
 
-#: addonCore.py:274
+#: addonCore.py:321
 msgid "Insert en dash"
 msgstr "Insérer un tiret demi-cadratin"
 
-#: addonCore.py:266
+#: addonCore.py:313
 msgid "Insert vertical bar"
 msgstr "Insérer une barre verticale"
 
@@ -157,7 +157,7 @@ msgstr "Emplacement 9"
 msgid "Slot ="
 msgstr "Emplacement ="
 
-#: addonCore.py:306
+#: addonCore.py:353
 msgid "Special Character %s"
 msgstr "Caractère spécial %s"
 
@@ -169,18 +169,18 @@ msgstr "Paramètres des caractères spéciaux"
 msgid "Special character settings saved successfully"
 msgstr "Paramètres des caractères spéciaux enregistrés avec succès"
 
-#: addonCore.py:302
+#: addonCore.py:349
 msgid "Switched set %s"
 msgstr "Passé au jeu %s"
 
-#: addonCore.py:290
+#: addonCore.py:337
 msgid "Toggle character set or add-on"
 msgstr "Basculer le jeu de caractères ou l'extension"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "off"
 msgstr "désactivé"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "on"
 msgstr "activé"

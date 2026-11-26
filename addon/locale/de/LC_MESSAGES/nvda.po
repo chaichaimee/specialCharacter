@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: specialCharacter 2026.11.0\n"
+"Project-Id-Version: specialCharacter 2026.12.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-11-16 08:03+0700\n"
+"POT-Creation-Date: 2026-11-26 09:03+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: German\n"
@@ -12,8 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: ChaiBot Addon\n"
 
-#: addonCore.py:117
-#: addonCore.py:180
+#: addonCore.py:119
+#: addonCore.py:177
 msgid "Cannot insert character"
 msgstr "Zeichen kann nicht eingefügt werden"
 
@@ -25,7 +25,7 @@ msgstr "Die Konfiguration wird in specialCharacters.json im Unterordner ChaiChai
 msgid "Could not migrate old configuration file: %s"
 msgstr "Alte Konfigurationsdatei konnte nicht migriert werden: %s"
 
-#: addonCore.py:64
+#: addonCore.py:69
 msgid "Error registering settings panel"
 msgstr "Fehler beim Registrieren des Einstellungsfelds"
 
@@ -37,63 +37,63 @@ msgstr "Fehler beim Speichern der Sonderzeichen-Einstellungen"
 msgid "Error saving special characters configuration: %s"
 msgstr "Fehler beim Speichern der Sonderzeichen-Konfiguration: %s"
 
-#: addonCore.py:259
+#: addonCore.py:306
 msgid "Insert Slot 0"
 msgstr "Platz 0 einfügen"
 
-#: addonCore.py:241
+#: addonCore.py:288
 msgid "Insert Slot 1"
 msgstr "Platz 1 einfügen"
 
-#: addonCore.py:243
+#: addonCore.py:290
 msgid "Insert Slot 2"
 msgstr "Platz 2 einfügen"
 
-#: addonCore.py:245
+#: addonCore.py:292
 msgid "Insert Slot 3"
 msgstr "Platz 3 einfügen"
 
-#: addonCore.py:247
+#: addonCore.py:294
 msgid "Insert Slot 4"
 msgstr "Platz 4 einfügen"
 
-#: addonCore.py:249
+#: addonCore.py:296
 msgid "Insert Slot 5"
 msgstr "Platz 5 einfügen"
 
-#: addonCore.py:251
+#: addonCore.py:298
 msgid "Insert Slot 6"
 msgstr "Platz 6 einfügen"
 
-#: addonCore.py:253
+#: addonCore.py:300
 msgid "Insert Slot 7"
 msgstr "Platz 7 einfügen"
 
-#: addonCore.py:255
+#: addonCore.py:302
 msgid "Insert Slot 8"
 msgstr "Platz 8 einfügen"
 
-#: addonCore.py:257
+#: addonCore.py:304
 msgid "Insert Slot 9"
 msgstr "Platz 9 einfügen"
 
-#: addonCore.py:263
+#: addonCore.py:310
 msgid "Insert Slot equals"
 msgstr "Platz 'Gleichheitszeichen' einfügen"
 
-#: addonCore.py:261
+#: addonCore.py:308
 msgid "Insert Slot hyphen"
 msgstr "Platz 'Bindestrich' einfügen"
 
-#: addonCore.py:282
+#: addonCore.py:329
 msgid "Insert em dash"
 msgstr "Geviertstrich einfügen"
 
-#: addonCore.py:274
+#: addonCore.py:321
 msgid "Insert en dash"
 msgstr "Halbgeviertstrich einfügen"
 
-#: addonCore.py:266
+#: addonCore.py:313
 msgid "Insert vertical bar"
 msgstr "Senkrechten Strich einfügen"
 
@@ -157,7 +157,7 @@ msgstr "Platz 9"
 msgid "Slot ="
 msgstr "Platz ="
 
-#: addonCore.py:306
+#: addonCore.py:353
 msgid "Special Character %s"
 msgstr "Sonderzeichen %s"
 
@@ -169,18 +169,18 @@ msgstr "Sonderzeichen-Einstellungen"
 msgid "Special character settings saved successfully"
 msgstr "Sonderzeichen-Einstellungen erfolgreich gespeichert"
 
-#: addonCore.py:302
+#: addonCore.py:349
 msgid "Switched set %s"
 msgstr "Zu Satz %s gewechselt"
 
-#: addonCore.py:290
+#: addonCore.py:337
 msgid "Toggle character set or add-on"
 msgstr "Zeichensatz oder Add-on umschalten"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "off"
 msgstr "aus"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "on"
 msgstr "an"

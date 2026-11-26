@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: specialCharacter 2026.11.0\n"
+"Project-Id-Version: specialCharacter 2026.12.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-11-16 08:03+0700\n"
+"POT-Creation-Date: 2026-11-26 09:03+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Japanese\n"
@@ -12,8 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: ChaiBot Addon\n"
 
-#: addonCore.py:117
-#: addonCore.py:180
+#: addonCore.py:119
+#: addonCore.py:177
 msgid "Cannot insert character"
 msgstr "文字を挿入できません"
 
@@ -25,7 +25,7 @@ msgstr "設定はNVDAユーザー設定フォルダー内のChaiChaimee\\special
 msgid "Could not migrate old configuration file: %s"
 msgstr "古い設定ファイルを移行できませんでした: %s"
 
-#: addonCore.py:64
+#: addonCore.py:69
 msgid "Error registering settings panel"
 msgstr "設定パネルの登録エラー"
 
@@ -37,63 +37,63 @@ msgstr "特殊文字設定の保存エラー"
 msgid "Error saving special characters configuration: %s"
 msgstr "特殊文字設定の保存中にエラーが発生しました: %s"
 
-#: addonCore.py:259
+#: addonCore.py:306
 msgid "Insert Slot 0"
 msgstr "スロット 0 を挿入"
 
-#: addonCore.py:241
+#: addonCore.py:288
 msgid "Insert Slot 1"
 msgstr "スロット 1 を挿入"
 
-#: addonCore.py:243
+#: addonCore.py:290
 msgid "Insert Slot 2"
 msgstr "スロット 2 を挿入"
 
-#: addonCore.py:245
+#: addonCore.py:292
 msgid "Insert Slot 3"
 msgstr "スロット 3 を挿入"
 
-#: addonCore.py:247
+#: addonCore.py:294
 msgid "Insert Slot 4"
 msgstr "スロット 4 を挿入"
 
-#: addonCore.py:249
+#: addonCore.py:296
 msgid "Insert Slot 5"
 msgstr "スロット 5 を挿入"
 
-#: addonCore.py:251
+#: addonCore.py:298
 msgid "Insert Slot 6"
 msgstr "スロット 6 を挿入"
 
-#: addonCore.py:253
+#: addonCore.py:300
 msgid "Insert Slot 7"
 msgstr "スロット 7 を挿入"
 
-#: addonCore.py:255
+#: addonCore.py:302
 msgid "Insert Slot 8"
 msgstr "スロット 8 を挿入"
 
-#: addonCore.py:257
+#: addonCore.py:304
 msgid "Insert Slot 9"
 msgstr "スロット 9 を挿入"
 
-#: addonCore.py:263
+#: addonCore.py:310
 msgid "Insert Slot equals"
 msgstr "スロット「等号」を挿入"
 
-#: addonCore.py:261
+#: addonCore.py:308
 msgid "Insert Slot hyphen"
 msgstr "スロット「ハイフン」を挿入"
 
-#: addonCore.py:282
+#: addonCore.py:329
 msgid "Insert em dash"
 msgstr "全角ダッシュを挿入"
 
-#: addonCore.py:274
+#: addonCore.py:321
 msgid "Insert en dash"
 msgstr "半角ダッシュを挿入"
 
-#: addonCore.py:266
+#: addonCore.py:313
 msgid "Insert vertical bar"
 msgstr "垂直バーを挿入"
 
@@ -157,7 +157,7 @@ msgstr "スロット 9"
 msgid "Slot ="
 msgstr "スロット ="
 
-#: addonCore.py:306
+#: addonCore.py:353
 msgid "Special Character %s"
 msgstr "特殊文字 %s"
 
@@ -169,18 +169,18 @@ msgstr "特殊文字の設定"
 msgid "Special character settings saved successfully"
 msgstr "特殊文字の設定を保存しました"
 
-#: addonCore.py:302
+#: addonCore.py:349
 msgid "Switched set %s"
 msgstr "セット %s に切り替えました"
 
-#: addonCore.py:290
+#: addonCore.py:337
 msgid "Toggle character set or add-on"
 msgstr "文字セットまたはアドオンの切り替え"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "off"
 msgstr "オフ"
 
-#: addonCore.py:305
+#: addonCore.py:352
 msgid "on"
 msgstr "オン"
